@@ -13,9 +13,31 @@
 
 
 
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- 
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- 
+
+// 	VARIABLES
+
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- 
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- 
+
+// -+-+-+-+-+--+-+-	COLOR -+-+-+-+-+-+-+-+-
+
+$blanco: #ffffff;
+$lila: #840D6F;
+$lila-hover:#BF83B6;
+$gris: #9C9AA0;
+$gris-orcuro: #707070;
+$negro: #000000;
 
 
+// -+-+-+-+-+--+-+-	TAMAÑO TIPO	 -+-+-+-+-+-+-+-+-
 
-
-
-
+// --- SEO
+$H1: 25px; // servicios
+$H2: 30px; // subapartados - servicios
+$H3: 35px; // titulos de las secciones
+// ---
+$H3: 20px; // footer info
+$H5: 14px; // legalidad etc.
+$H6: 11px; // copyright

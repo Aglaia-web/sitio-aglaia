@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*  ================================================================================
     ================================================================================
 
@@ -30,10 +31,60 @@ d8888b. d88888b .d8888. d88888b d888888b
 88   YD Y88888P `8888Y' Y88888P    YP
 
 */
- // RESET
- @import "base/_reset/reset";
-    //Si estamos utilizando Internet Explorer (antiguos)
-    //@import "base/reset/normalize";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 /*
 //
 //
@@ -54,7 +105,6 @@ Y8    8P 88ooo88 88oobY'    88    88ooo88 88oooY'
 
 
 */
- @import "lib/variables";
 /*
 //
 //
@@ -65,7 +115,6 @@ Y8    8P 88ooo88 88oobY'    88    88ooo88 88oooY'
 //
 //
 */
-
 /*
 d888888b d888888b d8888b.  .d88b.   d888b
 `~~88~~'   `88'   88  `8D .8P  Y8. 88' Y8b
@@ -76,7 +125,23 @@ d888888b d888888b d8888b.  .d88b.   d888b
 
 
 */
- @import "base/tipografia";
+@font-face {
+  font-family: 'Brixton_Light';
+  src: local("Brixton_Light"), url(../fonts/Brixton_Light.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'Brixton_Bold';
+  src: local("Brixton_Bold"), url(../fonts/Brixton_Bold.woff) format("woff");
+}
+
+html {
+  font-family: Brixton_Light, 'sans-serif';
+  color: #000000;
+  font-size: 16px;
+  background-color: #ffffff;
+}
+
 /*
 //
 //
@@ -97,7 +162,6 @@ d8888b. db       .d8b.   .o88b. d88888b db   db  .d88b.  db
 
 
 */
-@import "lib/placeholders";
 /*
 //
 //
@@ -115,7 +179,6 @@ YP  YP  YP Y888888P YP    YP Y888888P VP   V8P `8888Y'
 
 
 */
-@import "lib/mixins";
 /*
 //
 //
@@ -136,7 +199,6 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
 
 
 */
-@import "layouts/layouts";
 /*
 //
 //
@@ -156,7 +218,6 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
 
 
 */
-@import "layouts/grids";
 /*
 //
 //
@@ -180,7 +241,6 @@ Y888888P YP  YP  YP  Y888P  VP   V8P `8888Y'
 
 
 */
- @import "base/imagenes";
 /*
 //
 //
@@ -201,7 +261,6 @@ Y8888P'  `Y88P'     YP     `Y88P'  VP   V8P `8888Y'
 
 
 */
-@import "base/botones";
 /*
 //
 //
@@ -219,7 +278,6 @@ Y88888P VP   V8P Y88888P YP   YP  `Y88P' Y88888P `8888Y'
 
 
 */
-@import "base/enlaces";
 /*
 //
 //
@@ -239,7 +297,6 @@ YP       `Y88P'  88   YD YP  YP  YP
 
 
 */
-@import "base/formularios";
 /*
 //
 //

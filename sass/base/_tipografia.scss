@@ -11,6 +11,37 @@
 //  ============================================================= 
 
 
-    
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
 
-    
+// 	FONT - FACE
+
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+
+@font-face{
+    font-family: 'Brixton_Light';
+    src: local('Brixton_Light'),
+         url(../fonts/Brixton_Light.woff) format('woff');
+} 
+
+@font-face{
+    font-family: 'Brixton_Bold';
+    src: local('Brixton_Bold'),
+         url(../fonts/Brixton_Bold.woff) format('woff');
+} 
+
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+
+// 	TIPO BASE DE LA WEB
+
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+
+html{
+    font-family: Brixton_Light, 'sans-serif';
+    color: #000000;
+    font-size: 16px;
+
+    // fondo de la web 'blanco'
+    background-color: $blanco;
+}
+
+
