@@ -45,3 +45,55 @@ html{
 }
 
 
+
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- 
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- 
+
+// 	TIPOGRAFÍA Y ICONOS DEL FOOTER 
+
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- 
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- 
+
+// -+-+-+-+-+--+-+-	ASIGNAMOS color, tamaño, forma A LAS HS -+-+-+-+-+-+-+-+-
+
+@each $TH, $FS in $HS {
+    #{$TH}{
+        font-size: $FS;
+    }
+}
+
+H5, H6{
+    color: $blanco;
+}
+
+.footer__info{
+    & li h4{
+        color: $blanco;
+    }
+
+    @each $logo, $svg in $info_logo{
+        &__#{$logo}::before{
+            content: "";
+
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background-image: url('../icons/svg/#{$svg}.svg');
+            @extend %bckg_image;
+        }
+    }
+}
+
+.footer__info{
+    &__telf__texto, &__mvl__texto{
+        font-family: Brixton_Bold;
+        font-size: map-get($HS, H4) * 2;
+    }
+
+    &__ubi__texto__direccion{
+        color: $blanco;
+        font-size: map-get($HS, H4);
+    }
+}
+
+

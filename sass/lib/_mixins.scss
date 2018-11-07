@@ -11,5 +11,27 @@
 //  ======================================================================= 
 
 
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
 
+// 	CENTRADO DE ELEMENTOS
+
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+
+// -+-+-+-+-+--+-+-	FLEX BOX	 -+-+-+-+-+-+-+-+-
+
+
+@mixin flex-box ($jc:space-between, $ai: center, $fd: row){
+    display: flex;
+    flex-direction: $fd;
+    justify-content: $jc;
+    align-items: $ai;
+}
+
+
+// -+-+-+-+-+--+-+-	CENTRADO CON MARGIN	 -+-+-+-+-+-+-+-+-
+
+@mixin margin-centrar($wt:90%, $altura: 0){
+max-width: $wt;
+margin: $altura auto;
+}
 
