@@ -21,6 +21,16 @@
 // -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- 
 // -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- 
 
+.footer{
+    width: 100%;
+    height: 650px;
+    background-color: $gris;
+}
 
+// -+-+-+-+-+--+-+-	Añado margenes	 -+-+-+-+-+-+-+-+-
 
+ul{
+    @include margin-centrar;
+    padding: 20px 0;
+}
 

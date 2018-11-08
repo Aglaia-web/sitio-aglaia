@@ -13,3 +13,40 @@
 
 
     
+
+
+
+
+
+
+
+
+
+
+
+
+%transformA {
+    text-decoration: none;
+    color:$blanco;
+    font-size: 1rem;
+
+    &:visited{
+        color: $blanco;
+    }
+    &:hover{
+        color: $blanco;
+    }
+};
+
+%transformAsubmeniu {
+    text-decoration: none;
+    color:$lila;
+    font-size: 1rem;
+
+    &:visited{
+        color: $lila;
+    }
+    &:hover{
+        color: $lila;
+    }
+}
