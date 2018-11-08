@@ -132,6 +132,66 @@ html {
   font-size: 16px;
   background-color: #ffffff; }
 
+H1 {
+  font-size: 1.563em; }
+
+H2 {
+  font-size: 1.875em; }
+
+H3 {
+  font-size: 2.188em; }
+
+H4 {
+  font-size: 1.25em; }
+
+H5 {
+  font-size: 0.875em; }
+
+H6 {
+  font-size: 0.688em; }
+
+H5, H6 {
+  color: #ffffff; }
+
+.footer__info li h4 {
+  color: #ffffff; }
+
+.footer__info__telf::before {
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-image: url("../icons/svg/telefono.svg"); }
+
+.footer__info__mvl::before {
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-image: url("../icons/svg/movil.svg"); }
+
+.footer__info__mail::before {
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-image: url("../icons/svg/correo.svg"); }
+
+.footer__info__ubi::before {
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-image: url("../icons/svg/ubicacion.svg"); }
+
+.footer__info__telf__texto, .footer__info__mvl__texto {
+  font-family: Brixton_Bold;
+  font-size: 2.5em; }
+
+.footer__info__ubi__texto__direccion {
+  color: #ffffff;
+  font-size: 1.25em; }
+
 /*
 //
 //
@@ -170,6 +230,11 @@ header .gamburger .meniu .caja__desplegable:hover .menu__services__desplegable l
     color: #840D6F; }
   header .gamburger .meniu .caja__desplegable:hover .menu__services__desplegable li a:hover {
     color: #840D6F; }
+
+.footer__info__telf::before, .footer__info__mvl::before, .footer__info__mail::before, .footer__info__ubi::before {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
 
 /*
 //
