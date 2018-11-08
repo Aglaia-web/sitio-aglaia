@@ -164,7 +164,8 @@ header .gamburger .meniu a {
 header .gamburger .meniu .caja__desplegable:hover .menu__services__desplegable li a {
   text-decoration: none;
   color: #840D6F;
-  font-size: 1rem; }
+  font-size: 1rem;
+  font-family: Brixton_Bold; }
   header .gamburger .meniu .caja__desplegable:hover .menu__services__desplegable li a:visited {
     color: #840D6F; }
   header .gamburger .meniu .caja__desplegable:hover .menu__services__desplegable li a:hover {
@@ -286,6 +287,9 @@ Y88888P VP   V8P Y88888P YP   YP  `Y88P' Y88888P `8888Y'
 
 
 */
+a {
+  text-decoration: none; }
+
 /*
 //
 //
@@ -360,8 +364,8 @@ header .gamburger {
       font-size: 30px;
       position: absolute;
       color: white;
-      left: 5%;
-      top: 6.2%; }
+      left: 30px;
+      top: 50px; }
     header .gamburger .meniu .caja__desplegable:hover .icon__f {
       display: block; }
     header .gamburger .meniu .caja__desplegable .desplegable {

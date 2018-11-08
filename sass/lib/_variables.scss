@@ -31,26 +31,3 @@ $gris-orcuro: #707070;
 $negro: #000000;
 
 
-// -+-+-+-+-+--+-+-	TAMAÑO TIPO	 -+-+-+-+-+-+-+-+-
-
-// --- SEO
-$HS:(
-    H1: 1.563em, // servicios
-    H2: 1.875em, // subapartados - servicios
-    H3: 2.188em, // titulos de las secciones
-    // ---
-    H4: 1.250em, // footer info
-    H5: 0.875em, // legalidad etc.
-    H6: 0.688em // copyright 
-);
-
-
-// -+-+-+-+-+--+-+-	LOGOS DE INFO FOOTER  +-+-+-+-+-+-+-+-+-
-
-$info_logo:(
-    'telf': 'telefono',
-    'mvl': 'movil',
-    'mail': 'correo',
-    'ubi': 'ubicacion'
-)
-
