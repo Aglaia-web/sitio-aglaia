@@ -53,6 +53,8 @@ header{
                         justify-content: flex-start;
                         align-items: center;
                         padding-left: 15px;
+                        z-index: 10;
+                        background-color: $blanco;
 
                         a{
                             @extend %transformAsubmeniu;

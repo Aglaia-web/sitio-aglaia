@@ -422,7 +422,9 @@ header .gamburger {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        padding-left: 15px; }
+        padding-left: 15px;
+        z-index: 10;
+        background-color: #ffffff; }
     header .gamburger .meniu .caja__desplegable .icon__f {
       display: none;
       z-index: 20;

@@ -306,13 +306,13 @@
 		},
 	"/img/smartphone/@1x/logo.jpg": {
 		"ft": 16384,
-		"iS": 32410,
+		"iS": 9822,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/smartphone/@1x/logo.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/smartphone/@1x/logo_mica.jpg": {
@@ -339,7 +339,7 @@
 		},
 	"/img/smartphone/@2x/logo@2x.jpg": {
 		"ft": 16384,
-		"iS": 103352,
+		"iS": 9822,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/smartphone/@2x/logo@2x.jpg",
