@@ -14,13 +14,11 @@ header{
             width: 100%;
         }
 
-        // 
-        .text__header{
-            display: none;
-        }
+        // ocultamos checkbox
         input{
                 display: none;
                 }
+        // Cambiamos icon de meniu 
         .icon_burger{
                 cursor: pointer;
                 font-size: 36px;
@@ -29,13 +27,17 @@ header{
                 right: 27px;
                 top: 17px;  
                 }
+        // ocultamos meniu
         .meniu{
             display:none;
+            // Cambios en As
             a{
             @extend %transformA;
             font-size: 20px;
             }
+            
             .caja__desplegable{
+                // acemos submeniu despegable
                 &:hover .menu__services__desplegable{
                     display: block;
                     position: absolute;
@@ -43,7 +45,7 @@ header{
                     left: 0;
                     z-index: 10;
                     
-
+                    // cajas para los li desplegables
                     li{
                         width: 284px;
                         height: 50px;
@@ -62,6 +64,7 @@ header{
                     }
 
                 }
+                // Icon para cerrar meniu principal
                 .icon__f {
                     display: none;
                     z-index: 20;
@@ -83,24 +86,30 @@ header{
                 
             }    
         }
+        // para sacar display:none i viszualizar meniu principal
         #activ:checked ~ .meniu{
+            position: fixed;
+            top:0;
+            left: 0;
             display: flex;
             justify-content: space-around;
             align-items: center;
-            padding-right: 15%;
             width: 100%;
             height: 70px;
             transition: 0.5s ease;
             z-index: 10;
             background-color:#840D6F;
-            
+            // acemos espacio para icon que ciera meniu
+            .blog{
+                margin-right: 50px;
+            }
         }
+        // Para quitar icon de meniu cunado meniu esta activo
         #activ:checked ~ .icon_burger{
-            position: absolute;
-            left: -200%;
-            display: block;
+            display: none;
         }
 
+        // propriedades de icon que cierra meniu i esta oculto
         .acloseMeniu{
             display: none;
             min-width: 50px;
@@ -112,12 +121,31 @@ header{
             }
 
         }
+        // para que aparece icon que cierra meniu cunado meniu esta abierto
         #activ:checked ~ .acloseMeniu{
             display: block;
-            position: absolute;
+            position: fixed;
             right: 0px;
             top: 22px; 
         }
 
+    }
+    // LOGO
+    picture{
+        display: block;
+        width: 100%;
+        height: 340px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            width: 305px;
+            height: 340px;
+        }
+    }
+    // Para que baja img cunado aparece meniu principal
+    #activ:checked ~ picture{
+        margin-top: 70px;
     }
 }

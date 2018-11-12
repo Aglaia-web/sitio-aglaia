@@ -150,6 +150,10 @@ H5 {
 H6 {
   font-size: 0.688em; }
 
+h1, h2, h3 {
+  text-align: center;
+  font-family: Brixton_Bold; }
+
 H5, H6 {
   color: #ffffff; }
 
@@ -393,8 +397,6 @@ header .gamburger {
     display: none;
     background-color: #840D6F;
     width: 100%; }
-  header .gamburger .text__header {
-    display: none; }
   header .gamburger input {
     display: none; }
   header .gamburger .icon_burger {
@@ -440,19 +442,21 @@ header .gamburger {
     header .gamburger .meniu .caja__desplegable .menu__services__desplegable {
       display: none; }
   header .gamburger #activ:checked ~ .meniu {
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-right: 15%;
     width: 100%;
     height: 70px;
     transition: 0.5s ease;
     z-index: 10;
     background-color: #840D6F; }
+    header .gamburger #activ:checked ~ .meniu .blog {
+      margin-right: 50px; }
   header .gamburger #activ:checked ~ .icon_burger {
-    position: absolute;
-    left: -200%;
-    display: block; }
+    display: none; }
   header .gamburger .acloseMeniu {
     display: none;
     min-width: 50px;
@@ -463,6 +467,42 @@ header .gamburger {
       color: white; }
   header .gamburger #activ:checked ~ .acloseMeniu {
     display: block;
-    position: absolute;
+    position: fixed;
     right: 0px;
     top: 22px; }
+
+header picture {
+  display: block;
+  width: 100%;
+  height: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  header picture img {
+    width: 305px;
+    height: 340px; }
+
+header #activ:checked ~ picture {
+  margin-top: 70px; }
+
+body header {
+  display: block; }
+
+body section {
+  display: block; }
+  body section .quienes {
+    text-align: center;
+    font-family: Brixton_Bold;
+    margin-top: 27px;
+    margin-bottom: 15px; }
+  body section .quienes_text {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 120px;
+    text-align: justify;
+    font-size: 16px;
+    margin-bottom: 60px; }
+
+body footer {
+  display: block; }
