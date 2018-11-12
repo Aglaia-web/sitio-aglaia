@@ -85,6 +85,9 @@ H5, H6{
             height: 40px;
             background-image: url('../icons/svg/#{$svg}.svg');
             @extend %bckg_image;
+
+            transform: translateY(5px);
+            margin-right: 10px;
         }
     }
 }
@@ -97,7 +100,7 @@ H5, H6{
 
     &__ubi__texto__direccion, &__mail{
         color: $blanco;
-        font-size: map-get($HS, H4);
+        font-size: map-get($HS, H4) ;
     }
 }
 
