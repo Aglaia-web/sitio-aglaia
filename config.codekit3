@@ -180,7 +180,7 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/icons/svg/servicios/investigación.svg": {
+	"/icons/svg/servicios/investigación.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
@@ -259,6 +259,50 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/img/AdobeStock_176035720.jpeg": {
+		"ft": 16384,
+		"iS": 1835546,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/AdobeStock_176035720.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/Aglaiafilosofia.jpeg": {
+		"ft": 16384,
+		"iS": 7519556,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Aglaiafilosofia.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/Aglaiaformacion.jpeg": {
+		"ft": 16384,
+		"iS": 7078375,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Aglaiaformacion.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/Aglaiasalud.jpeg": {
+		"ft": 16384,
+		"iS": 1821510,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Aglaiasalud.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/img/desktop/@1x/logo_mica.jpg": {
 		"ft": 16384,
