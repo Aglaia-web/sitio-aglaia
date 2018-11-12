@@ -304,15 +304,59 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/smartphone/@1x/Aglaiafilosofia.jpg": {
+		"ft": 16384,
+		"iS": 2815,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/smartphone/@1x/Aglaiafilosofia.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/smartphone/@1x/Aglaiaforense.jpg": {
+		"ft": 16384,
+		"iS": 2627,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/smartphone/@1x/Aglaiaforense.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/smartphone/@1x/Aglaiaformacion.jpg": {
+		"ft": 16384,
+		"iS": 2854,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/smartphone/@1x/Aglaiaformacion.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/smartphone/@1x/Aglaiasalud.jpg": {
+		"ft": 16384,
+		"iS": 2846,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/smartphone/@1x/Aglaiasalud.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/smartphone/@1x/logo.jpg": {
 		"ft": 16384,
-		"iS": 9822,
+		"iS": 3136,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/smartphone/@1x/logo.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/img/smartphone/@1x/logo_mica.jpg": {
@@ -332,6 +376,50 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/smartphone/@1x/logo_uib.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/smartphone/@2x/Aglaiafilosofia@2x.jpg": {
+		"ft": 16384,
+		"iS": 7146,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/smartphone/@2x/Aglaiafilosofia@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/smartphone/@2x/Aglaiaforense@2x.jpg": {
+		"ft": 16384,
+		"iS": 6264,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/smartphone/@2x/Aglaiaforense@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/smartphone/@2x/Aglaiaformacion@2x.jpg": {
+		"ft": 16384,
+		"iS": 6204,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/smartphone/@2x/Aglaiaformacion@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/smartphone/@2x/Aglaiasalud@2x.jpg": {
+		"ft": 16384,
+		"iS": 7094,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/smartphone/@2x/Aglaiasalud@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -370,9 +458,20 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/smartphone/@3x/logo@3x.jpg": {
+		"ft": 16384,
+		"iS": 27532,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/smartphone/@3x/logo@3x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/smartphone/logo.jpg": {
 		"ft": 16384,
-		"iS": 27529,
+		"iS": 3136,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/smartphone/logo.jpg",

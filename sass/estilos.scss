@@ -251,3 +251,30 @@ YP       `Y88P'  88   YD YP  YP  YP
 //
 */
 @import "base/meniu";
+
+body{
+  header{
+    display: block;
+  }
+  section{
+    display: block;
+    .quienes{
+      text-align: center;
+      font-family: Brixton_Bold;
+      margin-top: 27px;
+      margin-bottom: 15px;
+    }
+    .quienes_text{
+      display: block;
+      margin: 0 auto;
+      width: 300px;
+      height: 120px;
+      text-align: justify;
+      font-size: 16px;
+      margin-bottom: 60px;
+    }
+  }
+  footer{
+    display: block;
+  }
+}

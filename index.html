@@ -93,19 +93,28 @@
                     <i class="icon__f fas fa-caret-up"></i>
                 </div>
                 <a href="Contactar.html">Contacto</a>
-                <a href="#">Blog</a>
+                <a class="blog" href="#">Blog</a>
             </nav>
             <!-- icono para cerrar meniu principal -->
              <a class="acloseMeniu" href=""><i class="fas fa-times closeMeniu"></i></a>
                 
-        </div>
+        
         <!-- LOGO -->
-        <picture>
-            <!--  imagen para Smartphone -->
-            <source srcset=" img/smartphone/@1x/logo.jpg 1x,img/smartphone/@2x/logo@2x.jpg 2x">
-            
-        <img src='img/smartphone/logo.jpg' alt='Aglaia'>
-        </picture>
+            <picture>
+                <!-- Por defecto, baja resolución de imagen para Smartphone -->
+                <source srcset="img/smartphone/@1x/logo.jpg 1x,img/smartphone/@2x/logo@2x.jpg 2x, img/smartphone/@3x/logo@3x.jpg 3x" media="(min-width:0px) and (max-width:576px)">
+                    
+                <!-- Media resolución para Tablets -->
+                <source srcset="img/tablet/@1x/logo.jpg 1x,img/tablet/@2x/logo@2x.jpg 2x, img/tablet/@3x/logo@3x.jpg 3x" media="(min-width:768px) and (max-width:992px)">
+                    
+                <!-- Alta resolución para Escritorio -->
+                <source srcset="img/tablet/@1x/logo.jpg 1x,img/tablet/@2x/logo@2x.jpg 2x" media="(min-width:992px) and (max-width:1920px)">
+
+                    <!-- Imagen de respaldo en caso que no se admita el elemento picture -->
+                <img src='img/smartphone/logo.jpg' alt='Aglaia'>
+                    
+            </picture>
+       </div>
     </header>
     
 
@@ -120,6 +129,24 @@
     Y8b  d8 `8b  d8' 88  V888    88    88.     88  V888   .88.   88  .8D `8b  d8'
      `Y88P'  `Y88P'  VP   V8P    YP    Y88888P VP   V8P Y888888P Y8888D'  `Y88P'
      -->
+        <h2 class="quienes">Quiénes somos</h2>
+        <span class="quienes_text">Somos un equipo de psicólogas altamente especializados en el área de Personalidad, Evaluación y Tratamiento Psicológicos, con formación y titulación específica en el campo de la salud y evaluaciones en el contexto Jurídico.</span>
+        <h2 class="filosofia">Filosofia</h2>
+        <picture>
+            <!--  imagen para Smartphone -->
+            <source srcset="img/smartphone/@1x/#.jpg 1x,img/smartphone/@2x/#.jpg 2x, img/smartphone/@3x/#.jpg 3x">
+            <img src='img/smartphone/logo.jpg' alt='AglaiaFilosofia'>
+        </picture>
+        <h2 class="valores">Valores</h2>
+        <div class="caja__grid__valores">
+            <i class="caja__grid__valores__icon1"></i>
+            <i class="caja__grid__valores__icon2"></i>
+            <i class="caja__grid__valores__icon3"></i>
+            <span class="caja__grid__valores__text1">Fiabilidad y validez de nuestros servicios</span>
+            <span class="caja__grid__valores__text2">Alta especialización</span>
+            <span class="caja__grid__valores__text3">Formación continuada</span>
+        </div>
+
 
 
     </section>
