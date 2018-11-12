@@ -67,7 +67,7 @@ H5, H6{
 }
 
 .footer__info{
-    & li h4{
+    & li span{
         color: $blanco;
     }
 
@@ -90,7 +90,7 @@ H5, H6{
         font-size: map-get($HS, H4) * 2;
     }
 
-    &__ubi__texto__direccion{
+    &__ubi__texto__direccion, &__mail{
         color: $blanco;
         font-size: map-get($HS, H4);
     }

@@ -29,7 +29,7 @@
 
 // -+-+-+-+-+--+-+-	Añado margenes	 -+-+-+-+-+-+-+-+-
 
-ul{
+.footer ul{
     @include margin-centrar;
     padding: 20px 0;
 }
