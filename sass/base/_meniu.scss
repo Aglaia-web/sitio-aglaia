@@ -133,16 +133,13 @@ header{
     // LOGO
     picture{
         display: block;
+        margin: 0 auto;
         width: 100%;
         height: 340px;
         display: flex;
         justify-content: center;
         align-items: center;
 
-        img{
-            width: 305px;
-            height: 340px;
-        }
     }
     // Para que baja img cunado aparece meniu principal
     #activ:checked ~ picture{
