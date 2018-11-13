@@ -22,12 +22,41 @@
     width: 100%;
     height: 650px;
     background-color: $gris;
-}
 
 // -+-+-+-+-+--+-+-	Añado margenes	 -+-+-+-+-+-+-+-+-
 
-.footer ul{
-    @include margin-centrar;
-    padding: 20px 0;
+    & ul{
+        @include margin-centrar;
+        padding: 20px 0;
+    
+        height: 610px;
+        @include flex-box(space-evenly, flex-start, column);
+    }
+
+// -+-+-+-+-+--+-+-	Posicionar elementos footer	 -+-+-+-+-+-+-+-+-
+
+    & li{
+        display: flex;
+    }
+
+    &__info__redes, &__col{
+        width: 80%;
+        margin: 0 auto;
+        @include flex-box(space-between,center,row);    
+    }
+
+    &__final{
+        width: 100%;
+        @include flex-box(space-between,center,row);
+    }
+
+    &__copyright{
+        align-self: center;
+    }
+
+// -+-+-+-+-+--+-+-	Marco para colUIB	 -+-+-+-+-+-+-+-+-
+    &__pic2__uib{
+        border: 1px solid $gris-oscuro;
+    }
 }
 
