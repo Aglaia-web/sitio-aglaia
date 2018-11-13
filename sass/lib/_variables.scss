@@ -26,6 +26,7 @@
 $blanco: #ffffff;
 $lila: #840D6F;
 $lila-hover:#BF83B6;
+$lila-hover-boton:rgba(191, 131, 182, 0.603);
 $gris: #9C9AA0;
 $gris-oscuro: #707070;
 $negro: #000000;
@@ -52,5 +53,14 @@ $info_logo:(
     'mvl': 'movil',
     'mail': 'correo',
     'ubi': 'ubicacion'
-)
+);
+
+
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+
+// 	SERVICIOS - CLINICA
+
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+
+$clinica: 'adultos', 'agresividad'/*, 'sexualidad', 'juvenil', 'duelo', 'rendimiento'*/;
 

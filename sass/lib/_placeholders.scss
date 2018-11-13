@@ -66,3 +66,17 @@
 }
 
 
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+
+// 	BOTON - SABER MAS
+
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+
+%boton{
+    width: 115px;
+    padding: 12px 14px;
+    border: 1px solid $lila;
+    background-color: $blanco;
+    border-radius: 15px;
+    text-align: center;
+}

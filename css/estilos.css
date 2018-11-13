@@ -105,6 +105,7 @@ Y8    8P 88ooo88 88oobY'    88    88ooo88 88oooY'
 
 
 */
+/*, 'sexualidad', 'juvenil', 'duelo', 'rendimiento'*/
 /*
 //
 //
@@ -140,6 +141,10 @@ html {
   color: #000000;
   font-size: 16px;
   background-color: #ffffff;
+}
+
+.clinica p {
+  text-align: justify;
 }
 
 H1 {
@@ -292,6 +297,15 @@ header .gamburger .meniu .caja__desplegable:hover .menu__services__desplegable l
   background-repeat: no-repeat;
 }
 
+.inputlabel__boton {
+  width: 115px;
+  padding: 12px 14px;
+  border: 1px solid #840D6F;
+  background-color: #ffffff;
+  border-radius: 15px;
+  text-align: center;
+}
+
 /*
 //
 //
@@ -329,6 +343,61 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
 
 
 */
+.clinica {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.clinica__titulo {
+  margin: 15px 0 55px 0;
+}
+
+.clinica__caja__adultos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.clinica__subtit__adultos {
+  margin: 25px;
+}
+
+.clinica__caja__agresividad {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.clinica__subtit__agresividad {
+  margin: 25px;
+}
+
+.inputlabel {
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  margin: 25px 0;
+}
+
 .footer {
   width: 100%;
   height: 650px;
@@ -447,6 +516,24 @@ Y888888P YP  YP  YP  Y888P  VP   V8P `8888Y'
 
 
 */
+.clinica__svg__adultos {
+  width: 150px;
+  height: 125px;
+  background-image: url("../icons/svg/servicios/adultos.svg");
+  background-size: content;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.clinica__svg__agresividad {
+  width: 150px;
+  height: 125px;
+  background-image: url("../icons/svg/servicios/agresividad.svg");
+  background-size: content;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 /*
 //
 //
@@ -466,6 +553,45 @@ d8888b.  .d88b.  d888888b  .d88b.  d8b   db .d8888.
 Y8888P'  `Y88P'     YP     `Y88P'  VP   V8P `8888Y'
 
 
+*/
+@media screen and (max-width: 768px) {
+  #activar__adultos {
+    display: none;
+  }
+  #activar__adultos:checked ~ .clinica__parrafo__oculto__adultos {
+    display: block;
+    background-color: rgba(191, 131, 182, 0.603);
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  .clinica__parrafo__oculto__adultos {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #activar__agresividad {
+    display: none;
+  }
+  #activar__agresividad:checked ~ .clinica__parrafo__oculto__agresividad {
+    display: block;
+    background-color: rgba(191, 131, 182, 0.603);
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  .clinica__parrafo__oculto__agresividad {
+    display: none;
+  }
+}
+
+/*
+@media screen and (min-width: $breakpoints-sm){
+.inputlabel{
+    display: none;
+}
+}
 */
 /*
 //

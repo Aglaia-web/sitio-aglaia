@@ -1,0 +1,57 @@
+//  ====================================================================================
+//  ====================================================================================
+
+
+//  oooooooooo    ooooooo   ooooooooooo   ooooooo  oooo   oooo ooooooooooo  oooooooo8
+//   888    888 o888   888o 88  888  88 o888   888o 8888o  88   888    88  888
+//   888oooo88  888     888     888     888     888 88 888o88   888ooo8     888oooooo
+//   888    888 888o   o888     888     888o   o888 88   8888   888    oo          888
+//  o888ooo888    88ooo88      o888o      88ooo88  o88o    88  o888ooo8888 o88oooo888
+
+
+
+//  ====================================================================================
+//  ====================================================================================
+
+
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- 
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- 
+
+// 	BOTON - SABER MAS 
+
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- 
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- 
+    
+.inputlabel__boton{
+    @extend %boton;
+}
+
+@each $subtit in $clinica{
+
+    @media screen and (max-width: 768px){
+        #activar__#{$subtit} {
+            display: none;
+            }
+
+        #activar__#{$subtit}:checked ~ .clinica__parrafo__oculto__#{$subtit} {
+            display: block;
+
+            background-color: $lila-hover-boton;
+            margin-bottom: 10px;
+            padding: 8px;
+            border-radius: 5px;
+            }   
+
+        .clinica__parrafo__oculto__#{$subtit}{
+            display: none;
+        }
+    }    
+} 
+
+/*
+@media screen and (min-width: $breakpoints-sm){
+.inputlabel{
+    display: none;
+}
+}
+*/
