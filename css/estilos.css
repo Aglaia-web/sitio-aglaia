@@ -106,19 +106,6 @@ Y8    8P 88ooo88 88oobY'    88    88ooo88 88oooY'
 
 */
 /*
-$servicios:(
-    'clinica': 'adultos',
-    'clinica': 'agresividad',
-    'clinica': 'sexualidad',
-    'clinica': 'juvenil',
-    'clinica': 'duelo',
-    'clinica': 'rendimiento',
-
-    'forense': 'peritajes',
-    'forense': 'criminal',
-    'forense': 'mediacion'
-); */
-/*
 //
 //
 //
@@ -155,8 +142,9 @@ html {
   background-color: #ffffff;
 }
 
-.clinica p {
+.clinica p, .forense p, .formacion p {
   text-align: justify;
+  line-height: 1.2rem;
 }
 
 H1 {
@@ -355,16 +343,16 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
 
 
 */
-.clinica, .forense {
+.clinica, .forense, .formacion {
   max-width: 90%;
   margin: 0 auto;
 }
 
-.clinica__titulo, .forense__titulo {
+.clinica__titulo, .forense__titulo, .formacion__titulo {
   margin: 15px 0 55px 0;
 }
 
-.clinica__caja__adultos, .forense__caja__adultos {
+.clinica__caja__adultos, .forense__caja__adultos, .formacion__caja__adultos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -380,11 +368,11 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
   align-items: center;
 }
 
-.clinica__subtit__adultos, .forense__subtit__adultos {
+.clinica__subtit__adultos, .forense__subtit__adultos, .formacion__subtit__adultos {
   margin: 25px;
 }
 
-.clinica__caja__agresividad, .forense__caja__agresividad {
+.clinica__caja__agresividad, .forense__caja__agresividad, .formacion__caja__agresividad {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -400,11 +388,11 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
   align-items: center;
 }
 
-.clinica__subtit__agresividad, .forense__subtit__agresividad {
+.clinica__subtit__agresividad, .forense__subtit__agresividad, .formacion__subtit__agresividad {
   margin: 25px;
 }
 
-.clinica__caja__sexualidad, .forense__caja__sexualidad {
+.clinica__caja__sexualidad, .forense__caja__sexualidad, .formacion__caja__sexualidad {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -420,11 +408,11 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
   align-items: center;
 }
 
-.clinica__subtit__sexualidad, .forense__subtit__sexualidad {
+.clinica__subtit__sexualidad, .forense__subtit__sexualidad, .formacion__subtit__sexualidad {
   margin: 25px;
 }
 
-.clinica__caja__juvenil, .forense__caja__juvenil {
+.clinica__caja__juvenil, .forense__caja__juvenil, .formacion__caja__juvenil {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -440,11 +428,11 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
   align-items: center;
 }
 
-.clinica__subtit__juvenil, .forense__subtit__juvenil {
+.clinica__subtit__juvenil, .forense__subtit__juvenil, .formacion__subtit__juvenil {
   margin: 25px;
 }
 
-.clinica__caja__duelo, .forense__caja__duelo {
+.clinica__caja__duelo, .forense__caja__duelo, .formacion__caja__duelo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -460,11 +448,11 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
   align-items: center;
 }
 
-.clinica__subtit__duelo, .forense__subtit__duelo {
+.clinica__subtit__duelo, .forense__subtit__duelo, .formacion__subtit__duelo {
   margin: 25px;
 }
 
-.clinica__caja__rendimiento, .forense__caja__rendimiento {
+.clinica__caja__rendimiento, .forense__caja__rendimiento, .formacion__caja__rendimiento {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -480,11 +468,11 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
   align-items: center;
 }
 
-.clinica__subtit__rendimiento, .forense__subtit__rendimiento {
+.clinica__subtit__rendimiento, .forense__subtit__rendimiento, .formacion__subtit__rendimiento {
   margin: 25px;
 }
 
-.clinica__caja__peritajes, .forense__caja__peritajes {
+.clinica__caja__peritajes, .forense__caja__peritajes, .formacion__caja__peritajes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -500,11 +488,11 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
   align-items: center;
 }
 
-.clinica__subtit__peritajes, .forense__subtit__peritajes {
+.clinica__subtit__peritajes, .forense__subtit__peritajes, .formacion__subtit__peritajes {
   margin: 25px;
 }
 
-.clinica__caja__criminal, .forense__caja__criminal {
+.clinica__caja__criminal, .forense__caja__criminal, .formacion__caja__criminal {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -520,11 +508,11 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
   align-items: center;
 }
 
-.clinica__subtit__criminal, .forense__subtit__criminal {
+.clinica__subtit__criminal, .forense__subtit__criminal, .formacion__subtit__criminal {
   margin: 25px;
 }
 
-.clinica__caja__mediacion, .forense__caja__mediacion {
+.clinica__caja__mediacion, .forense__caja__mediacion, .formacion__caja__mediacion {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -540,11 +528,73 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
   align-items: center;
 }
 
-.clinica__subtit__mediacion, .forense__subtit__mediacion {
+.clinica__subtit__mediacion, .forense__subtit__mediacion, .formacion__subtit__mediacion {
   margin: 25px;
 }
 
-.clinica__parrafo__duelo, .forense__parrafo__criminal {
+.clinica__caja__asesoramiento, .forense__caja__asesoramiento, .formacion__caja__asesoramiento {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.clinica__subtit__asesoramiento, .forense__subtit__asesoramiento, .formacion__subtit__asesoramiento {
+  margin: 25px;
+}
+
+.clinica__caja__formacion, .forense__caja__formacion, .formacion__caja__formacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.clinica__subtit__formacion, .forense__subtit__formacion, .formacion__subtit__formacion {
+  margin: 25px;
+}
+
+.clinica__caja__investigacion, .forense__caja__investigacion, .formacion__caja__investigacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.clinica__subtit__investigacion, .forense__subtit__investigacion, .formacion__subtit__investigacion {
+  margin: 25px;
+}
+
+.clinica__parrafo__duelo, .forense__parrafo__criminal,
+.formacion__parrafo__formacion,
+.formacion__parrafo__investigacion {
   margin-bottom: 25px;
 }
 
@@ -672,7 +722,7 @@ Y888888P YP  YP  YP  Y888P  VP   V8P `8888Y'
 
 
 */
-.clinica__svg__adultos, .forense__svg__adultos {
+.clinica__svg__adultos, .forense__svg__adultos, .formacion__svg__adultos {
   width: 150px;
   height: 125px;
   background-image: url("../icons/svg/servicios/adultos.svg");
@@ -681,7 +731,7 @@ Y888888P YP  YP  YP  Y888P  VP   V8P `8888Y'
   background-repeat: no-repeat;
 }
 
-.clinica__svg__agresividad, .forense__svg__agresividad {
+.clinica__svg__agresividad, .forense__svg__agresividad, .formacion__svg__agresividad {
   width: 150px;
   height: 125px;
   background-image: url("../icons/svg/servicios/agresividad.svg");
@@ -690,7 +740,7 @@ Y888888P YP  YP  YP  Y888P  VP   V8P `8888Y'
   background-repeat: no-repeat;
 }
 
-.clinica__svg__sexualidad, .forense__svg__sexualidad {
+.clinica__svg__sexualidad, .forense__svg__sexualidad, .formacion__svg__sexualidad {
   width: 150px;
   height: 125px;
   background-image: url("../icons/svg/servicios/sexualidad.svg");
@@ -699,7 +749,7 @@ Y888888P YP  YP  YP  Y888P  VP   V8P `8888Y'
   background-repeat: no-repeat;
 }
 
-.clinica__svg__juvenil, .forense__svg__juvenil {
+.clinica__svg__juvenil, .forense__svg__juvenil, .formacion__svg__juvenil {
   width: 150px;
   height: 125px;
   background-image: url("../icons/svg/servicios/juvenil.svg");
@@ -708,7 +758,7 @@ Y888888P YP  YP  YP  Y888P  VP   V8P `8888Y'
   background-repeat: no-repeat;
 }
 
-.clinica__svg__duelo, .forense__svg__duelo {
+.clinica__svg__duelo, .forense__svg__duelo, .formacion__svg__duelo {
   width: 150px;
   height: 125px;
   background-image: url("../icons/svg/servicios/duelo.svg");
@@ -717,7 +767,7 @@ Y888888P YP  YP  YP  Y888P  VP   V8P `8888Y'
   background-repeat: no-repeat;
 }
 
-.clinica__svg__rendimiento, .forense__svg__rendimiento {
+.clinica__svg__rendimiento, .forense__svg__rendimiento, .formacion__svg__rendimiento {
   width: 150px;
   height: 125px;
   background-image: url("../icons/svg/servicios/rendimiento.svg");
@@ -726,7 +776,7 @@ Y888888P YP  YP  YP  Y888P  VP   V8P `8888Y'
   background-repeat: no-repeat;
 }
 
-.clinica__svg__peritajes, .forense__svg__peritajes {
+.clinica__svg__peritajes, .forense__svg__peritajes, .formacion__svg__peritajes {
   width: 150px;
   height: 125px;
   background-image: url("../icons/svg/servicios/peritajes.svg");
@@ -735,7 +785,7 @@ Y888888P YP  YP  YP  Y888P  VP   V8P `8888Y'
   background-repeat: no-repeat;
 }
 
-.clinica__svg__criminal, .forense__svg__criminal {
+.clinica__svg__criminal, .forense__svg__criminal, .formacion__svg__criminal {
   width: 150px;
   height: 125px;
   background-image: url("../icons/svg/servicios/criminal.svg");
@@ -744,10 +794,37 @@ Y888888P YP  YP  YP  Y888P  VP   V8P `8888Y'
   background-repeat: no-repeat;
 }
 
-.clinica__svg__mediacion, .forense__svg__mediacion {
+.clinica__svg__mediacion, .forense__svg__mediacion, .formacion__svg__mediacion {
   width: 150px;
   height: 125px;
   background-image: url("../icons/svg/servicios/mediacion.svg");
+  background-size: content;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.clinica__svg__asesoramiento, .forense__svg__asesoramiento, .formacion__svg__asesoramiento {
+  width: 150px;
+  height: 125px;
+  background-image: url("../icons/svg/servicios/asesoramiento.svg");
+  background-size: content;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.clinica__svg__formacion, .forense__svg__formacion, .formacion__svg__formacion {
+  width: 150px;
+  height: 125px;
+  background-image: url("../icons/svg/servicios/formacion.svg");
+  background-size: content;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.clinica__svg__investigacion, .forense__svg__investigacion, .formacion__svg__investigacion {
+  width: 150px;
+  height: 125px;
+  background-image: url("../icons/svg/servicios/investigacion.svg");
   background-size: content;
   background-position: center;
   background-repeat: no-repeat;
@@ -777,14 +854,14 @@ Y8888P'  `Y88P'     YP     `Y88P'  VP   V8P `8888Y'
   #activar__adultos {
     display: none;
   }
-  #activar__adultos:checked ~ .clinica__parrafo__oculto__adultos, #activar__adultos:checked ~ .forense__parrafo__oculto__adultos {
+  #activar__adultos:checked ~ .clinica__parrafo__oculto__adultos, #activar__adultos:checked ~ .forense__parrafo__oculto__adultos, #activar__adultos:checked ~ .formacion__parrafo__oculto__adultos {
     display: block;
     background-color: rgba(191, 131, 182, 0.603);
     margin-bottom: 10px;
-    padding: 8px;
+    padding: 20px;
     border-radius: 5px;
   }
-  .clinica__parrafo__oculto__adultos, .forense__parrafo__oculto__adultos {
+  .clinica__parrafo__oculto__adultos, .forense__parrafo__oculto__adultos, .formacion__parrafo__oculto__adultos {
     display: none;
   }
 }
@@ -793,14 +870,14 @@ Y8888P'  `Y88P'     YP     `Y88P'  VP   V8P `8888Y'
   #activar__agresividad {
     display: none;
   }
-  #activar__agresividad:checked ~ .clinica__parrafo__oculto__agresividad, #activar__agresividad:checked ~ .forense__parrafo__oculto__agresividad {
+  #activar__agresividad:checked ~ .clinica__parrafo__oculto__agresividad, #activar__agresividad:checked ~ .forense__parrafo__oculto__agresividad, #activar__agresividad:checked ~ .formacion__parrafo__oculto__agresividad {
     display: block;
     background-color: rgba(191, 131, 182, 0.603);
     margin-bottom: 10px;
-    padding: 8px;
+    padding: 20px;
     border-radius: 5px;
   }
-  .clinica__parrafo__oculto__agresividad, .forense__parrafo__oculto__agresividad {
+  .clinica__parrafo__oculto__agresividad, .forense__parrafo__oculto__agresividad, .formacion__parrafo__oculto__agresividad {
     display: none;
   }
 }
@@ -809,14 +886,14 @@ Y8888P'  `Y88P'     YP     `Y88P'  VP   V8P `8888Y'
   #activar__sexualidad {
     display: none;
   }
-  #activar__sexualidad:checked ~ .clinica__parrafo__oculto__sexualidad, #activar__sexualidad:checked ~ .forense__parrafo__oculto__sexualidad {
+  #activar__sexualidad:checked ~ .clinica__parrafo__oculto__sexualidad, #activar__sexualidad:checked ~ .forense__parrafo__oculto__sexualidad, #activar__sexualidad:checked ~ .formacion__parrafo__oculto__sexualidad {
     display: block;
     background-color: rgba(191, 131, 182, 0.603);
     margin-bottom: 10px;
-    padding: 8px;
+    padding: 20px;
     border-radius: 5px;
   }
-  .clinica__parrafo__oculto__sexualidad, .forense__parrafo__oculto__sexualidad {
+  .clinica__parrafo__oculto__sexualidad, .forense__parrafo__oculto__sexualidad, .formacion__parrafo__oculto__sexualidad {
     display: none;
   }
 }
@@ -825,14 +902,14 @@ Y8888P'  `Y88P'     YP     `Y88P'  VP   V8P `8888Y'
   #activar__juvenil {
     display: none;
   }
-  #activar__juvenil:checked ~ .clinica__parrafo__oculto__juvenil, #activar__juvenil:checked ~ .forense__parrafo__oculto__juvenil {
+  #activar__juvenil:checked ~ .clinica__parrafo__oculto__juvenil, #activar__juvenil:checked ~ .forense__parrafo__oculto__juvenil, #activar__juvenil:checked ~ .formacion__parrafo__oculto__juvenil {
     display: block;
     background-color: rgba(191, 131, 182, 0.603);
     margin-bottom: 10px;
-    padding: 8px;
+    padding: 20px;
     border-radius: 5px;
   }
-  .clinica__parrafo__oculto__juvenil, .forense__parrafo__oculto__juvenil {
+  .clinica__parrafo__oculto__juvenil, .forense__parrafo__oculto__juvenil, .formacion__parrafo__oculto__juvenil {
     display: none;
   }
 }
@@ -841,14 +918,14 @@ Y8888P'  `Y88P'     YP     `Y88P'  VP   V8P `8888Y'
   #activar__duelo {
     display: none;
   }
-  #activar__duelo:checked ~ .clinica__parrafo__oculto__duelo, #activar__duelo:checked ~ .forense__parrafo__oculto__duelo {
+  #activar__duelo:checked ~ .clinica__parrafo__oculto__duelo, #activar__duelo:checked ~ .forense__parrafo__oculto__duelo, #activar__duelo:checked ~ .formacion__parrafo__oculto__duelo {
     display: block;
     background-color: rgba(191, 131, 182, 0.603);
     margin-bottom: 10px;
-    padding: 8px;
+    padding: 20px;
     border-radius: 5px;
   }
-  .clinica__parrafo__oculto__duelo, .forense__parrafo__oculto__duelo {
+  .clinica__parrafo__oculto__duelo, .forense__parrafo__oculto__duelo, .formacion__parrafo__oculto__duelo {
     display: none;
   }
 }
@@ -857,14 +934,14 @@ Y8888P'  `Y88P'     YP     `Y88P'  VP   V8P `8888Y'
   #activar__rendimiento {
     display: none;
   }
-  #activar__rendimiento:checked ~ .clinica__parrafo__oculto__rendimiento, #activar__rendimiento:checked ~ .forense__parrafo__oculto__rendimiento {
+  #activar__rendimiento:checked ~ .clinica__parrafo__oculto__rendimiento, #activar__rendimiento:checked ~ .forense__parrafo__oculto__rendimiento, #activar__rendimiento:checked ~ .formacion__parrafo__oculto__rendimiento {
     display: block;
     background-color: rgba(191, 131, 182, 0.603);
     margin-bottom: 10px;
-    padding: 8px;
+    padding: 20px;
     border-radius: 5px;
   }
-  .clinica__parrafo__oculto__rendimiento, .forense__parrafo__oculto__rendimiento {
+  .clinica__parrafo__oculto__rendimiento, .forense__parrafo__oculto__rendimiento, .formacion__parrafo__oculto__rendimiento {
     display: none;
   }
 }
@@ -873,14 +950,14 @@ Y8888P'  `Y88P'     YP     `Y88P'  VP   V8P `8888Y'
   #activar__peritajes {
     display: none;
   }
-  #activar__peritajes:checked ~ .clinica__parrafo__oculto__peritajes, #activar__peritajes:checked ~ .forense__parrafo__oculto__peritajes {
+  #activar__peritajes:checked ~ .clinica__parrafo__oculto__peritajes, #activar__peritajes:checked ~ .forense__parrafo__oculto__peritajes, #activar__peritajes:checked ~ .formacion__parrafo__oculto__peritajes {
     display: block;
     background-color: rgba(191, 131, 182, 0.603);
     margin-bottom: 10px;
-    padding: 8px;
+    padding: 20px;
     border-radius: 5px;
   }
-  .clinica__parrafo__oculto__peritajes, .forense__parrafo__oculto__peritajes {
+  .clinica__parrafo__oculto__peritajes, .forense__parrafo__oculto__peritajes, .formacion__parrafo__oculto__peritajes {
     display: none;
   }
 }
@@ -889,14 +966,14 @@ Y8888P'  `Y88P'     YP     `Y88P'  VP   V8P `8888Y'
   #activar__criminal {
     display: none;
   }
-  #activar__criminal:checked ~ .clinica__parrafo__oculto__criminal, #activar__criminal:checked ~ .forense__parrafo__oculto__criminal {
+  #activar__criminal:checked ~ .clinica__parrafo__oculto__criminal, #activar__criminal:checked ~ .forense__parrafo__oculto__criminal, #activar__criminal:checked ~ .formacion__parrafo__oculto__criminal {
     display: block;
     background-color: rgba(191, 131, 182, 0.603);
     margin-bottom: 10px;
-    padding: 8px;
+    padding: 20px;
     border-radius: 5px;
   }
-  .clinica__parrafo__oculto__criminal, .forense__parrafo__oculto__criminal {
+  .clinica__parrafo__oculto__criminal, .forense__parrafo__oculto__criminal, .formacion__parrafo__oculto__criminal {
     display: none;
   }
 }
@@ -905,14 +982,62 @@ Y8888P'  `Y88P'     YP     `Y88P'  VP   V8P `8888Y'
   #activar__mediacion {
     display: none;
   }
-  #activar__mediacion:checked ~ .clinica__parrafo__oculto__mediacion, #activar__mediacion:checked ~ .forense__parrafo__oculto__mediacion {
+  #activar__mediacion:checked ~ .clinica__parrafo__oculto__mediacion, #activar__mediacion:checked ~ .forense__parrafo__oculto__mediacion, #activar__mediacion:checked ~ .formacion__parrafo__oculto__mediacion {
     display: block;
     background-color: rgba(191, 131, 182, 0.603);
     margin-bottom: 10px;
-    padding: 8px;
+    padding: 20px;
     border-radius: 5px;
   }
-  .clinica__parrafo__oculto__mediacion, .forense__parrafo__oculto__mediacion {
+  .clinica__parrafo__oculto__mediacion, .forense__parrafo__oculto__mediacion, .formacion__parrafo__oculto__mediacion {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #activar__asesoramiento {
+    display: none;
+  }
+  #activar__asesoramiento:checked ~ .clinica__parrafo__oculto__asesoramiento, #activar__asesoramiento:checked ~ .forense__parrafo__oculto__asesoramiento, #activar__asesoramiento:checked ~ .formacion__parrafo__oculto__asesoramiento {
+    display: block;
+    background-color: rgba(191, 131, 182, 0.603);
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .clinica__parrafo__oculto__asesoramiento, .forense__parrafo__oculto__asesoramiento, .formacion__parrafo__oculto__asesoramiento {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #activar__formacion {
+    display: none;
+  }
+  #activar__formacion:checked ~ .clinica__parrafo__oculto__formacion, #activar__formacion:checked ~ .forense__parrafo__oculto__formacion, #activar__formacion:checked ~ .formacion__parrafo__oculto__formacion {
+    display: block;
+    background-color: rgba(191, 131, 182, 0.603);
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .clinica__parrafo__oculto__formacion, .forense__parrafo__oculto__formacion, .formacion__parrafo__oculto__formacion {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #activar__investigacion {
+    display: none;
+  }
+  #activar__investigacion:checked ~ .clinica__parrafo__oculto__investigacion, #activar__investigacion:checked ~ .forense__parrafo__oculto__investigacion, #activar__investigacion:checked ~ .formacion__parrafo__oculto__investigacion {
+    display: block;
+    background-color: rgba(191, 131, 182, 0.603);
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .clinica__parrafo__oculto__investigacion, .forense__parrafo__oculto__investigacion, .formacion__parrafo__oculto__investigacion {
     display: none;
   }
 }

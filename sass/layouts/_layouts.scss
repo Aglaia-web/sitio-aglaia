@@ -16,7 +16,7 @@
 
 // -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
 
-.clinica, .forense{
+.clinica, .forense, .formacion{
     @include margin-centrar;
 }
 
@@ -26,7 +26,7 @@
 
 // -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
 
-.clinica, .forense{
+.clinica, .forense, .formacion{
     // -+-+-+-+-+--+-+-	Separaciones margin	 -+-+-+-+-+-+-+-+-
     &__titulo{
         margin: 15px 0 55px 0;
@@ -44,7 +44,9 @@
     }
 }
 
-.clinica__parrafo__duelo, .forense__parrafo__criminal{
+.clinica__parrafo__duelo, .forense__parrafo__criminal,
+.formacion__parrafo__formacion,
+.formacion__parrafo__investigacion{
     margin-bottom: 25px;
 }
 

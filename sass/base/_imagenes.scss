@@ -22,7 +22,7 @@
 
 @each $subtit in $servicios{
 
-    .clinica, .forense {
+    .clinica, .forense, .formacion {
 
         &__svg__#{$subtit}{
             width: 150px;

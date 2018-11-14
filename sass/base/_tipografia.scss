@@ -51,8 +51,9 @@ html{
 
 // -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
 
-    .clinica p{
+    .clinica p, .forense p, .formacion p{
         text-align: justify;
+        line-height: 1.2rem;
     }
 
 // -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- 
