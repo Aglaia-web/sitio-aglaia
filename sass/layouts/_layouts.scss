@@ -35,13 +35,38 @@
     @each $subtit in $servicios{
 
         &__caja__#{$subtit}{
-            @include flex-box(center,center, column);
+            @include flex-box(flex-start, center, column);
         }
         
         &__subtit__#{$subtit}{
             margin: 25px;
         }
+// -+-+-+-+-+--+-+-	ESTILO Y TAMAÑO DE SUBAPARTADOS ESCRITORIO	 -+-+-+-+-+-+-+-+-
+
+        @media screen and (min-width: $breakpoints-sm){
+            &__caja__#{$subtit}{
+                width: 100%;
+
+                background-color: $lila-hover-boton;
+                padding: 20px;
+                border-radius: 5px;
+            }
+
+            &__conjunto{
+                display: grid;
+                grid-template-columns: repeat(auto-fit, 45%);
+                grid-gap: 5%;
+            }
+
+        }
+
+
     }
+}
+
+.formacion__caja__asesoramiento{
+    grid-column: 1/3;
+    // width: 50%;
 }
 
 .clinica__parrafo__duelo, .forense__parrafo__criminal,
@@ -50,11 +75,13 @@
     margin-bottom: 25px;
 }
 
+
 // -+-+-+-+-+--+-+-	BOTON	 -+-+-+-+-+-+-+-+-
 .inputlabel{
     align-self: flex-end;
     margin: 25px 0;
 }
+
 
 
 // -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- 

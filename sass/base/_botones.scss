@@ -24,14 +24,21 @@
     
 .inputlabel__boton{
     @extend %boton;
+
+    @media screen and (min-width: $breakpoints-sm){
+            display: none;
+        }
 }
+
 
 @each $subtit in $servicios{
 
-    @media screen and (max-width: 768px){
-        #activar__#{$subtit} {
-            display: none;
-            }
+    #activar__#{$subtit} {
+        display: none;
+        }
+
+    @media screen and (max-width: $breakpoints-sm){
+        
         
         .clinica, .forense, .formacion{
 
@@ -48,7 +55,6 @@
                 display: none;
             }
         }
-
     }    
 } 
 

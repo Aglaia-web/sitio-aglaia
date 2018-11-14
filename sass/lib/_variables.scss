@@ -69,8 +69,20 @@ $servicios: 'adultos', 'agresividad', 'sexualidad', 'juvenil', 'duelo', 'rendimi
 // -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- 
 // -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- 
 
-
+    // BREAK POINTS -- ENFOCADOS A MAX-WIDTH
 
 // -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- 
 // -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- 
 
+// -+-+-+-+-+--+-+-	MOVIL	 -+-+-+-+-+-+-+-+-
+
+$breakpoints-xs : 360px;
+$breakpoints-sm : 768px;
+
+// -+-+-+-+-+--+-+-	TABLET	 -+-+-+-+-+-+-+-+-
+
+$breakpoints-md : 1200px;
+
+// -+-+-+-+-+--+-+-	ESCRITORIO	 -+-+-+-+-+-+-+-+-
+
+$breakpoints-lg : 1366px;
