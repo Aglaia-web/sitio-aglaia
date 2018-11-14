@@ -105,7 +105,6 @@ Y8    8P 88ooo88 88oobY'    88    88ooo88 88oooY'
 
 
 */
-/*, 'sexualidad', 'juvenil', 'duelo', 'rendimiento'*/
 /*
 //
 //
@@ -392,6 +391,90 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
   margin: 25px;
 }
 
+.clinica__caja__sexualidad {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.clinica__subtit__sexualidad {
+  margin: 25px;
+}
+
+.clinica__caja__juvenil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.clinica__subtit__juvenil {
+  margin: 25px;
+}
+
+.clinica__caja__duelo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.clinica__subtit__duelo {
+  margin: 25px;
+}
+
+.clinica__caja__rendimiento {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.clinica__subtit__rendimiento {
+  margin: 25px;
+}
+
+.clinica__parrafo__duelo {
+  margin-bottom: 25px;
+}
+
 .inputlabel {
   -ms-flex-item-align: end;
   align-self: flex-end;
@@ -534,6 +617,42 @@ Y888888P YP  YP  YP  Y888P  VP   V8P `8888Y'
   background-repeat: no-repeat;
 }
 
+.clinica__svg__sexualidad {
+  width: 150px;
+  height: 125px;
+  background-image: url("../icons/svg/servicios/sexualidad.svg");
+  background-size: content;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.clinica__svg__juvenil {
+  width: 150px;
+  height: 125px;
+  background-image: url("../icons/svg/servicios/juvenil.svg");
+  background-size: content;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.clinica__svg__duelo {
+  width: 150px;
+  height: 125px;
+  background-image: url("../icons/svg/servicios/duelo.svg");
+  background-size: content;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.clinica__svg__rendimiento {
+  width: 150px;
+  height: 125px;
+  background-image: url("../icons/svg/servicios/rendimiento.svg");
+  background-size: content;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 /*
 //
 //
@@ -582,6 +701,70 @@ Y8888P'  `Y88P'     YP     `Y88P'  VP   V8P `8888Y'
     border-radius: 5px;
   }
   .clinica__parrafo__oculto__agresividad {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #activar__sexualidad {
+    display: none;
+  }
+  #activar__sexualidad:checked ~ .clinica__parrafo__oculto__sexualidad {
+    display: block;
+    background-color: rgba(191, 131, 182, 0.603);
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  .clinica__parrafo__oculto__sexualidad {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #activar__juvenil {
+    display: none;
+  }
+  #activar__juvenil:checked ~ .clinica__parrafo__oculto__juvenil {
+    display: block;
+    background-color: rgba(191, 131, 182, 0.603);
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  .clinica__parrafo__oculto__juvenil {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #activar__duelo {
+    display: none;
+  }
+  #activar__duelo:checked ~ .clinica__parrafo__oculto__duelo {
+    display: block;
+    background-color: rgba(191, 131, 182, 0.603);
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  .clinica__parrafo__oculto__duelo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #activar__rendimiento {
+    display: none;
+  }
+  #activar__rendimiento:checked ~ .clinica__parrafo__oculto__rendimiento {
+    display: block;
+    background-color: rgba(191, 131, 182, 0.603);
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  .clinica__parrafo__oculto__rendimiento {
     display: none;
   }
 }
