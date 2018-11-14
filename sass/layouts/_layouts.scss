@@ -16,7 +16,7 @@
 
 // -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
 
-.clinica{
+.clinica, .forense{
     @include margin-centrar;
 }
 
@@ -26,13 +26,13 @@
 
 // -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
 
-.clinica{
+.clinica, .forense{
     // -+-+-+-+-+--+-+-	Separaciones margin	 -+-+-+-+-+-+-+-+-
     &__titulo{
         margin: 15px 0 55px 0;
     }
     
-    @each $subtit in $clinica{
+    @each $subtit in $servicios{
 
         &__caja__#{$subtit}{
             @include flex-box(center,center, column);
@@ -44,7 +44,7 @@
     }
 }
 
-.clinica__parrafo__duelo{
+.clinica__parrafo__duelo, .forense__parrafo__criminal{
     margin-bottom: 25px;
 }
 
@@ -53,6 +53,7 @@
     align-self: flex-end;
     margin: 25px 0;
 }
+
 
 // -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- 
 // -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- 

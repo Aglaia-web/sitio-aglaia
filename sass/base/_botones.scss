@@ -26,25 +26,29 @@
     @extend %boton;
 }
 
-@each $subtit in $clinica{
+@each $subtit in $servicios{
 
     @media screen and (max-width: 768px){
         #activar__#{$subtit} {
             display: none;
             }
+        
+        .clinica, .forense{
 
-        #activar__#{$subtit}:checked ~ .clinica__parrafo__oculto__#{$subtit} {
-            display: block;
-
-            background-color: $lila-hover-boton;
-            margin-bottom: 10px;
-            padding: 8px;
-            border-radius: 5px;
-            }   
-
-        .clinica__parrafo__oculto__#{$subtit}{
-            display: none;
+            #activar__#{$subtit}:checked ~ &__parrafo__oculto__#{$subtit} {
+                display: block;
+    
+                background-color: $lila-hover-boton;
+                margin-bottom: 10px;
+                padding: 8px;
+                border-radius: 5px;
+                }   
+    
+            &__parrafo__oculto__#{$subtit}{
+                display: none;
+            }
         }
+
     }    
 } 
 

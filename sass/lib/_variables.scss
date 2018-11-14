@@ -58,9 +58,23 @@ $info_logo:(
 
 // -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
 
-// 	SERVICIOS - CLINICA
+// 	SERVICIOS 
 
 // -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
 
-$clinica: 'adultos', 'agresividad', 'sexualidad', 'juvenil', 'duelo', 'rendimiento';
 
+$servicios: 'adultos', 'agresividad', 'sexualidad', 'juvenil', 'duelo', 'rendimiento','peritajes', 'criminal', 'mediacion';
+
+/*
+$servicios:(
+    'clinica': 'adultos',
+    'clinica': 'agresividad',
+    'clinica': 'sexualidad',
+    'clinica': 'juvenil',
+    'clinica': 'duelo',
+    'clinica': 'rendimiento',
+
+    'forense': 'peritajes',
+    'forense': 'criminal',
+    'forense': 'mediacion'
+); */

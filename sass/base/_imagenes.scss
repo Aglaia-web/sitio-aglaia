@@ -19,15 +19,19 @@
 // -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- 
 // -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- 
 
-@each $subtit in $clinica{
 
-    .clinica__svg__#{$subtit}{
-        width: 150px;
-        height: 125px;
+@each $subtit in $servicios{
 
-        background-image: url('../icons/svg/servicios/#{$subtit}.svg');
-        background-size: content;
-        background-position: center;
-        background-repeat: no-repeat;
+    .clinica, .forense {
+
+        &__svg__#{$subtit}{
+            width: 150px;
+            height: 125px;
+    
+            background-image: url('../icons/svg/servicios/#{$subtit}.svg');
+            background-size: content;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
     }
 }
