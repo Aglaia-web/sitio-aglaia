@@ -165,64 +165,36 @@ H5, H6 {
   display: inline-block;
   width: 40px;
   height: 40px;
-<<<<<<< HEAD
-  background-image: url("../icons/svg/telefono.svg"); }
-=======
   background-image: url("../icons/svg/telefono.svg");
-  -webkit-transform: translateY(5px);
-  -ms-transform: translateY(5px);
   transform: translateY(5px);
-  margin-right: 10px;
-}
->>>>>>> 4a6e028ad7dc4bdcc77adc5cf73dc1a127de4c5c
+  margin-right: 10px; }
 
 .footer__info__mvl::before {
   content: "";
   display: inline-block;
   width: 40px;
   height: 40px;
-<<<<<<< HEAD
-  background-image: url("../icons/svg/movil.svg"); }
-=======
   background-image: url("../icons/svg/movil.svg");
-  -webkit-transform: translateY(5px);
-  -ms-transform: translateY(5px);
   transform: translateY(5px);
-  margin-right: 10px;
-}
->>>>>>> 4a6e028ad7dc4bdcc77adc5cf73dc1a127de4c5c
+  margin-right: 10px; }
 
 .footer__info__mail::before {
   content: "";
   display: inline-block;
   width: 40px;
   height: 40px;
-<<<<<<< HEAD
-  background-image: url("../icons/svg/correo.svg"); }
-=======
   background-image: url("../icons/svg/correo.svg");
-  -webkit-transform: translateY(5px);
-  -ms-transform: translateY(5px);
   transform: translateY(5px);
-  margin-right: 10px;
-}
->>>>>>> 4a6e028ad7dc4bdcc77adc5cf73dc1a127de4c5c
+  margin-right: 10px; }
 
 .footer__info__ubi::before {
   content: "";
   display: inline-block;
   width: 40px;
   height: 40px;
-<<<<<<< HEAD
-  background-image: url("../icons/svg/ubicacion.svg"); }
-=======
   background-image: url("../icons/svg/ubicacion.svg");
-  -webkit-transform: translateY(5px);
-  -ms-transform: translateY(5px);
   transform: translateY(5px);
-  margin-right: 10px;
-}
->>>>>>> 4a6e028ad7dc4bdcc77adc5cf73dc1a127de4c5c
+  margin-right: 10px; }
 
 .footer__info__telf__texto, .footer__info__mvl__texto {
   font-family: Brixton_Bold;
@@ -317,80 +289,34 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
   width: 100%;
   height: 650px;
   background-color: #9C9AA0; }
-
-.footer ul {
-  max-width: 90%;
-  margin: 0 auto;
-<<<<<<< HEAD
-  padding: 20px 0; }
-=======
-  padding: 20px 0;
-  height: 610px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-}
-
-.footer li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.footer__info__redes, .footer__col {
-  width: 80%;
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.footer__final {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.footer__copyright {
-  -ms-flex-item-align: center;
-  align-self: center;
-}
-
-.footer__pic2__uib {
-  border: 1px solid #707070;
-}
->>>>>>> 4a6e028ad7dc4bdcc77adc5cf73dc1a127de4c5c
+  .footer ul {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start; }
+  .footer li {
+    display: flex; }
+  .footer__info__redes, .footer__col {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+  .footer__final {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+  .footer__copyright {
+    align-self: center; }
+  .footer__pic2__uib {
+    border: 1px solid #707070; }
 
 /*
 //
@@ -557,12 +483,20 @@ header .gamburger {
   header .gamburger input {
     display: none; }
   header .gamburger .icon_burger {
+    display: block;
     cursor: pointer;
     font-size: 36px;
     color: #840D6F;
     position: fixed;
     right: 27px;
-    top: 17px; }
+    top: 17px;
+    z-index: 99;
+    background-color: #ffffff;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    padding: 0 5px 5px 5px;
+    border-radius: 50%; }
   header .gamburger .meniu {
     display: none; }
     header .gamburger .meniu a {
@@ -635,7 +569,8 @@ header picture {
   height: 340px;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  z-index: 0; }
 
 header #activ:checked ~ picture {
   margin-top: 70px; }
@@ -669,15 +604,18 @@ body section {
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    z-index: 0; }
     body section .picture__filosofia::before {
       background-color: rgba(0, 0, 0, 0.53);
       width: 100%;
       height: 100%;
       position: absolute;
+      z-index: 10;
       content: ""; }
     body section .picture__filosofia::after {
       position: absolute;
+      z-index: 20;
       top: 5%;
       color: #ffffff;
       width: 330px;
@@ -686,6 +624,90 @@ body section {
   body section .h3__valores {
     margin-bottom: 75px;
     letter-spacing: 3; }
+  body section .caja__Servicios {
+    display: block;
+    margin-bottom: 50px; }
+    body section .caja__Servicios .caja__Servicios__h3 {
+      margin: 50px 0 50px 0; }
+    body section .caja__Servicios .picture__clinica {
+      display: block;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      position: relative;
+      z-index: 0; }
+      body section .caja__Servicios .picture__clinica::before {
+        background-color: rgba(0, 0, 0, 0.53);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 10;
+        content: ""; }
+      body section .caja__Servicios .picture__clinica::after {
+        position: absolute;
+        z-index: 20;
+        top: 45%;
+        left: 20px;
+        color: #ffffff;
+        width: 140px;
+        height: 75px;
+        font-size: 20px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        content: "PSICOLOGÍA DE LA SALUD"; }
+    body section .caja__Servicios .picture__forense {
+      display: block;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      position: relative;
+      z-index: 0; }
+      body section .caja__Servicios .picture__forense::before {
+        background-color: rgba(0, 0, 0, 0.53);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 10;
+        content: ""; }
+      body section .caja__Servicios .picture__forense::after {
+        position: absolute;
+        z-index: 20;
+        top: 45%;
+        right: 20px;
+        color: #ffffff;
+        width: 235px;
+        height: 75px;
+        font-size: 20px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        text-align: right;
+        content: "PSICOLOGÍA JURIDICA Y FORENSE"; }
+    body section .caja__Servicios .picture__formacion {
+      display: block;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      position: relative;
+      z-index: 0; }
+      body section .caja__Servicios .picture__formacion::before {
+        background-color: rgba(0, 0, 0, 0.53);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 10;
+        content: ""; }
+      body section .caja__Servicios .picture__formacion::after {
+        position: absolute;
+        z-index: 20;
+        top: 25%;
+        left: 20px;
+        color: #ffffff;
+        width: 180px;
+        height: 75px;
+        font-size: 20px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        content: "INVESTIGACIÓN, FORMACIÓN, ASESORAMIENTO A PROFESIONALES"; }
 
 body footer {
   display: block; }
