@@ -65,3 +65,14 @@
 }
 }
 */
+
+
+// BOTON ENVIAR FORMULARIO
+
+.contacto__form__boton{
+    @extend %boton;
+
+    border: $blanco;
+    background-color: $lila;
+    color: $blanco
+}

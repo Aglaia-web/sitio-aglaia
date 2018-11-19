@@ -11,3 +11,39 @@
 //  ========================================================================
  
 
+// -+-+-+-+-+--+-+-	 centrado de formulario	 -+-+-+-+-+-+-+-+-
+
+
+.contacto__form{
+    @include margin-centrar;
+    @include flex-box(space-evenly, center, column);
+
+    @media screen and (min-width: $breakpoints-sm){
+        @include margin-centrar(70%, 0);
+    }
+
+    @each $num in 1,2,3,4{
+        &__input#{$num}{
+            width: 100%;
+            height: 40px;
+
+            margin-bottom: 30px;
+        }
+/*
+        &__input#{$num}::placeholder{
+            color: $negro;
+        }*/
+
+        &__boton{
+            width: 100%;
+            @media screen and (min-width: $breakpoints-sm){
+                width: 120px;
+                align-self: flex-end;
+            }
+        }
+    }
+
+    &__input4{
+        height: 170px;
+    }
+}
