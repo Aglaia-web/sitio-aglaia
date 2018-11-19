@@ -33,5 +33,19 @@
             background-position: center;
             background-repeat: no-repeat;
         }
+    
+
+        @media screen and (min-width: $breakpoints-sm){
+       
+        &__svg__#{$subtit}{
+            width: 200px;
+            height: 200px;
+        }
+
+        &__svg__asesoramiento{
+            width: 250px;
+            height: 250px;
+        }
+        }
     }
 }

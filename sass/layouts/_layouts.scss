@@ -50,7 +50,7 @@
         @media screen and (min-width: $breakpoints-sm){
             &__caja__#{$subtit}{
 
-                background-color: $lila-hover-boton;
+                background-color: $lila-apartados;
                 padding: 20px;
                 border-radius: 5px;
             }
@@ -79,14 +79,16 @@
 }*/
 // -+-+-+-+-+--+-+-	CENTRAR CAJA ASESORAM.	 -+-+-+-+-+-+-+-+-
 
-.formacion{
-    &__caja__asesoramiento{
-        width: 45%;
-    }
-    &__centrarcaja{
-        display: flex;
-        justify-content: center;
-        margin: 5% 0;
+@media screen and (min-width: $breakpoints-sm){
+    .formacion{
+        &__caja__asesoramiento{
+            width: 45%;
+        }
+        &__centrarcaja{
+            display: flex;
+            justify-content: center;
+            margin: 5% 0;
+        }
     }
 }
 

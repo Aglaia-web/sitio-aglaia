@@ -38,8 +38,7 @@
         }
 
     @media screen and (max-width: $breakpoints-sm){
-        
-        
+           
         .clinica, .forense, .formacion{
 
             #activar__#{$subtit}:checked ~ &__parrafo__oculto__#{$subtit} {
@@ -55,16 +54,16 @@
                 display: none;
             }
         }
-    }    
+    }
+
 } 
 
-/*
+
 @media screen and (min-width: $breakpoints-sm){
-.inputlabel{
-    display: none;
+    .inputlabel{
+        display: none;
+    }
 }
-}
-*/
 
 
 // BOTON ENVIAR FORMULARIO
