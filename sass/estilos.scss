@@ -273,6 +273,52 @@ body{
       font-size: 16px;
       margin-bottom: 60px;
     }
+
+    .h2__filosofia{
+      display: block;
+      margin-bottom: 27px;
+      font-size: 35px;
+      letter-spacing: 3;
+    }
+
+    .picture__filosofia{
+      display: block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin-bottom: 20px;
+
+      &::before{
+        background-color: rgba(0, 0, 0, .53);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        content: "";
+
+      }
+
+      &::after{
+        position: absolute;
+        top: 5%;
+        color: $blanco;
+        width: 330px;
+        height: 75px;
+        content: "Nuestra filosofía de trabajo se fundamenta en 
+        ofrecer, desde la Psicología científica, un servicio 
+        personalizado, inmediatez y espíritu resolutivo  
+        "
+        ;
+        
+
+      }
+    }
+    .h3__valores{
+      margin-bottom: 75px;
+      letter-spacing: 3;
+    }
+    
+    
   }
   footer{
     display: block;

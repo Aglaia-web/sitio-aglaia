@@ -90,5 +90,62 @@
             grid-column: 1/4;
             text-align: center;
         }
+
+
+    }
+}
+
+        
+.caja__grid__valores{
+    display: grid;
+    grid-template-areas: 
+    "img1 img1"
+    "text1 text1"
+    "img2 img3"
+    "text2 text3";
+
+    .fiabilidad{
+        grid-area: img1;
+        width: 100px;
+        height: 100px;
+        justify-self: center;
+    }
+    .especializacion{
+        grid-area: img2;
+        width: 100px;
+        height: 100px;
+        justify-self: center;
+    }
+    .formacion{
+        grid-area: img3;
+        width: 100px;
+        height: 100px;
+        justify-self: center;
+    }
+    .text1{
+        grid-area: text1;
+        width: 177px;
+        height: 77px;
+        justify-self: center;
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-family: Brixton_Bold;
+    }
+    .text2{
+        grid-area: text2;
+        width: 125px;
+        justify-self: center;
+        text-align: center;
+        font-size: 20px;
+        font-family: Brixton_Bold;
+    }
+    .text3{
+        grid-area: text3;
+        width: 100px;
+        justify-self: center;
+        text-align: center;
+        font-size: 20px;
+        font-family: Brixton_Bold;
     }
 }

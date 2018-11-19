@@ -348,15 +348,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/img/smartphone/@1x/Aglaiafilosofia.jpg": {
-		"ft": 16384,
-		"iS": 2815,
-		"jF": 0,
+	"/img/smartphone/@1x/Aglaiafilosofia.png": {
+		"ft": 32768,
+		"iS": 38983,
 		"oA": 0,
-		"oAP": "/img/smartphone/@1x/Aglaiafilosofia.jpg",
+		"oAP": "/img/smartphone/@1x/Aglaiafilosofia.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/img/smartphone/@1x/Aglaiaforense.jpg": {
@@ -392,15 +392,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/img/smartphone/@1x/logo.jpg": {
-		"ft": 16384,
-		"iS": 3136,
-		"jF": 0,
+	"/img/smartphone/@1x/logo.png": {
+		"ft": 32768,
+		"iS": 25368,
 		"oA": 0,
-		"oAP": "/img/smartphone/@1x/logo.jpg",
+		"oAP": "/img/smartphone/@1x/logo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/img/smartphone/@1x/logo_mica.jpg": {
@@ -425,15 +425,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/img/smartphone/@2x/Aglaiafilosofia@2x.jpg": {
-		"ft": 16384,
-		"iS": 7146,
-		"jF": 0,
+	"/img/smartphone/@2x/Aglaiafilosofia@2x.png": {
+		"ft": 32768,
+		"iS": 145163,
 		"oA": 0,
-		"oAP": "/img/smartphone/@2x/Aglaiafilosofia@2x.jpg",
+		"oAP": "/img/smartphone/@2x/Aglaiafilosofia@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/img/smartphone/@2x/Aglaiaforense@2x.jpg": {
@@ -469,15 +469,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/img/smartphone/@2x/logo@2x.jpg": {
-		"ft": 16384,
-		"iS": 9822,
-		"jF": 0,
+	"/img/smartphone/@2x/logo@2x.png": {
+		"ft": 32768,
+		"iS": 79947,
 		"oA": 0,
-		"oAP": "/img/smartphone/@2x/logo@2x.jpg",
+		"oAP": "/img/smartphone/@2x/logo@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/img/smartphone/@2x/logo_mica@2x.jpg": {
@@ -502,27 +502,129 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/img/smartphone/@3x/logo@3x.jpg": {
-		"ft": 16384,
-		"iS": 27532,
-		"jF": 0,
+	"/img/smartphone/adultos.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/smartphone/adultos.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/img/smartphone/AglaiaClinica.png": {
+		"ft": 32768,
+		"iS": 67498,
 		"oA": 0,
-		"oAP": "/img/smartphone/@3x/logo@3x.jpg",
+		"oAP": "/img/smartphone/AglaiaClinica.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
-	"/img/smartphone/logo.jpg": {
-		"ft": 16384,
-		"iS": 3136,
-		"jF": 0,
+	"/img/smartphone/AglaiaClinica@2x.png": {
+		"ft": 32768,
+		"iS": 238903,
 		"oA": 0,
-		"oAP": "/img/smartphone/logo.jpg",
+		"oAP": "/img/smartphone/AglaiaClinica@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
+		},
+	"/img/smartphone/Aglaiafilosofia.png": {
+		"ft": 32768,
+		"iS": 140906,
+		"oA": 0,
+		"oAP": "/img/smartphone/Aglaiafilosofia.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/smartphone/especialización.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/smartphone/especialización.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/img/smartphone/fiabilidad.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/smartphone/fiabilidad.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/img/smartphone/Formación.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/smartphone/Formación.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/img/smartphone/logo.png": {
+		"ft": 32768,
+		"iS": 25368,
+		"oA": 0,
+		"oAP": "/img/smartphone/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/smartphone/Mask Group 4.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/smartphone/Mask Group 4.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/img/smartphone/Mask Group 5.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/smartphone/Mask Group 5.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/img/smartphone/Mask Group 6.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/smartphone/Mask Group 6.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/img/smartphone/sexualidad.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/smartphone/sexualidad.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/index.html": {
 		"cB": 0,
@@ -752,7 +854,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 563313132.63847005,
-	"displayValue": "Aglaia",
+	"displayValue": "AglaiaNuevo",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-krieger",
 	"iconImageWasSetByUser": 0

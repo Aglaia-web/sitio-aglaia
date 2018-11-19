@@ -18,14 +18,23 @@ header{
         input{
                 display: none;
                 }
-        // Cambiamos icon de meniu 
+        // Icon de meniu 
         .icon_burger{
+                display: block;
                 cursor: pointer;
                 font-size: 36px;
                 color: #840D6F;
                 position: fixed;
                 right: 27px;
-                top: 17px;  
+                top: 17px; 
+                z-index: 99;
+                background-color: $blanco;
+                justify-self: center;
+                align-self: center;
+                text-align: center;
+                padding:0 5px 5px 5px;
+                border-radius: 50%;
+                
                 }
         // ocultamos meniu
         .meniu{
@@ -133,16 +142,14 @@ header{
     // LOGO
     picture{
         display: block;
+        margin: 0 auto;
         width: 100%;
         height: 340px;
         display: flex;
         justify-content: center;
         align-items: center;
+        z-index: 0;
 
-        img{
-            width: 305px;
-            height: 340px;
-        }
     }
     // Para que baja img cunado aparece meniu principal
     #activ:checked ~ picture{
