@@ -26,8 +26,8 @@
             
             @media screen and (min-width: $breakpoints-sm){
                 display: grid;
-                grid-template-columns: repeat(2, 50%); 
-                grid-template-rows: 250px 150px 1fr;           
+                grid-template-columns: 40% 60%; 
+                grid-template-rows: 200px 150px 1fr;           
             }
 
         }
