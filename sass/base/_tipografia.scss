@@ -72,6 +72,20 @@ html{
     }
 }
 
+// -+-+-+-+-+--+-+-	TIPOGRAFIA ESCRIT	 -+-+-+-+-+-+-+-+-
+@media only screen and (min-width: $breakpoints-sm){
+    
+    @each $tit in $servicios{
+        .clinica{
+            &__subtit__#{$tit}{
+            font-size: map-get($HS, H2) + 0.313;
+            
+            }
+            
+        }
+    }
+}
+
 h1,h2,h3{
     text-align: center;
     font-family: Brixton_Bold;
