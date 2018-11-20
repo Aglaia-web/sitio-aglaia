@@ -7,16 +7,28 @@ header{
         display: flex;
         align-items: flex-end;
         justify-content: flex-end;
+
+        // Descktop
+        @media only screen and (min-width: $breakpoints-sm)  {
+        display: block;       
+        }
         // Icons de hamburgesa
         #activ:checked ~ .gamburger{
             display: none;
             background-color: #840D6F;
             width: 100%;
+            @media only screen and (min-width: $breakpoints-sm)  {
+            display: block;
+            }
         }
 
         // ocultamos checkbox
         input{
                 display: none;
+
+                @media only screen and (min-width: $breakpoints-sm)  {
+                
+        }
                 }
         // Icon de meniu 
         .icon_burger{
@@ -39,6 +51,10 @@ header{
         // ocultamos meniu
         .meniu{
             display:none;
+            // Meniu Descktop
+            @media only screen and (min-width: $breakpoints-sm)  {
+            display: block;   
+            }
             // Cambios en As
             a{
             @extend %transformA;
@@ -85,6 +101,11 @@ header{
                 }
                 &:hover .icon__f{
                     display: block;
+
+                    // Descktop
+                    @media only screen and (min-width: $breakpoints-sm)  {
+                    
+                    }
                 }
                 .desplegable{
                    padding-bottom: 30px; 
@@ -109,6 +130,15 @@ header{
             z-index: 10;
             background-color:#840D6F;
             // acemos espacio para icon que ciera meniu
+
+            // Descktop
+            @media only screen and (min-width: $breakpoints-sm)  {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-right: 20%;
+            
+            }
             .blog{
                 margin-right: 50px;
             }
@@ -127,6 +157,11 @@ header{
             .closeMeniu{
             font-size: 25px;
             color: white;
+
+            //anular para Descktop
+            @media only screen and (min-width: $breakpoints-sm)  {
+            display: none;
+            }
             }
 
         }
@@ -135,7 +170,12 @@ header{
             display: block;
             position: fixed;
             right: 0px;
-            top: 22px; 
+            top: 22px;
+            
+            //anular para Descktop
+            @media only screen and (min-width: $breakpoints-sm)  {
+                display: none;
+                }
         }
 
     }
