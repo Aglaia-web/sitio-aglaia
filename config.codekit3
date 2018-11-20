@@ -16,6 +16,13 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
+	"/contacto.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/contacto.html",
+		"oF": 0
+		},
 	"/css/estilos.css": {
 		"aP": 1,
 		"bl": 0,
@@ -170,21 +177,21 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/icons/svg/servicios/infantil.svg": {
+	"/icons/svg/servicios/investigacion.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/icons/svg/servicios/infantil.svg",
+		"oAP": "/icons/svg/servicios/investigacion.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/icons/svg/servicios/investigación.svg": {
+	"/icons/svg/servicios/juvenil.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/icons/svg/servicios/investigación.svg",
+		"oAP": "/icons/svg/servicios/juvenil.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -195,16 +202,6 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/icons/svg/servicios/mediacion.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/icons/svg/servicios/pareja.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/icons/svg/servicios/pareja.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -225,6 +222,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/icons/svg/servicios/rendimiento.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/icons/svg/servicios/sexualidad.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/icons/svg/servicios/sexualidad.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -304,6 +311,83 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/desktop/@1x/Aglaiafilosofia.png": {
+		"ft": 32768,
+		"iS": 381229,
+		"oA": 0,
+		"oAP": "/img/desktop/@1x/Aglaiafilosofia.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/desktop/@1x/clinica.png": {
+		"ft": 32768,
+		"iS": 583252,
+		"oA": 0,
+		"oAP": "/img/desktop/@1x/clinica.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/desktop/@1x/clinica__servicios.png": {
+		"ft": 32768,
+		"iS": 390398,
+		"oA": 0,
+		"oAP": "/img/desktop/@1x/clinica__servicios.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/desktop/@1x/forense.png": {
+		"ft": 32768,
+		"iS": 132809,
+		"oA": 0,
+		"oAP": "/img/desktop/@1x/forense.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/desktop/@1x/forense__servicios.png": {
+		"ft": 32768,
+		"iS": 1268014,
+		"oA": 0,
+		"oAP": "/img/desktop/@1x/forense__servicios.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/desktop/@1x/formacion.png": {
+		"ft": 32768,
+		"iS": 146328,
+		"oA": 0,
+		"oAP": "/img/desktop/@1x/formacion.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/desktop/@1x/formacion__servicios.png": {
+		"ft": 32768,
+		"iS": 340434,
+		"oA": 0,
+		"oAP": "/img/desktop/@1x/formacion__servicios.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/desktop/@1x/logo_mica.jpg": {
 		"ft": 16384,
 		"iS": 11373,
@@ -326,6 +410,83 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/desktop/@2x/Aglaiafilosofia@2x.png": {
+		"ft": 32768,
+		"iS": 1518420,
+		"oA": 0,
+		"oAP": "/img/desktop/@2x/Aglaiafilosofia@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/desktop/@2x/clinica@2x.png": {
+		"ft": 32768,
+		"iS": 2038934,
+		"oA": 0,
+		"oAP": "/img/desktop/@2x/clinica@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/desktop/@2x/clinica__servicios@2x.png": {
+		"ft": 32768,
+		"iS": 1441893,
+		"oA": 0,
+		"oAP": "/img/desktop/@2x/clinica__servicios@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/desktop/@2x/forense@2x.png": {
+		"ft": 32768,
+		"iS": 1789291,
+		"oA": 0,
+		"oAP": "/img/desktop/@2x/forense@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/desktop/@2x/forense__servicios@2x.png": {
+		"ft": 32768,
+		"iS": 4641452,
+		"oA": 0,
+		"oAP": "/img/desktop/@2x/forense__servicios@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/desktop/@2x/formacion@2x.png": {
+		"ft": 32768,
+		"iS": 2101010,
+		"oA": 0,
+		"oAP": "/img/desktop/@2x/formacion@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/desktop/@2x/formacion__servicios@2x.png": {
+		"ft": 32768,
+		"iS": 1461637,
+		"oA": 0,
+		"oAP": "/img/desktop/@2x/formacion__servicios@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/desktop/@2x/logo_mica@2x.jpg": {
 		"ft": 16384,
 		"iS": 29659,
@@ -346,6 +507,83 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/img/desktop/Aglaiafilosofia.png": {
+		"ft": 32768,
+		"iS": 381229,
+		"oA": 0,
+		"oAP": "/img/desktop/Aglaiafilosofia.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/desktop/clinica.png": {
+		"ft": 32768,
+		"iS": 583252,
+		"oA": 0,
+		"oAP": "/img/desktop/clinica.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/desktop/clinica__servicios.png": {
+		"ft": 32768,
+		"iS": 1439105,
+		"oA": 0,
+		"oAP": "/img/desktop/clinica__servicios.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/desktop/forense.png": {
+		"ft": 32768,
+		"iS": 489125,
+		"oA": 0,
+		"oAP": "/img/desktop/forense.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/desktop/forense__servicios.png": {
+		"ft": 32768,
+		"iS": 1268014,
+		"oA": 0,
+		"oAP": "/img/desktop/forense__servicios.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/desktop/formacion.png": {
+		"ft": 32768,
+		"iS": 536400,
+		"oA": 0,
+		"oAP": "/img/desktop/formacion.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/desktop/formacion__servicios.png": {
+		"ft": 32768,
+		"iS": 1270112,
+		"oA": 0,
+		"oAP": "/img/desktop/formacion__servicios.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"/img/smartphone/@1x/Aglaiafilosofia.png": {
@@ -534,11 +772,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/img/smartphone/especialización.svg": {
+	"/img/smartphone/especializacion.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/img/smartphone/especialización.svg",
+		"oAP": "/img/smartphone/especializacion.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -576,11 +814,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/img/smartphone/Formación.svg": {
+	"/img/smartphone/Formacion.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/img/smartphone/Formación.svg",
+		"oAP": "/img/smartphone/Formacion.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -857,6 +1095,27 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"/servicios_clinica.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/servicios_clinica.html",
+		"oF": 0
+		},
+	"/servicios_forense.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/servicios_forense.html",
+		"oF": 0
+		},
+	"/servicios_formacion.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/servicios_formacion.html",
+		"oF": 0
 		}
 	},
 "hooks": [
