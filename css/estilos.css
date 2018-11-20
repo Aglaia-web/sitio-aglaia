@@ -190,6 +190,8 @@ H5, H6 {
   width: 40px;
   height: 40px;
   background-image: url("../icons/svg/telefono.svg");
+  -webkit-transform: translateY(5px);
+  -ms-transform: translateY(5px);
   transform: translateY(5px);
   margin-right: 10px;
 }
@@ -200,6 +202,8 @@ H5, H6 {
   width: 40px;
   height: 40px;
   background-image: url("../icons/svg/movil.svg");
+  -webkit-transform: translateY(5px);
+  -ms-transform: translateY(5px);
   transform: translateY(5px);
   margin-right: 10px;
 }
@@ -210,6 +214,8 @@ H5, H6 {
   width: 40px;
   height: 40px;
   background-image: url("../icons/svg/correo.svg");
+  -webkit-transform: translateY(5px);
+  -ms-transform: translateY(5px);
   transform: translateY(5px);
   margin-right: 10px;
 }
@@ -220,6 +226,8 @@ H5, H6 {
   width: 40px;
   height: 40px;
   background-image: url("../icons/svg/ubicacion.svg");
+  -webkit-transform: translateY(5px);
+  -ms-transform: translateY(5px);
   transform: translateY(5px);
   margin-right: 10px;
 }
@@ -597,93 +605,17 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  align-items: flex-end;
-  justify-content: flex-end; }
-  header .gamburger #activ:checked ~ .gamburger {
-    display: none;
-    background-color: #840D6F;
-    width: 100%; }
-  header .gamburger input {
-    display: none; }
-  header .gamburger .icon_burger {
-    display: block;
-    cursor: pointer;
-    font-size: 36px;
-    color: #840D6F;
-    position: fixed;
-    right: 27px;
-    top: 17px;
-    z-index: 99;
-    background-color: #ffffff;
-    justify-self: center;
-    align-self: center;
-    text-align: center;
-    padding: 0 5px 5px 5px;
-    border-radius: 50%; }
-  header .gamburger .meniu {
-    display: none; }
-    header .gamburger .meniu a {
-      font-size: 20px; }
-    header .gamburger .meniu .caja__desplegable:hover .menu__services__desplegable {
-      display: block;
-      position: absolute;
-      top: 68px;
-      left: 0;
-      z-index: 10; }
-      header .gamburger .meniu .caja__desplegable:hover .menu__services__desplegable li {
-        width: 284px;
-        height: 50px;
-        border: 1px solid #707070;
-        margin: 1px;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        padding-left: 15px;
-        z-index: 10;
-        background-color: #ffffff; }
-    header .gamburger .meniu .caja__desplegable .icon__f {
-      display: none;
-      z-index: 20;
-      font-size: 30px;
-      position: absolute;
-      color: white;
-      left: 30px;
-      top: 50px; }
-    header .gamburger .meniu .caja__desplegable:hover .icon__f {
-      display: block; }
-    header .gamburger .meniu .caja__desplegable .desplegable {
-      padding-bottom: 30px; }
-    header .gamburger .meniu .caja__desplegable .menu__services__desplegable {
-      display: none; }
-  header .gamburger #activ:checked ~ .meniu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    height: 70px;
-    transition: 0.5s ease;
-    z-index: 10;
-    background-color: #840D6F; }
-    header .gamburger #activ:checked ~ .meniu .blog {
-      margin-right: 50px; }
-  header .gamburger #activ:checked ~ .icon_burger {
-    display: none; }
-  header .gamburger .acloseMeniu {
-    display: none;
-    min-width: 50px;
-    text-decoration: none;
-    z-index: 20; }
-    header .gamburger .acloseMeniu .closeMeniu {
-      font-size: 25px;
-      color: white; }
-  header .gamburger #activ:checked ~ .acloseMeniu {
-    display: block;
-    position: fixed;
-    right: 0px;
-    top: 22px; }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
 
 .clinica__subtit__criminal, .forense__subtit__criminal, .formacion__subtit__criminal {
   margin: 25px;
@@ -708,9 +640,17 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
-  z-index: 0; }
+}
 
 .clinica__subtit__mediacion, .forense__subtit__mediacion, .formacion__subtit__mediacion {
   margin: 25px;
@@ -1303,10 +1243,7 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
 
 .caja__grid__valores {
   display: grid;
-  grid-template-areas: "img1 img1"
- "text1 text1"
- "img2 img3"
- "text2 text3";
+  grid-template-areas: "img1 img1" "text1 text1" "img2 img3" "text2 text3";
 }
 
 .caja__grid__valores .fiabilidad {
@@ -1620,6 +1557,10 @@ Y888888P YP  YP  YP  Y888P  VP   V8P `8888Y'
     width: 250px;
     height: 250px;
   }
+}
+
+.forense__banner img, .clinica__banner img, .formacion__banner img {
+  width: 100%;
 }
 
 /*
@@ -2076,7 +2017,7 @@ header .gamburger .icon_burger {
   -ms-flex-item-align: center;
   align-self: center;
   text-align: center;
-  padding: 0 5px 5px 5px;
+  padding: 5px;
   border-radius: 50%;
 }
 
@@ -2251,6 +2192,7 @@ body section .picture__filosofia {
   align-items: center;
   position: relative;
   margin-bottom: 20px;
+  z-index: 0;
 }
 
 body section .picture__filosofia::before {
@@ -2258,145 +2200,148 @@ body section .picture__filosofia::before {
   width: 100%;
   height: 100%;
   position: absolute;
+  z-index: 10;
   content: "";
 }
 
 body section .picture__filosofia::after {
   position: absolute;
+  z-index: 20;
   top: 5%;
   color: #ffffff;
   width: 330px;
   height: 75px;
-  content: "Nuestra filosofía de trabajo se fundamenta en 
- ofrecer, desde la Psicología científica, un servicio 
- personalizado, inmediatez y espíritu resolutivo  
- ";
+  content: "Nuestra filosofía de trabajo se fundamenta en  ofrecer, desde la Psicología científica, un servicio  personalizado, inmediatez y espíritu resolutivo   ";
 }
 
 body section .h3__valores {
   margin-bottom: 75px;
   letter-spacing: 3;
 }
-    width: 300px;
-    height: 120px;
-    text-align: justify;
-    font-size: 16px;
-    margin-bottom: 60px; }
-  body section .h2__filosofia {
-    display: block;
-    margin-bottom: 27px;
-    font-size: 35px;
-    letter-spacing: 3; }
-  body section .picture__filosofia {
-    display: block;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    margin-bottom: 20px;
-    z-index: 0; }
-    body section .picture__filosofia::before {
-      background-color: rgba(0, 0, 0, 0.53);
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      z-index: 10;
-      content: ""; }
-    body section .picture__filosofia::after {
-      position: absolute;
-      z-index: 20;
-      top: 5%;
-      color: #ffffff;
-      width: 330px;
-      height: 75px;
-      content: "Nuestra filosofía de trabajo se fundamenta en  ofrecer, desde la Psicología científica, un servicio  personalizado, inmediatez y espíritu resolutivo   "; }
-  body section .h3__valores {
-    margin-bottom: 75px;
-    letter-spacing: 3; }
-  body section .caja__Servicios {
-    display: block;
-    margin-bottom: 50px; }
-    body section .caja__Servicios .caja__Servicios__h3 {
-      margin: 50px 0 50px 0; }
-    body section .caja__Servicios .picture__clinica {
-      display: block;
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      position: relative;
-      z-index: 0; }
-      body section .caja__Servicios .picture__clinica::before {
-        background-color: rgba(0, 0, 0, 0.53);
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        z-index: 10;
-        content: ""; }
-      body section .caja__Servicios .picture__clinica::after {
-        position: absolute;
-        z-index: 20;
-        top: 45%;
-        left: 20px;
-        color: #ffffff;
-        width: 140px;
-        height: 75px;
-        font-size: 20px;
-        letter-spacing: 2px;
-        word-spacing: 2px;
-        content: "PSICOLOGÍA DE LA SALUD"; }
-    body section .caja__Servicios .picture__forense {
-      display: block;
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      position: relative;
-      z-index: 0; }
-      body section .caja__Servicios .picture__forense::before {
-        background-color: rgba(0, 0, 0, 0.53);
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        z-index: 10;
-        content: ""; }
-      body section .caja__Servicios .picture__forense::after {
-        position: absolute;
-        z-index: 20;
-        top: 45%;
-        right: 20px;
-        color: #ffffff;
-        width: 235px;
-        height: 75px;
-        font-size: 20px;
-        letter-spacing: 2px;
-        word-spacing: 2px;
-        text-align: right;
-        content: "PSICOLOGÍA JURIDICA Y FORENSE"; }
-    body section .caja__Servicios .picture__formacion {
-      display: block;
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      position: relative;
-      z-index: 0; }
-      body section .caja__Servicios .picture__formacion::before {
-        background-color: rgba(0, 0, 0, 0.53);
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        z-index: 10;
-        content: ""; }
-      body section .caja__Servicios .picture__formacion::after {
-        position: absolute;
-        z-index: 20;
-        top: 25%;
-        left: 20px;
-        color: #ffffff;
-        width: 180px;
-        height: 75px;
-        font-size: 20px;
-        letter-spacing: 2px;
-        word-spacing: 2px;
-        content: "INVESTIGACIÓN, FORMACIÓN, ASESORAMIENTO A PROFESIONALES"; }
+
+body section .caja__Servicios {
+  display: block;
+  margin-bottom: 50px;
+}
+
+body section .caja__Servicios .caja__Servicios__h3 {
+  margin: 50px 0 50px 0;
+}
+
+body section .caja__Servicios .picture__clinica {
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  z-index: 0;
+}
+
+body section .caja__Servicios .picture__clinica::before {
+  background-color: rgba(0, 0, 0, 0.53);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 10;
+  content: "";
+}
+
+body section .caja__Servicios .picture__clinica::after {
+  position: absolute;
+  z-index: 20;
+  top: 45%;
+  left: 20px;
+  color: #ffffff;
+  width: 140px;
+  height: 75px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  content: "PSICOLOGÍA DE LA SALUD";
+}
+
+body section .caja__Servicios .picture__forense {
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  z-index: 0;
+}
+
+body section .caja__Servicios .picture__forense::before {
+  background-color: rgba(0, 0, 0, 0.53);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 10;
+  content: "";
+}
+
+body section .caja__Servicios .picture__forense::after {
+  position: absolute;
+  z-index: 20;
+  top: 45%;
+  right: 20px;
+  color: #ffffff;
+  width: 235px;
+  height: 75px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  text-align: right;
+  content: "PSICOLOGÍA JURIDICA Y FORENSE";
+}
+
+body section .caja__Servicios .picture__formacion {
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  z-index: 0;
+}
+
+body section .caja__Servicios .picture__formacion::before {
+  background-color: rgba(0, 0, 0, 0.53);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 10;
+  content: "";
+}
+
+body section .caja__Servicios .picture__formacion::after {
+  position: absolute;
+  z-index: 20;
+  top: 25%;
+  left: 20px;
+  color: #ffffff;
+  width: 180px;
+  height: 75px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  content: "INVESTIGACIÓN, FORMACIÓN, ASESORAMIENTO A PROFESIONALES";
+}
 
 body footer {
   display: block;
