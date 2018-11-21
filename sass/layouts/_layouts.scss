@@ -24,6 +24,7 @@
     margin-top: 25px;
 }
 
+
 // -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
 
 // 	SERVICIOS - CLINICA
@@ -202,4 +203,20 @@
         border: 1px solid $gris-oscuro;
     }
 
+}
+
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+
+// 	MAPA
+
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+
+.clinica, .forense, .formacion{
+    &__conjunto{
+        margin-bottom: 50px;
+    }
+
+    &__mapa{
+        margin: 0;
+    }
 }

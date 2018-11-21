@@ -960,6 +960,14 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
   border: 1px solid #707070;
 }
 
+.clinica__conjunto, .forense__conjunto, .formacion__conjunto {
+  margin-bottom: 50px;
+}
+
+.clinica__mapa, .forense__mapa, .formacion__mapa {
+  margin: 0;
+}
+
 /*
 //
 //
