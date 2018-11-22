@@ -14,12 +14,13 @@ header{
         }
         // Icons de hamburgesa
         #activ:checked ~ .gamburger{
-            display: none;
-            background-color: #840D6F;
-            width: 100%;
             @media only screen and (min-width: $breakpoints-sm)  {
             display: block;
             }
+            display: none;
+            background-color: #840D6F;
+            width: 100%;
+            
         }
 
         // ocultamos checkbox
@@ -44,21 +45,59 @@ header{
                 justify-self: center;
                 align-self: center;
                 text-align: center;
-                padding: 5px;
+                padding: 5px 10px 10px 10px;
                 border-radius: 50%;
                 
+                @media only screen and (min-width: $breakpoints-sm)  {
+                display: none;
+                }
                 }
         // ocultamos meniu
         .meniu{
             display:none;
             // Meniu Descktop
             @media only screen and (min-width: $breakpoints-sm)  {
-            display: block;   
+                position: fixed;
+                top:0;
+                left: 0;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                width: 100%;
+                height: 100px;
+                z-index: 10;
+                background-color:#840D6F;
+                padding-right: 10%;
+                
+                li{
+                    width: 284px;
+                    height: 50px;
+                    border: 1px solid #707070;
+                    margin: 1px;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    padding-left: 15px;
+                    z-index: 10;
+                    background-color: $blanco;
+                    margin-left: 0;
+                    a{
+                        margin-left: 0;
+                    }
+                }
             }
             // Cambios en As
             a{
             @extend %transformA;
             font-size: 20px;
+            @media only screen and (min-width: $breakpoints-sm)  {
+                margin-left: 50px;
+                }
+            }
+            .blog{
+                @media only screen and (min-width: $breakpoints-sm)  {
+                    margin-right: 5%;
+                    } 
             }
             
             .caja__desplegable{
@@ -69,7 +108,15 @@ header{
                     top:68px;
                     left: 0;
                     z-index: 10;
-                    
+
+                    @media only screen and (min-width: $breakpoints-sm){
+                       display: block;
+                       width: 305px;
+                       position: absolute;
+                       top: 79px;
+                       left: 65%;
+                        
+                    }
                     // cajas para los li desplegables
                     li{
                         width: 284px;
@@ -87,6 +134,7 @@ header{
                             @extend %transformAsubmeniu;
                         }
                     }
+                
 
                 }
                 // Icon para cerrar meniu principal
@@ -97,15 +145,21 @@ header{
                     position: absolute;
                     color: white;
                     left: 30px;
-                    top: 50px;  
+                    top: 50px;
+                    
+                    @media only screen and (min-width: $breakpoints-sm)  {
+                        display: none;
+                        z-index: 9990;
+                        font-size: 30px;
+                        position: absolute;
+                        color: white;
+                        left: 70%;
+                        top: 80px;
+                        }
                 }
+                
                 &:hover .icon__f{
                     display: block;
-
-                    // Descktop
-                    @media only screen and (min-width: $breakpoints-sm)  {
-                    
-                    }
                 }
                 .desplegable{
                    padding-bottom: 30px; 
@@ -113,11 +167,17 @@ header{
                 .menu__services__desplegable{
                         display: none;   
                 }
-                
             }    
         }
         // para sacar display:none i viszualizar meniu principal
         #activ:checked ~ .meniu{
+            // Descktop
+            @media only screen and (min-width: $breakpoints-sm)  {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-right: 20%;
+            }
             position: fixed;
             top:0;
             left: 0;
@@ -131,14 +191,7 @@ header{
             background-color:#840D6F;
             // acemos espacio para icon que ciera meniu
 
-            // Descktop
-            @media only screen and (min-width: $breakpoints-sm)  {
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-            margin-right: 20%;
             
-            }
             .blog{
                 margin-right: 50px;
             }
@@ -179,6 +232,18 @@ header{
         }
 
     }
+    // LOGO NAV DESCKTOP
+    .logo__nav{
+        z-index: 99;
+        width: 100px;
+        height: 100px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        @media only screen and (max-width: $breakpoints-sm)  {
+            display: none;
+            }
+    }
     // LOGO
     picture{
         display: block;
@@ -189,6 +254,7 @@ header{
         justify-content: center;
         align-items: center;
         z-index: 0;
+        margin-top: 100px;
 
     }
     // Para que baja img cunado aparece meniu principal
