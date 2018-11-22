@@ -20,7 +20,7 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta http-equiv="X-UA-Compatible" content="ie=edge">
-            <title>Aglaia Psicologia</title>
+            <title>Contacto</title>
         
                 <!-- Metadatos Web -->
                 <meta charset="UTF-8">
@@ -28,26 +28,26 @@
                 <meta http-equiv="X-UA-Compatible" content="ie=edge">
             
                 <!-- HTML Meta Tags -->
-                <title>Aglaia Psicologia</title>
-                <meta name="description" content="">
+                <title>Contacto</title>
+                <meta name="description" content="Contacta a través de correo electrónico o por teléfono para reservar tu cita previa con nosotros y comenzar tu asesoramiento.">
             
                 <!-- Google / Search Engine Tags -->
-                <meta itemprop="name" content="">
-                <meta itemprop="description" content="">
-                <meta itemprop="image" content="http://">
+                <meta itemprop="name" content="Contacto">
+                <meta itemprop="description" content="Contacta a través de correo electrónico o por teléfono para reservar tu cita previa con nosotros y comenzar tu asesoramiento.">
+                <!-- <meta itemprop="image" content="http://"> -->
             
                 <!-- Facebook Meta Tags -->
-                <meta property="og:url" content="http://">
+                <meta property="og:url" content="https://www.facebook.com/AglaiaCentroPsicologia">
                 <meta property="og:type" content="website">
                 <meta property="og:title" content="Aglaia Psicologia">
-                <meta property="og:description" content="">
-                <meta property="og:image" content="http://">
+                <meta property="og:description" content="Contacta a través de correo electrónico o por teléfono para reservar tu cita previa con nosotros y comenzar tu asesoramiento.">
+                <!-- <meta property="og:image" content="http://"> -->
             
                 <!-- Twitter Meta Tags -->
-                <meta name="twitter:card" content="summary_large_image">
+                <!-- <meta name="twitter:card" content="summary_large_image">
                 <meta name="twitter:title" content="Aglaia Psicologia">
                 <meta name="twitter:description" content="">
-                <meta name="twitter:image" content="http://">
+                <meta name="twitter:image" content="http://"> -->
         
                 <!-- Enlace a biblioteca de iconos tipográficos -->
                 <!-- FONTAWESOME -->
@@ -56,6 +56,10 @@
                 <!-- Enlaces externos -->
                 <!-- CSS -->
                 <link rel="stylesheet" href="css/estilos.css">
+
+                <!-- -+-+-+-+-+-+-+-+- FAVICON +-+-+-+-+-+-+-+-+-+-+-+- -->
+                <link rel="shortcut icon" href="icons/logo_favicon.ico" type="image/x-icon">
+                <link rel="icon" href="icons/logo_favicon.ico" type="image/x-icon">
         
         </head>
         
@@ -131,22 +135,28 @@
 
      
             <iframe class="contacto__mapa"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.3344148932656!2d2.6490415148266027!3d39.574612914346694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12979250d64f23d1%3A0x120a43ffa231e064!2sCarrer+de+Can+Ma%C3%A7anet%2C+1%2C+1C%2C+07003+Palma%2C+Illes+Balears!5e0!3m2!1ses!2ses!4v1542485060806" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.3344148932656!2d2.6490415148266027!3d39.574612914346694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12979250d64f23d1%3A0x120a43ffa231e064!2sCarrer+de+Can+Ma%C3%A7anet%2C+1%2C+1C%2C+07003+Palma%2C+Illes+Balears!5e0!3m2!1ses!2ses!4v1542485060806" frameborder="0" style="border:0" allowfullscreen>
             </iframe>
+
+            <!-- width="600" height="450"  -->
 
             <h2 class="contacto__titulo">Información</h2>
 
-            <form action="" class="contacto__form">
-                <input type="text" class="contacto__form__input1"
-                placeholder="Nombre y Apellidos">
-                <input type="email" class="contacto__form__input2"
-                placeholder="Email">
-                <input type="text" class="contacto__form__input3"
-                placeholder="Teléfono">
-                <textarea name="text"  class="contacto__form__input4"
-                >Mensaje</textarea>
+            <form action="" class="contacto__form" name = "FormContactar">
 
-                <button class="contacto__form__boton"type="submit">Enviar</button>
+                <input type="text" class="contacto__form__input1"
+                placeholder="Nombre y Apellidos" name = "Nombre">
+
+                <input type="email" class="contacto__form__input2"
+                placeholder="Email" name = "Email">
+
+                <input type="text" class="contacto__form__input3"
+                placeholder="Teléfono" name = "Telefono">
+
+                <textarea name="text"  class="contacto__form__input4"
+                >Mensaje</textarea name = "Mensaje">
+
+                <button class="contacto__form__boton" type="submit">Enviar</button>
             </form>
             
 
