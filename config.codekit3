@@ -47,6 +47,13 @@
 		"oAP": "/fonts/Brixton_Light.woff",
 		"oF": 0
 		},
+	"/icons/logo_favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/icons/logo_favicon.ico",
+		"oF": 0
+		},
 	"/icons/svg/correo.svg": {
 		"ft": 2097152,
 		"miP": 0,
