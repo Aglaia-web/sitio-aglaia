@@ -156,42 +156,29 @@ H6 {
 
 @media only screen and (min-width: 768px) {
   .clinica__subtit__adultos {
-    font-size: 2.188em;
-  }
+    font-size: 2.188em; }
   .clinica__subtit__agresividad {
-    font-size: 2.188em;
-  }
+    font-size: 2.188em; }
   .clinica__subtit__sexualidad {
-    font-size: 2.188em;
-  }
+    font-size: 2.188em; }
   .clinica__subtit__juvenil {
-    font-size: 2.188em;
-  }
+    font-size: 2.188em; }
   .clinica__subtit__duelo {
-    font-size: 2.188em;
-  }
+    font-size: 2.188em; }
   .clinica__subtit__rendimiento {
-    font-size: 2.188em;
-  }
+    font-size: 2.188em; }
   .clinica__subtit__peritajes {
-    font-size: 2.188em;
-  }
+    font-size: 2.188em; }
   .clinica__subtit__criminal {
-    font-size: 2.188em;
-  }
+    font-size: 2.188em; }
   .clinica__subtit__mediacion {
-    font-size: 2.188em;
-  }
+    font-size: 2.188em; }
   .clinica__subtit__asesoramiento {
-    font-size: 2.188em;
-  }
+    font-size: 2.188em; }
   .clinica__subtit__formacion {
-    font-size: 2.188em;
-  }
+    font-size: 2.188em; }
   .clinica__subtit__investigacion {
-    font-size: 2.188em;
-  }
-}
+    font-size: 2.188em; } }
 
 h1, h2, h3 {
   text-align: center;
@@ -209,8 +196,6 @@ H5, H6 {
   width: 40px;
   height: 40px;
   background-image: url("../icons/svg/telefono.svg");
-  -webkit-transform: translateY(5px);
-  -ms-transform: translateY(5px);
   transform: translateY(5px);
   margin-right: 10px; }
 
@@ -220,8 +205,6 @@ H5, H6 {
   width: 40px;
   height: 40px;
   background-image: url("../icons/svg/movil.svg");
-  -webkit-transform: translateY(5px);
-  -ms-transform: translateY(5px);
   transform: translateY(5px);
   margin-right: 10px; }
 
@@ -231,8 +214,6 @@ H5, H6 {
   width: 40px;
   height: 40px;
   background-image: url("../icons/svg/correo.svg");
-  -webkit-transform: translateY(5px);
-  -ms-transform: translateY(5px);
   transform: translateY(5px);
   margin-right: 10px; }
 
@@ -242,8 +223,6 @@ H5, H6 {
   width: 40px;
   height: 40px;
   background-image: url("../icons/svg/ubicacion.svg");
-  -webkit-transform: translateY(5px);
-  -ms-transform: translateY(5px);
   transform: translateY(5px);
   margin-right: 10px; }
 
@@ -372,15 +351,8 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-gap: 10px;
-<<<<<<< HEAD
-    max-width: 75%;
-    margin: 0 auto; } }
-=======
     max-width: 100%;
-    margin: 0 auto;
-  }
-}
->>>>>>> d99ddab54664047e94c326b36b2996b7fb9840b1
+    margin: 0 auto; } }
 
 .clinica__caja__agresividad, .forense__caja__agresividad, .formacion__caja__agresividad {
   display: flex;
@@ -400,15 +372,8 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-gap: 10px;
-<<<<<<< HEAD
-    max-width: 75%;
-    margin: 0 auto; } }
-=======
     max-width: 100%;
-    margin: 0 auto;
-  }
-}
->>>>>>> d99ddab54664047e94c326b36b2996b7fb9840b1
+    margin: 0 auto; } }
 
 .clinica__caja__sexualidad, .forense__caja__sexualidad, .formacion__caja__sexualidad {
   display: flex;
@@ -428,15 +393,8 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-gap: 10px;
-<<<<<<< HEAD
-    max-width: 75%;
-    margin: 0 auto; } }
-=======
     max-width: 100%;
-    margin: 0 auto;
-  }
-}
->>>>>>> d99ddab54664047e94c326b36b2996b7fb9840b1
+    margin: 0 auto; } }
 
 .clinica__caja__juvenil, .forense__caja__juvenil, .formacion__caja__juvenil {
   display: flex;
@@ -456,15 +414,8 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-gap: 10px;
-<<<<<<< HEAD
-    max-width: 75%;
-    margin: 0 auto; } }
-=======
     max-width: 100%;
-    margin: 0 auto;
-  }
-}
->>>>>>> d99ddab54664047e94c326b36b2996b7fb9840b1
+    margin: 0 auto; } }
 
 .clinica__caja__duelo, .forense__caja__duelo, .formacion__caja__duelo {
   display: flex;
@@ -484,15 +435,8 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-gap: 10px;
-<<<<<<< HEAD
-    max-width: 75%;
-    margin: 0 auto; } }
-=======
     max-width: 100%;
-    margin: 0 auto;
-  }
-}
->>>>>>> d99ddab54664047e94c326b36b2996b7fb9840b1
+    margin: 0 auto; } }
 
 .clinica__caja__rendimiento, .forense__caja__rendimiento, .formacion__caja__rendimiento {
   display: flex;
@@ -512,15 +456,8 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-gap: 10px;
-<<<<<<< HEAD
-    max-width: 75%;
-    margin: 0 auto; } }
-=======
     max-width: 100%;
-    margin: 0 auto;
-  }
-}
->>>>>>> d99ddab54664047e94c326b36b2996b7fb9840b1
+    margin: 0 auto; } }
 
 .clinica__caja__peritajes, .forense__caja__peritajes, .formacion__caja__peritajes {
   display: flex;
@@ -540,35 +477,14 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-gap: 10px;
-<<<<<<< HEAD
-    max-width: 75%;
-    margin: 0 auto; } }
-=======
     max-width: 100%;
-    margin: 0 auto;
-  }
-}
->>>>>>> d99ddab54664047e94c326b36b2996b7fb9840b1
+    margin: 0 auto; } }
 
 .clinica__caja__criminal, .forense__caja__criminal, .formacion__caja__criminal {
   display: flex;
-<<<<<<< HEAD
   flex-direction: column;
   justify-content: flex-start;
   align-items: center; }
-=======
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
->>>>>>> d99ddab54664047e94c326b36b2996b7fb9840b1
 
 .clinica__subtit__criminal, .forense__subtit__criminal, .formacion__subtit__criminal {
   margin: 25px; }
@@ -582,35 +498,14 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-gap: 10px;
-<<<<<<< HEAD
-    max-width: 75%;
-    margin: 0 auto; } }
-=======
     max-width: 100%;
-    margin: 0 auto;
-  }
-}
->>>>>>> d99ddab54664047e94c326b36b2996b7fb9840b1
+    margin: 0 auto; } }
 
 .clinica__caja__mediacion, .forense__caja__mediacion, .formacion__caja__mediacion {
   display: flex;
-<<<<<<< HEAD
   flex-direction: column;
   justify-content: flex-start;
   align-items: center; }
-=======
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
->>>>>>> d99ddab54664047e94c326b36b2996b7fb9840b1
 
 .clinica__subtit__mediacion, .forense__subtit__mediacion, .formacion__subtit__mediacion {
   margin: 25px; }
@@ -624,15 +519,8 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-gap: 10px;
-<<<<<<< HEAD
-    max-width: 75%;
-    margin: 0 auto; } }
-=======
     max-width: 100%;
-    margin: 0 auto;
-  }
-}
->>>>>>> d99ddab54664047e94c326b36b2996b7fb9840b1
+    margin: 0 auto; } }
 
 .clinica__caja__asesoramiento, .forense__caja__asesoramiento, .formacion__caja__asesoramiento {
   display: flex;
@@ -652,15 +540,8 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-gap: 10px;
-<<<<<<< HEAD
-    max-width: 75%;
-    margin: 0 auto; } }
-=======
     max-width: 100%;
-    margin: 0 auto;
-  }
-}
->>>>>>> d99ddab54664047e94c326b36b2996b7fb9840b1
+    margin: 0 auto; } }
 
 .clinica__caja__formacion, .forense__caja__formacion, .formacion__caja__formacion {
   display: flex;
@@ -680,15 +561,8 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-gap: 10px;
-<<<<<<< HEAD
-    max-width: 75%;
-    margin: 0 auto; } }
-=======
     max-width: 100%;
-    margin: 0 auto;
-  }
-}
->>>>>>> d99ddab54664047e94c326b36b2996b7fb9840b1
+    margin: 0 auto; } }
 
 .clinica__caja__investigacion, .forense__caja__investigacion, .formacion__caja__investigacion {
   display: flex;
@@ -708,15 +582,8 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-gap: 10px;
-<<<<<<< HEAD
-    max-width: 75%;
-    margin: 0 auto; } }
-=======
     max-width: 100%;
-    margin: 0 auto;
-  }
-}
->>>>>>> d99ddab54664047e94c326b36b2996b7fb9840b1
+    margin: 0 auto; } }
 
 /*
 .formacion__caja__asesoramiento{
@@ -816,15 +683,8 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
 @media screen and (min-width: 768px) {
   .clinica__caja__adultos, .forense__caja__adultos, .formacion__caja__adultos {
     display: grid;
-<<<<<<< HEAD
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: 250px 150px 1fr; } }
-=======
     grid-template-columns: 40% 60%;
-    grid-template-rows: 200px 150px 1fr;
-  }
-}
->>>>>>> d99ddab54664047e94c326b36b2996b7fb9840b1
+    grid-template-rows: 200px 150px 1fr; } }
 
 @media screen and (min-width: 768px) {
   .clinica__parrafo__adultos, .forense__parrafo__adultos, .formacion__parrafo__adultos {
@@ -838,15 +698,8 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
 @media screen and (min-width: 768px) {
   .clinica__caja__agresividad, .forense__caja__agresividad, .formacion__caja__agresividad {
     display: grid;
-<<<<<<< HEAD
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: 250px 150px 1fr; } }
-=======
     grid-template-columns: 40% 60%;
-    grid-template-rows: 200px 150px 1fr;
-  }
-}
->>>>>>> d99ddab54664047e94c326b36b2996b7fb9840b1
+    grid-template-rows: 200px 150px 1fr; } }
 
 @media screen and (min-width: 768px) {
   .clinica__parrafo__agresividad, .forense__parrafo__agresividad, .formacion__parrafo__agresividad {
@@ -860,15 +713,8 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
 @media screen and (min-width: 768px) {
   .clinica__caja__sexualidad, .forense__caja__sexualidad, .formacion__caja__sexualidad {
     display: grid;
-<<<<<<< HEAD
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: 250px 150px 1fr; } }
-=======
     grid-template-columns: 40% 60%;
-    grid-template-rows: 200px 150px 1fr;
-  }
-}
->>>>>>> d99ddab54664047e94c326b36b2996b7fb9840b1
+    grid-template-rows: 200px 150px 1fr; } }
 
 @media screen and (min-width: 768px) {
   .clinica__parrafo__sexualidad, .forense__parrafo__sexualidad, .formacion__parrafo__sexualidad {
@@ -882,15 +728,8 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
 @media screen and (min-width: 768px) {
   .clinica__caja__juvenil, .forense__caja__juvenil, .formacion__caja__juvenil {
     display: grid;
-<<<<<<< HEAD
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: 250px 150px 1fr; } }
-=======
     grid-template-columns: 40% 60%;
-    grid-template-rows: 200px 150px 1fr;
-  }
-}
->>>>>>> d99ddab54664047e94c326b36b2996b7fb9840b1
+    grid-template-rows: 200px 150px 1fr; } }
 
 @media screen and (min-width: 768px) {
   .clinica__parrafo__juvenil, .forense__parrafo__juvenil, .formacion__parrafo__juvenil {
@@ -904,15 +743,8 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
 @media screen and (min-width: 768px) {
   .clinica__caja__duelo, .forense__caja__duelo, .formacion__caja__duelo {
     display: grid;
-<<<<<<< HEAD
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: 250px 150px 1fr; } }
-=======
     grid-template-columns: 40% 60%;
-    grid-template-rows: 200px 150px 1fr;
-  }
-}
->>>>>>> d99ddab54664047e94c326b36b2996b7fb9840b1
+    grid-template-rows: 200px 150px 1fr; } }
 
 @media screen and (min-width: 768px) {
   .clinica__parrafo__duelo, .forense__parrafo__duelo, .formacion__parrafo__duelo {
@@ -926,15 +758,8 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
 @media screen and (min-width: 768px) {
   .clinica__caja__rendimiento, .forense__caja__rendimiento, .formacion__caja__rendimiento {
     display: grid;
-<<<<<<< HEAD
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: 250px 150px 1fr; } }
-=======
     grid-template-columns: 40% 60%;
-    grid-template-rows: 200px 150px 1fr;
-  }
-}
->>>>>>> d99ddab54664047e94c326b36b2996b7fb9840b1
+    grid-template-rows: 200px 150px 1fr; } }
 
 @media screen and (min-width: 768px) {
   .clinica__parrafo__rendimiento, .forense__parrafo__rendimiento, .formacion__parrafo__rendimiento {
@@ -948,15 +773,8 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
 @media screen and (min-width: 768px) {
   .clinica__caja__peritajes, .forense__caja__peritajes, .formacion__caja__peritajes {
     display: grid;
-<<<<<<< HEAD
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: 250px 150px 1fr; } }
-=======
     grid-template-columns: 40% 60%;
-    grid-template-rows: 200px 150px 1fr;
-  }
-}
->>>>>>> d99ddab54664047e94c326b36b2996b7fb9840b1
+    grid-template-rows: 200px 150px 1fr; } }
 
 @media screen and (min-width: 768px) {
   .clinica__parrafo__peritajes, .forense__parrafo__peritajes, .formacion__parrafo__peritajes {
@@ -970,15 +788,8 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
 @media screen and (min-width: 768px) {
   .clinica__caja__criminal, .forense__caja__criminal, .formacion__caja__criminal {
     display: grid;
-<<<<<<< HEAD
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: 250px 150px 1fr; } }
-=======
     grid-template-columns: 40% 60%;
-    grid-template-rows: 200px 150px 1fr;
-  }
-}
->>>>>>> d99ddab54664047e94c326b36b2996b7fb9840b1
+    grid-template-rows: 200px 150px 1fr; } }
 
 @media screen and (min-width: 768px) {
   .clinica__parrafo__criminal, .forense__parrafo__criminal, .formacion__parrafo__criminal {
@@ -992,15 +803,8 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
 @media screen and (min-width: 768px) {
   .clinica__caja__mediacion, .forense__caja__mediacion, .formacion__caja__mediacion {
     display: grid;
-<<<<<<< HEAD
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: 250px 150px 1fr; } }
-=======
     grid-template-columns: 40% 60%;
-    grid-template-rows: 200px 150px 1fr;
-  }
-}
->>>>>>> d99ddab54664047e94c326b36b2996b7fb9840b1
+    grid-template-rows: 200px 150px 1fr; } }
 
 @media screen and (min-width: 768px) {
   .clinica__parrafo__mediacion, .forense__parrafo__mediacion, .formacion__parrafo__mediacion {
@@ -1014,15 +818,8 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
 @media screen and (min-width: 768px) {
   .clinica__caja__asesoramiento, .forense__caja__asesoramiento, .formacion__caja__asesoramiento {
     display: grid;
-<<<<<<< HEAD
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: 250px 150px 1fr; } }
-=======
     grid-template-columns: 40% 60%;
-    grid-template-rows: 200px 150px 1fr;
-  }
-}
->>>>>>> d99ddab54664047e94c326b36b2996b7fb9840b1
+    grid-template-rows: 200px 150px 1fr; } }
 
 @media screen and (min-width: 768px) {
   .clinica__parrafo__asesoramiento, .forense__parrafo__asesoramiento, .formacion__parrafo__asesoramiento {
@@ -1036,15 +833,8 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
 @media screen and (min-width: 768px) {
   .clinica__caja__formacion, .forense__caja__formacion, .formacion__caja__formacion {
     display: grid;
-<<<<<<< HEAD
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: 250px 150px 1fr; } }
-=======
     grid-template-columns: 40% 60%;
-    grid-template-rows: 200px 150px 1fr;
-  }
-}
->>>>>>> d99ddab54664047e94c326b36b2996b7fb9840b1
+    grid-template-rows: 200px 150px 1fr; } }
 
 @media screen and (min-width: 768px) {
   .clinica__parrafo__formacion, .forense__parrafo__formacion, .formacion__parrafo__formacion {
@@ -1058,15 +848,8 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
 @media screen and (min-width: 768px) {
   .clinica__caja__investigacion, .forense__caja__investigacion, .formacion__caja__investigacion {
     display: grid;
-<<<<<<< HEAD
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: 250px 150px 1fr; } }
-=======
     grid-template-columns: 40% 60%;
-    grid-template-rows: 200px 150px 1fr;
-  }
-}
->>>>>>> d99ddab54664047e94c326b36b2996b7fb9840b1
+    grid-template-rows: 200px 150px 1fr; } }
 
 @media screen and (min-width: 768px) {
   .clinica__parrafo__investigacion, .forense__parrafo__investigacion, .formacion__parrafo__investigacion {
@@ -1101,23 +884,46 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
 
 .caja__grid__valores {
   display: grid;
-<<<<<<< HEAD
+  border-left: 3px solid #840D6F;
   grid-template-areas: "img1 img1" "text1 text1" "img2 img3" "text2 text3"; }
+  @media only screen and (min-width: 768px) {
+    .caja__grid__valores {
+      display: grid;
+      grid-template-areas: "img1 text1" "img2 text2" "img3 text3";
+      text-align: center; } }
   .caja__grid__valores .fiabilidad {
     grid-area: img1;
     width: 100px;
     height: 100px;
     justify-self: center; }
+    @media only screen and (min-width: 768px) {
+      .caja__grid__valores .fiabilidad {
+        justify-self: flex-end;
+        margin-bottom: 20px;
+        width: 150px;
+        height: 150px; } }
   .caja__grid__valores .especializacion {
     grid-area: img2;
     width: 100px;
     height: 100px;
     justify-self: center; }
-  .caja__grid__valores .formacion {
+    @media only screen and (min-width: 768px) {
+      .caja__grid__valores .especializacion {
+        justify-self: flex-end;
+        margin-bottom: 20px;
+        width: 150px;
+        height: 150px; } }
+  .caja__grid__valores .formacion_v {
     grid-area: img3;
     width: 100px;
     height: 100px;
     justify-self: center; }
+    @media only screen and (min-width: 768px) {
+      .caja__grid__valores .formacion_v {
+        justify-self: flex-end;
+        margin-bottom: 0px;
+        width: 150px;
+        height: 150px; } }
   .caja__grid__valores .text1 {
     grid-area: text1;
     width: 177px;
@@ -1127,6 +933,13 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
     margin-bottom: 10px;
     font-size: 20px;
     font-family: Brixton_Bold; }
+    @media only screen and (min-width: 768px) {
+      .caja__grid__valores .text1 {
+        justify-self: center;
+        align-self: center;
+        display: flex;
+        justify-content: center;
+        align-items: center; } }
   .caja__grid__valores .text2 {
     grid-area: text2;
     width: 125px;
@@ -1134,6 +947,13 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
     text-align: center;
     font-size: 20px;
     font-family: Brixton_Bold; }
+    @media only screen and (min-width: 768px) {
+      .caja__grid__valores .text2 {
+        justify-self: center;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center; } }
   .caja__grid__valores .text3 {
     grid-area: text3;
     width: 100px;
@@ -1141,60 +961,12 @@ Y88888P YP   YP    YP     `Y88P'  ~Y8888P'    YP
     text-align: center;
     font-size: 20px;
     font-family: Brixton_Bold; }
-=======
-  grid-template-areas: "img1 img1" "text1 text1" "img2 img3" "text2 text3";
-}
-
-.caja__grid__valores .fiabilidad {
-  grid-area: img1;
-  width: 100px;
-  height: 100px;
-  justify-self: center;
-}
-
-.caja__grid__valores .especializacion {
-  grid-area: img2;
-  width: 100px;
-  height: 100px;
-  justify-self: center;
-}
-
-.caja__grid__valores .formacion {
-  grid-area: img3;
-  width: 100px;
-  height: 100px;
-  justify-self: center;
-}
-
-.caja__grid__valores .text1 {
-  grid-area: text1;
-  width: 177px;
-  height: 77px;
-  justify-self: center;
-  text-align: center;
-  margin-bottom: 10px;
-  font-size: 20px;
-  font-family: Brixton_Bold;
-}
-
-.caja__grid__valores .text2 {
-  grid-area: text2;
-  width: 125px;
-  justify-self: center;
-  text-align: center;
-  font-size: 20px;
-  font-family: Brixton_Bold;
-}
-
-.caja__grid__valores .text3 {
-  grid-area: text3;
-  width: 100px;
-  justify-self: center;
-  text-align: center;
-  font-size: 20px;
-  font-family: Brixton_Bold;
-}
->>>>>>> d99ddab54664047e94c326b36b2996b7fb9840b1
+    @media only screen and (min-width: 768px) {
+      .caja__grid__valores .text3 {
+        justify-self: center;
+        display: flex;
+        justify-content: center;
+        align-items: center; } }
 
 /*
 //
@@ -1412,8 +1184,7 @@ Y888888P YP  YP  YP  Y888P  VP   V8P `8888Y'
     height: 250px; } }
 
 .forense__banner img, .clinica__banner img, .formacion__banner img {
-  width: 100%;
-}
+  width: 100%; }
 
 /*
 //
@@ -1662,7 +1433,6 @@ YP       `Y88P'  88   YD YP  YP  YP
         &__input3::placeholder{
             color: $negro;
         }*/
-<<<<<<< HEAD
   /*
         &__input4::placeholder{
             color: $negro;
@@ -1677,34 +1447,6 @@ YP       `Y88P'  88   YD YP  YP  YP
     margin-bottom: 30px;
     border: 1px solid #9C9AA0;
     padding: 10px; }
-=======
-  /*
-        &__input4::placeholder{
-            color: $negro;
-        }*/
-}
-
-@media screen and (min-width: 768px) {
-  .contacto__form {
-    max-width: 70%;
-    margin: 0 auto;
-  }
-}
-
-.contacto__form__input1 {
-  width: 100%;
-  height: 40px;
-  margin-bottom: 30px;
-  border: 1px solid #9C9AA0;
-  padding: 10px;
-}
-
-.contacto__form__boton {
-  width: 100%;
-}
-
-@media screen and (min-width: 768px) {
->>>>>>> d99ddab54664047e94c326b36b2996b7fb9840b1
   .contacto__form__boton {
     width: 100%; }
     @media screen and (min-width: 768px) {
@@ -1764,7 +1506,6 @@ header .gamburger {
   z-index: 1;
   display: flex;
   align-items: flex-end;
-<<<<<<< HEAD
   justify-content: flex-end; }
   @media only screen and (min-width: 768px) {
     header .gamburger {
@@ -1791,21 +1532,61 @@ header .gamburger {
     justify-self: center;
     align-self: center;
     text-align: center;
-    padding: 0 5px 5px 5px;
+    padding: 5px 10px 10px 10px;
     border-radius: 50%; }
+    @media only screen and (min-width: 768px) {
+      header .gamburger .icon_burger {
+        display: none; } }
   header .gamburger .meniu {
     display: none; }
     @media only screen and (min-width: 768px) {
       header .gamburger .meniu {
-        display: block; } }
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+        z-index: 10;
+        background-color: #840D6F;
+        padding-right: 10%; }
+        header .gamburger .meniu li {
+          width: 284px;
+          height: 50px;
+          border: 1px solid #707070;
+          margin: 1px;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          padding-left: 15px;
+          z-index: 10;
+          background-color: #ffffff;
+          margin-left: 0; }
+          header .gamburger .meniu li a {
+            margin-left: 0; } }
     header .gamburger .meniu a {
       font-size: 20px; }
+      @media only screen and (min-width: 768px) {
+        header .gamburger .meniu a {
+          margin-left: 50px; } }
+    @media only screen and (min-width: 768px) {
+      header .gamburger .meniu .blog {
+        margin-right: 5%; } }
     header .gamburger .meniu .caja__desplegable:hover .menu__services__desplegable {
       display: block;
       position: absolute;
       top: 68px;
       left: 0;
       z-index: 10; }
+      @media only screen and (min-width: 768px) {
+        header .gamburger .meniu .caja__desplegable:hover .menu__services__desplegable {
+          display: block;
+          width: 305px;
+          position: absolute;
+          top: 79px;
+          left: 65%; } }
       header .gamburger .meniu .caja__desplegable:hover .menu__services__desplegable li {
         width: 284px;
         height: 50px;
@@ -1825,6 +1606,15 @@ header .gamburger {
       color: white;
       left: 30px;
       top: 50px; }
+      @media only screen and (min-width: 768px) {
+        header .gamburger .meniu .caja__desplegable .icon__f {
+          display: none;
+          z-index: 9990;
+          font-size: 30px;
+          position: absolute;
+          color: white;
+          left: 70%;
+          top: 80px; } }
     header .gamburger .meniu .caja__desplegable:hover .icon__f {
       display: block; }
     header .gamburger .meniu .caja__desplegable .desplegable {
@@ -1872,145 +1662,17 @@ header .gamburger {
     @media only screen and (min-width: 768px) {
       header .gamburger #activ:checked ~ .acloseMeniu {
         display: none; } }
-=======
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-}
 
-header .gamburger #activ:checked ~ .gamburger {
-  display: none;
-  background-color: #840D6F;
-  width: 100%;
-}
-
-header .gamburger input {
-  display: none;
-}
-
-header .gamburger .icon_burger {
-  display: block;
-  cursor: pointer;
-  font-size: 36px;
-  color: #840D6F;
-  position: fixed;
-  right: 27px;
-  top: 17px;
+header .logo__nav {
   z-index: 99;
-  background-color: #ffffff;
-  justify-self: center;
-  -ms-flex-item-align: center;
-  align-self: center;
-  text-align: center;
-  padding: 5px;
-  border-radius: 50%;
-}
-
-header .gamburger .meniu {
-  display: none;
-}
-
-header .gamburger .meniu a {
-  font-size: 20px;
-}
-
-header .gamburger .meniu .caja__desplegable:hover .menu__services__desplegable {
-  display: block;
-  position: absolute;
-  top: 68px;
-  left: 0;
-  z-index: 10;
-}
-
-header .gamburger .meniu .caja__desplegable:hover .menu__services__desplegable li {
-  width: 284px;
-  height: 50px;
-  border: 1px solid #707070;
-  margin: 1px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-left: 15px;
-  z-index: 10;
-  background-color: #ffffff;
-}
-
-header .gamburger .meniu .caja__desplegable .icon__f {
-  display: none;
-  z-index: 20;
-  font-size: 30px;
-  position: absolute;
-  color: white;
-  left: 30px;
-  top: 50px;
-}
-
-header .gamburger .meniu .caja__desplegable:hover .icon__f {
-  display: block;
-}
-
-header .gamburger .meniu .caja__desplegable .desplegable {
-  padding-bottom: 30px;
-}
-
-header .gamburger .meniu .caja__desplegable .menu__services__desplegable {
-  display: none;
-}
-
-header .gamburger #activ:checked ~ .meniu {
+  width: 100px;
+  height: 100px;
   position: fixed;
   top: 0;
-  left: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  width: 100%;
-  height: 70px;
-  -webkit-transition: 0.5s ease;
-  -o-transition: 0.5s ease;
-  transition: 0.5s ease;
-  z-index: 10;
-  background-color: #840D6F;
-}
-
-header .gamburger #activ:checked ~ .meniu .blog {
-  margin-right: 50px;
-}
-
-header .gamburger #activ:checked ~ .icon_burger {
-  display: none;
-}
-
-header .gamburger .acloseMeniu {
-  display: none;
-  min-width: 50px;
-  text-decoration: none;
-  z-index: 20;
-}
-
-header .gamburger .acloseMeniu .closeMeniu {
-  font-size: 25px;
-  color: white;
-}
-
-header .gamburger #activ:checked ~ .acloseMeniu {
-  display: block;
-  position: fixed;
-  right: 0px;
-  top: 22px;
-}
->>>>>>> d99ddab54664047e94c326b36b2996b7fb9840b1
+  left: 0; }
+  @media only screen and (max-width: 768px) {
+    header .logo__nav {
+      display: none; } }
 
 header picture {
   display: block;
@@ -2020,7 +1682,8 @@ header picture {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 0; }
+  z-index: 0;
+  margin-top: 100px; }
 
 header #activ:checked ~ picture {
   margin-top: 70px; }
@@ -2029,7 +1692,6 @@ body header {
   display: block; }
 
 body section {
-<<<<<<< HEAD
   display: block; }
   body section .quienes {
     text-align: center;
@@ -2044,12 +1706,18 @@ body section {
     text-align: justify;
     font-size: 16px;
     margin-bottom: 60px; }
-  body section .h2__filosofia {
+  @media only screen and (min-width: 768px) {
+    body section .caja__filosofia__valores {
+      display: flex;
+      justify-content: space-around;
+      background-color: #F2ECEC;
+      height: 675px; } }
+  body section .caja__filosofia__valores .caja__filosofia__escritorio .h2__filosofia {
     display: block;
     margin-bottom: 27px;
     font-size: 35px;
     letter-spacing: 3; }
-  body section .picture__filosofia {
+  body section .caja__filosofia__valores .caja__filosofia__escritorio .picture__filosofia {
     display: block;
     display: flex;
     justify-content: center;
@@ -2057,14 +1725,20 @@ body section {
     position: relative;
     margin-bottom: 20px;
     z-index: 0; }
-    body section .picture__filosofia::before {
+    @media only screen and (min-width: 768px) {
+      body section .caja__filosofia__valores .caja__filosofia__escritorio .picture__filosofia {
+        position: static; } }
+    body section .caja__filosofia__valores .caja__filosofia__escritorio .picture__filosofia::before {
       background-color: rgba(0, 0, 0, 0.53);
       width: 100%;
       height: 100%;
       position: absolute;
       z-index: 10;
       content: ""; }
-    body section .picture__filosofia::after {
+      @media only screen and (min-width: 768px) {
+        body section .caja__filosofia__valores .caja__filosofia__escritorio .picture__filosofia::before {
+          display: none; } }
+    body section .caja__filosofia__valores .caja__filosofia__escritorio .picture__filosofia::after {
       position: absolute;
       z-index: 20;
       top: 5%;
@@ -2072,9 +1746,30 @@ body section {
       width: 330px;
       height: 75px;
       content: "Nuestra filosofía de trabajo se fundamenta en  ofrecer, desde la Psicología científica, un servicio  personalizado, inmediatez y espíritu resolutivo   "; }
-  body section .h3__valores {
-    margin-bottom: 75px;
-    letter-spacing: 3; }
+      @media only screen and (min-width: 768px) {
+        body section .caja__filosofia__valores .caja__filosofia__escritorio .picture__filosofia::after {
+          display: none;
+          z-index: 20;
+          top: 130%;
+          color: #000000;
+          width: 610px;
+          height: 130px;
+          font-size: 25px; } }
+  body section .caja__filosofia__valores .caja__filosofia__escritorio .text__filosofia__desktop {
+    display: none; }
+    @media only screen and (min-width: 768px) {
+      body section .caja__filosofia__valores .caja__filosofia__escritorio .text__filosofia__desktop {
+        display: block;
+        width: 610px;
+        font-size: 25px; } }
+  body section .caja__filosofia__valores .caja__valores__escritorio {
+    flex-basis: 50%; }
+    body section .caja__filosofia__valores .caja__valores__escritorio .h3__valores {
+      margin-bottom: 75px;
+      letter-spacing: 3; }
+      @media only screen and (min-width: 768px) {
+        body section .caja__filosofia__valores .caja__valores__escritorio .h3__valores {
+          margin-bottom: 27px; } }
   body section .caja__Servicios {
     display: block;
     margin-bottom: 50px; }
@@ -2094,6 +1789,9 @@ body section {
         position: absolute;
         z-index: 10;
         content: ""; }
+        @media only screen and (min-width: 768px) {
+          body section .caja__Servicios .picture__clinica::before {
+            display: none; } }
       body section .caja__Servicios .picture__clinica::after {
         position: absolute;
         z-index: 20;
@@ -2120,6 +1818,9 @@ body section {
         position: absolute;
         z-index: 10;
         content: ""; }
+        @media only screen and (min-width: 768px) {
+          body section .caja__Servicios .picture__forense::before {
+            display: none; } }
       body section .caja__Servicios .picture__forense::after {
         position: absolute;
         z-index: 20;
@@ -2147,6 +1848,9 @@ body section {
         position: absolute;
         z-index: 10;
         content: ""; }
+        @media only screen and (min-width: 768px) {
+          body section .caja__Servicios .picture__formacion::before {
+            display: none; } }
       body section .caja__Servicios .picture__formacion::after {
         position: absolute;
         z-index: 20;
@@ -2159,198 +1863,6 @@ body section {
         letter-spacing: 2px;
         word-spacing: 2px;
         content: "INVESTIGACIÓN, FORMACIÓN, ASESORAMIENTO A PROFESIONALES"; }
-=======
-  display: block;
-}
-
-body section .quienes {
-  text-align: center;
-  font-family: Brixton_Bold;
-  margin-top: 27px;
-  margin-bottom: 15px;
-}
-
-body section .quienes_text {
-  display: block;
-  margin: 0 auto;
-  width: 300px;
-  height: 120px;
-  text-align: justify;
-  font-size: 16px;
-  margin-bottom: 60px;
-}
-
-body section .h2__filosofia {
-  display: block;
-  margin-bottom: 27px;
-  font-size: 35px;
-  letter-spacing: 3;
-}
-
-body section .picture__filosofia {
-  display: block;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: relative;
-  margin-bottom: 20px;
-  z-index: 0;
-}
-
-body section .picture__filosofia::before {
-  background-color: rgba(0, 0, 0, 0.53);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: 10;
-  content: "";
-}
-
-body section .picture__filosofia::after {
-  position: absolute;
-  z-index: 20;
-  top: 5%;
-  color: #ffffff;
-  width: 330px;
-  height: 75px;
-  content: "Nuestra filosofía de trabajo se fundamenta en  ofrecer, desde la Psicología científica, un servicio  personalizado, inmediatez y espíritu resolutivo   ";
-}
-
-body section .h3__valores {
-  margin-bottom: 75px;
-  letter-spacing: 3;
-}
-
-body section .caja__Servicios {
-  display: block;
-  margin-bottom: 50px;
-}
-
-body section .caja__Servicios .caja__Servicios__h3 {
-  margin: 50px 0 50px 0;
-}
-
-body section .caja__Servicios .picture__clinica {
-  display: block;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: relative;
-  z-index: 0;
-}
-
-body section .caja__Servicios .picture__clinica::before {
-  background-color: rgba(0, 0, 0, 0.53);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: 10;
-  content: "";
-}
-
-body section .caja__Servicios .picture__clinica::after {
-  position: absolute;
-  z-index: 20;
-  top: 45%;
-  left: 20px;
-  color: #ffffff;
-  width: 140px;
-  height: 75px;
-  font-size: 20px;
-  letter-spacing: 2px;
-  word-spacing: 2px;
-  content: "PSICOLOGÍA DE LA SALUD";
-}
-
-body section .caja__Servicios .picture__forense {
-  display: block;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: relative;
-  z-index: 0;
-}
-
-body section .caja__Servicios .picture__forense::before {
-  background-color: rgba(0, 0, 0, 0.53);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: 10;
-  content: "";
-}
-
-body section .caja__Servicios .picture__forense::after {
-  position: absolute;
-  z-index: 20;
-  top: 45%;
-  right: 20px;
-  color: #ffffff;
-  width: 235px;
-  height: 75px;
-  font-size: 20px;
-  letter-spacing: 2px;
-  word-spacing: 2px;
-  text-align: right;
-  content: "PSICOLOGÍA JURIDICA Y FORENSE";
-}
-
-body section .caja__Servicios .picture__formacion {
-  display: block;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: relative;
-  z-index: 0;
-}
-
-body section .caja__Servicios .picture__formacion::before {
-  background-color: rgba(0, 0, 0, 0.53);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: 10;
-  content: "";
-}
-
-body section .caja__Servicios .picture__formacion::after {
-  position: absolute;
-  z-index: 20;
-  top: 25%;
-  left: 20px;
-  color: #ffffff;
-  width: 180px;
-  height: 75px;
-  font-size: 20px;
-  letter-spacing: 2px;
-  word-spacing: 2px;
-  content: "INVESTIGACIÓN, FORMACIÓN, ASESORAMIENTO A PROFESIONALES";
-}
->>>>>>> d99ddab54664047e94c326b36b2996b7fb9840b1
 
 body footer {
   display: block; }

@@ -498,26 +498,6 @@
 		"opt": 1,
 		"q": 100
 		},
-	"/img/desktop/especializacion.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/desktop/especializacion.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/img/desktop/fiabilidad.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/desktop/fiabilidad.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"/img/desktop/forense.jpg": {
 		"ft": 16384,
 		"iS": 43287,
@@ -550,16 +530,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
-		},
-	"/img/desktop/Formacion.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/desktop/Formacion.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
 		},
 	"/img/desktop/formacion__Servicios.jpg": {
 		"ft": 16384,
