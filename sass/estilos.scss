@@ -371,11 +371,12 @@ body{
         align-items: center;
         position: relative;
         z-index: 0;
+        // Para separar img
         @media only screen and (min-width: $breakpoints-sm)  {
           margin-bottom: 2%;
         }
         
-        
+        //cambia color de fondo para movil
           &::before{
             background-color: rgba(0, 0, 0, .53);
             width: 100%;
