@@ -113,7 +113,7 @@ header{
                        display: block;
                        width: 305px;
                        position: absolute;
-                       top: 79px;
+                       top: 99px;
                        left: 65%;
                         
                     }
@@ -138,7 +138,8 @@ header{
 
                 }
                 .desplegable{
-                    
+                    font-size: 20px;
+                    color: $blanco;
                 }
                 // Icon para cerrar meniu principal
                 .icon__f {
