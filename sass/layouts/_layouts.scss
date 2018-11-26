@@ -404,6 +404,12 @@ section{
             @media only screen and (min-width: $breakpoints-sm)  {
               display: none; 
             }
+            
+            }
+            .picture__clinica:hover{
+                @media only screen and (min-width: $breakpoints-sm)  {
+                    border: 2px solid $lila;
+                  }  
         }
 
       }
@@ -439,6 +445,11 @@ section{
             text-align: right;
             content: "PSICOLOGÍA JURIDICA Y FORENSE"
             ;
+            }
+        .picture__forense:hover{
+            @media only screen and (min-width: $breakpoints-sm)  {
+                border: 2px solid $lila;
+              }  
         }
 
       }
