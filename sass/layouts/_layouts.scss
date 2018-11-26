@@ -247,6 +247,11 @@ section{
       text-align: justify;
       font-size: 16px;
       margin-bottom: 60px;
+      
+      @media only screen and (min-width: $breakpoints-sm)  {
+        font-style: 25px;
+        line-height: 20px;  
+      }
     }
     // caja para juntar filosofia y valores en desktop
     .caja__filosofia__valores{
@@ -264,6 +269,7 @@ section{
           margin-bottom: 27px;
           font-size: 35px;
           letter-spacing: 3;
+
         }
         // img para caja de filosofia
         .picture__filosofia{
@@ -273,6 +279,10 @@ section{
           margin-bottom: 20px;
           margin-right: 10px;
           z-index: 0;
+          @media only screen and (min-width: $breakpoints-sm)  {
+              margin-top: 70px;
+              display: block;
+          }
           // para cambiar color de fondo
           &::before{
             // para anular en desktop
@@ -315,7 +325,8 @@ section{
           @media only screen and (min-width: $breakpoints-sm)  {
             display: block;
             width: 610px;
-            font-size: 25px;
+            font-size: 20px;
+            margin-bottom: 10%;
           }
         }
       }
@@ -456,9 +467,9 @@ section{
             }
         
         }
-        .picture__formacion:hover .picture__formacion::after{
+        .picture__formacion:hover{
             @media only screen and (min-width: $breakpoints-sm)  {
-                
+                border: 2px solid $lila;
               }  
         }
     }

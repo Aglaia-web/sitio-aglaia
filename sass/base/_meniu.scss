@@ -54,7 +54,7 @@ header{
                 position: fixed;
                 top:0;
                 left: 0;
-                @include flex-box ($jc:flex-end, $ai: center, $fd: row);
+                @include flex-box ($jc:center, $ai: center, $fd: row);
                 width: 100%;
                 height: 100px;
                 z-index: 10;
@@ -86,11 +86,6 @@ header{
                 font-size: 35px;
                 }
             }
-            .blog{
-                @media only screen and (min-width: $breakpoints-sm)  {
-                    margin-right: 5%;
-                    } 
-            }
             
             .caja__desplegable{
                 // acemos submeniu despegable
@@ -106,7 +101,7 @@ header{
                        width: 305px;
                        position: absolute;
                        top: 99px;
-                       left: 58%;
+                       left: 33%;
                         
                     }
                     // cajas para los li desplegables
@@ -154,7 +149,7 @@ header{
                         font-size: 30px;
                         position: absolute;
                         color: white;
-                        left: 60%;
+                        left: 35%;
                         top: 80px;
                         }
                 }

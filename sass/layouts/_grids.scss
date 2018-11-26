@@ -98,7 +98,7 @@
         
 .caja__grid__valores{
     display: grid;
-    border-left: 3px solid $lila ;
+    
     grid-template-areas: 
     "img1 img1"
     "text1 text1"
@@ -112,6 +112,7 @@
         "img2 text2"
         "img3 text3";
         text-align: center;
+        border-left: 3px solid $lila ;
         }
 
     .fiabilidad{

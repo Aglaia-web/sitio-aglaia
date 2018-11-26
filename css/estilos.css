@@ -696,6 +696,10 @@ section {
     text-align: justify;
     font-size: 16px;
     margin-bottom: 60px; }
+    @media only screen and (min-width: 1200px) {
+      section .quienes_text {
+        font-style: 25px;
+        line-height: 20px; } }
   @media only screen and (min-width: 1200px) {
     section .caja__filosofia__valores {
       display: flex;
@@ -719,6 +723,10 @@ section {
     margin-bottom: 20px;
     margin-right: 10px;
     z-index: 0; }
+    @media only screen and (min-width: 1200px) {
+      section .caja__filosofia__valores .caja__filosofia__escritorio .picture__filosofia {
+        margin-top: 70px;
+        display: block; } }
     section .caja__filosofia__valores .caja__filosofia__escritorio .picture__filosofia::before {
       background-color: rgba(0, 0, 0, 0.53);
       width: 100%;
@@ -746,7 +754,8 @@ section {
       section .caja__filosofia__valores .caja__filosofia__escritorio .text__filosofia__desktop {
         display: block;
         width: 610px;
-        font-size: 25px; } }
+        font-size: 20px;
+        margin-bottom: 10%; } }
   section .caja__filosofia__valores .caja__valores__escritorio {
     flex-basis: 45%; }
     section .caja__filosofia__valores .caja__valores__escritorio .h3__valores {
@@ -844,6 +853,9 @@ section {
         top: 25%;
         width: 180px;
         content: "INVESTIGACIÓN, FORMACIÓN, ASESORAMIENTO A PROFESIONALES"; }
+    @media only screen and (min-width: 1200px) {
+      section .caja__Servicios .picture__formacion:hover {
+        border: 2px solid #840D6F; } }
 
 /*
 //
@@ -1068,13 +1080,13 @@ section {
 
 .caja__grid__valores {
   display: grid;
-  border-left: 3px solid #840D6F;
   grid-template-areas: "img1 img1" "text1 text1" "img2 img3" "text2 text3"; }
   @media only screen and (min-width: 1200px) {
     .caja__grid__valores {
       display: grid;
       grid-template-areas: "img1 text1" "img2 text2" "img3 text3";
-      text-align: center; } }
+      text-align: center;
+      border-left: 3px solid #840D6F; } }
   .caja__grid__valores .fiabilidad {
     grid-area: img1;
     width: 100px;
@@ -1732,7 +1744,7 @@ header .gamburger {
         left: 0;
         display: flex;
         flex-direction: row;
-        justify-content: flex-end;
+        justify-content: center;
         align-items: center;
         width: 100%;
         height: 100px;
@@ -1760,9 +1772,6 @@ header .gamburger {
         header .gamburger .meniu a {
           margin-left: 50px;
           font-size: 35px; } }
-    @media only screen and (min-width: 1200px) {
-      header .gamburger .meniu .blog {
-        margin-right: 5%; } }
     header .gamburger .meniu .caja__desplegable:hover .menu__services__desplegable {
       display: block;
       position: absolute;
@@ -1775,7 +1784,7 @@ header .gamburger {
           width: 305px;
           position: absolute;
           top: 99px;
-          left: 58%; } }
+          left: 33%; } }
       header .gamburger .meniu .caja__desplegable:hover .menu__services__desplegable li {
         width: 284px;
         height: 50px;
@@ -1814,7 +1823,7 @@ header .gamburger {
           font-size: 30px;
           position: absolute;
           color: white;
-          left: 60%;
+          left: 35%;
           top: 80px; } }
     header .gamburger .meniu .caja__desplegable:hover .icon__f {
       display: block; }
