@@ -195,13 +195,7 @@ H5, H6 {
   display: inline-block;
   width: 40px;
   height: 40px;
-<<<<<<< HEAD
-  background-image: url("../icons/svg/telefono.svg");
-=======
   background-image: url("../iconos/svg/telefono.svg");
-  -webkit-transform: translateY(5px);
-  -ms-transform: translateY(5px);
->>>>>>> fb1bffb87e74777b6dab8ded91ac64c08e0bf9c5
   transform: translateY(5px);
   margin-right: 10px; }
 
@@ -210,13 +204,7 @@ H5, H6 {
   display: inline-block;
   width: 40px;
   height: 40px;
-<<<<<<< HEAD
-  background-image: url("../icons/svg/movil.svg");
-=======
   background-image: url("../iconos/svg/movil.svg");
-  -webkit-transform: translateY(5px);
-  -ms-transform: translateY(5px);
->>>>>>> fb1bffb87e74777b6dab8ded91ac64c08e0bf9c5
   transform: translateY(5px);
   margin-right: 10px; }
 
@@ -225,13 +213,7 @@ H5, H6 {
   display: inline-block;
   width: 40px;
   height: 40px;
-<<<<<<< HEAD
-  background-image: url("../icons/svg/correo.svg");
-=======
   background-image: url("../iconos/svg/correo.svg");
-  -webkit-transform: translateY(5px);
-  -ms-transform: translateY(5px);
->>>>>>> fb1bffb87e74777b6dab8ded91ac64c08e0bf9c5
   transform: translateY(5px);
   margin-right: 10px; }
 
@@ -240,13 +222,7 @@ H5, H6 {
   display: inline-block;
   width: 40px;
   height: 40px;
-<<<<<<< HEAD
-  background-image: url("../icons/svg/ubicacion.svg");
-=======
   background-image: url("../iconos/svg/ubicacion.svg");
-  -webkit-transform: translateY(5px);
-  -ms-transform: translateY(5px);
->>>>>>> fb1bffb87e74777b6dab8ded91ac64c08e0bf9c5
   transform: translateY(5px);
   margin-right: 10px; }
 
