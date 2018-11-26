@@ -29,6 +29,9 @@
     text-decoration: none;
     color:$blanco;
     font-size: 1rem;
+    @media only screen and (min-width: $breakpoints-sm)  {
+        font-size: 35px;
+        }
 
     &:visited{
         color: $blanco;
@@ -43,6 +46,9 @@
     color:$lila;
     font-size: 1rem;
     font-family: Brixton_Bold;
+    @media only screen and (min-width: $breakpoints-sm)  {
+        font-size: 25px;
+        }
 
     &:visited{
         color: $lila;

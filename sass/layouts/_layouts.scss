@@ -220,3 +220,246 @@
         margin: 0;
     }
 }
+
+/*
+.o88b.  .d88b.  d8b   db d888888b d88888b d8b   db d888888b d8888b.  .d88b.
+d8P  Y8 .8P  Y8. 888o  88 `~~88~~' 88'     888o  88   `88'   88  `8D .8P  Y8.
+8P      88    88 88V8o 88    88    88ooooo 88V8o 88    88    88   88 88    88
+8b      88    88 88 V8o88    88    88~~~~~ 88 V8o88    88    88   88 88    88
+Y8b  d8 `8b  d8' 88  V888    88    88.     88  V888   .88.   88  .8D `8b  d8'
+`Y88P'  `Y88P'  VP   V8P    YP    Y88888P VP   V8P Y888888P Y8888D'  `Y88P'
+-->*/
+
+section{
+    display: block;
+    // h3 Quiénes somos
+    .quienes{
+      text-align: center;
+      font-family: Brixton_Bold;
+      margin-top: 27px;
+      margin-bottom: 15px;
+    }
+    .quienes_text{
+      display: block;
+      margin: 0 auto;
+      width: 300px;
+      height: 120px;
+      text-align: justify;
+      font-size: 16px;
+      margin-bottom: 60px;
+    }
+    // caja para juntar filosofia y valores en desktop
+    .caja__filosofia__valores{
+      // flex para juntar las cajas
+      @media only screen and (min-width: $breakpoints-sm)  {
+         @include flex-box ($jc:space-around, $ai: center, $fd: row);
+        background-color: #F2ECEC;
+        height: 675px;
+        }
+        // caja para juntar filosofia y valores en desktop
+      .caja__filosofia__escritorio{
+        
+        .h2__filosofia{
+          display: block;
+          margin-bottom: 27px;
+          font-size: 35px;
+          letter-spacing: 3;
+        }
+        // img para caja de filosofia
+        .picture__filosofia{
+          display: block;
+          @include flex-box ($jc:center, $ai: center, $fd: row);
+          position: relative;
+          margin-bottom: 20px;
+          margin-right: 10px;
+          z-index: 0;
+          // para cambiar color de fondo
+          &::before{
+            // para anular en desktop
+            @media only screen and (min-width: $breakpoints-sm)  {
+            display: none;
+            }
+            background-color: rgba(0, 0, 0, .53);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: 10;
+            content: "";
+
+          }
+          
+          &::after{
+            // para anual en desktop
+            @media only screen and (min-width: $breakpoints-sm)  {
+              display:none;
+              }
+            // para poner texto dentro de caja Filosofia
+            position: absolute;
+            z-index: 20;
+            top: 5%;
+            color: $blanco;
+            width: 330px;
+            height: 75px;
+            content: "Nuestra filosofía de trabajo se fundamenta en 
+            ofrecer, desde la Psicología científica, un servicio 
+            personalizado, inmediatez y espíritu resolutivo  
+            "
+            ;
+            
+
+          }
+        }
+        // Texto de filosofia solo para desktop
+        .text__filosofia__desktop{
+          display: none;
+          @media only screen and (min-width: $breakpoints-sm)  {
+            display: block;
+            width: 610px;
+            font-size: 25px;
+          }
+        }
+      }
+      // 
+      .caja__valores__escritorio{
+        flex-basis: 45%;
+        .h3__valores{
+          margin-bottom: 75px;
+          letter-spacing: 3;
+          // para mover icons i texto en desktop
+          @media only screen and (min-width: $breakpoints-sm)  {
+            margin-bottom: 27px;
+          }
+        }
+      }
+    }
+    .caja__Servicios{
+      display: block;
+      margin-bottom: 50px;
+      .caja__Servicios__h3{
+        margin: 50px 0 50px 0;
+      }
+      // img con flex para mantener foto a la izquerda
+      .picture__clinica{
+        @include flex-box ($jc:flex-start, $ai: center, $fd: row);
+        position: relative;
+        z-index: 0;
+        // Para separar img
+        @media only screen and (min-width: $breakpoints-sm)  {
+          margin-bottom: 2%;
+        }
+        
+        //cambia color de fondo para movil
+          &::before{
+            background-color: rgba(0, 0, 0, .53);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: 10;
+            content: "";
+            // Para posicionar texto fuera y a la izquierda de img DESKTOP
+            @media only screen and (min-width: $breakpoints-sm)  {
+              position: absolute;
+              z-index: 20;
+              top: 40%;
+              right: 10%;
+              color: $negro;
+              width: 260px;
+              height: 75px;
+              font-size: 35px;
+              letter-spacing: 2px;
+              word-spacing: 2px;
+              background-color: $blanco;
+              font-family: "Brixton_Bold";
+              content: "PSICOLOGÍA DE LA SALUD"
+            }
+    
+          }
+        //   Para posicionar texto dentro de img SMARTFON
+          &::after{
+            position: absolute;
+            z-index: 20;
+            top: 45%;
+            left: 20px;
+            color: $blanco;
+            width: 140px;
+            height: 75px;
+            font-size: 20px;
+            letter-spacing: 2px;
+            word-spacing: 2px;
+            content: "PSICOLOGÍA DE LA SALUD"
+            ;
+            // Anulamos en DESKTOP
+            @media only screen and (min-width: $breakpoints-sm)  {
+              display: none; 
+            }
+        }
+
+      }
+    //   Segunda img de servicios
+      .picture__forense{
+         @include flex-box ($jc:flex-end, $ai: center, $fd: row);
+        position: relative;
+        z-index: 0;
+        // espacio entre img
+        @media only screen and (min-width: $breakpoints-sm)  {
+          margin-bottom: 2%;
+        }
+        //cambia color de fondo para movil
+          &::before{
+            // copiar codigo de otro hermano
+            @extend .picture__clinica::before;
+            // texto fuera de img para desktop
+            @media only screen and (min-width: $breakpoints-sm)  {
+              top: 40%;
+              left: 10%;
+              content: "PSICOLOGÍA JURIDICA Y FORENSE"
+            }
+    
+          }
+          // texto dentro de img para movil
+          &::after{
+             // copiar codigo de otro hermano
+            @extend .picture__clinica::after;
+            top: 45%;
+            left: 35%;
+            width: 220px;
+            height: 50px;
+            text-align: right;
+            content: "PSICOLOGÍA JURIDICA Y FORENSE"
+            ;
+        }
+
+      }
+      //   Tercera img de servicios
+        .picture__formacion{
+        @include flex-box ($jc:flex-start, $ai: center, $fd: row);
+        position: relative;
+        z-index: 0;
+            // Color de fondo en vercion movil
+        &::before{
+            // copiar codigo de otro hermano
+            @extend .picture__clinica::before;
+            // texto fuera de img para desktop
+            @media only screen and (min-width: $breakpoints-sm)  {
+                width: 300px;
+                content: "INVESTIGACIÓN, FORMACIÓN, ASESORAMIENTO A PROFESIONALES"
+            }
+    
+          }
+          // texto dentro de img para movil
+        &::after{
+            @extend .picture__clinica::after;
+            top: 25%;
+            width: 180px;
+            content: "INVESTIGACIÓN, FORMACIÓN, ASESORAMIENTO A PROFESIONALES"
+            ;
+            }
+        
+        }
+        .picture__formacion:hover .picture__formacion::after{
+            @media only screen and (min-width: $breakpoints-sm)  {
+                
+              }  
+        }
+    }
+  }
