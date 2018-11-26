@@ -1138,10 +1138,6 @@ section .caja__Servicios {
   margin-bottom: 50px;
 }
 
-section .caja__Servicios a {
-  border: 2px solid #840D6F;
-}
-
 section .caja__Servicios .caja__Servicios__h3 {
   margin: 50px 0 50px 0;
 }
@@ -1302,7 +1298,7 @@ section .caja__Servicios .picture__formacion::after {
 }
 
 @media only screen and (min-width: 1200px) {
-  section .caja__Servicios:hover {
+  section .caja__Servicios .picture__formacion:hover {
     border: 2px solid #840D6F;
   }
 }

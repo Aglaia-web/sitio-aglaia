@@ -349,9 +349,7 @@ section{
       display: block;
       margin-bottom: 50px;
 
-      a{
-        border: 2px solid $lila;
-      }
+      
       .caja__Servicios__h3{
         margin: 50px 0 50px 0;
       }
@@ -483,11 +481,12 @@ section{
             ;
             }
         
-        }
+        
         &:hover{
             @media only screen and (min-width: $breakpoints-sm)  {
                 border: 2px solid $lila;
               }  
+        }
         }
     }
   }
