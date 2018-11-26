@@ -407,7 +407,7 @@ section{
             }
             
             }
-            .picture__clinica:hover{
+            &:hover{
                 @media only screen and (min-width: $breakpoints-sm)  {
                     border: 2px solid $lila;
                   }  
@@ -447,7 +447,7 @@ section{
             content: "PSICOLOGÍA JURIDICA Y FORENSE"
             ;
             }
-        .picture__forense:hover{
+        &:hover{
             @media only screen and (min-width: $breakpoints-sm)  {
                 border: 2px solid $lila;
               }  
@@ -480,7 +480,7 @@ section{
             }
         
         }
-        .picture__formacion:hover{
+        &:hover{
             @media only screen and (min-width: $breakpoints-sm)  {
                 border: 2px solid $lila;
               }  

@@ -1214,7 +1214,7 @@ section .caja__Servicios .picture__clinica::after, section .caja__Servicios .pic
 }
 
 @media only screen and (min-width: 1200px) {
-  section .caja__Servicios .picture__clinica .picture__clinica:hover {
+  section .caja__Servicios .picture__clinica:hover {
     border: 2px solid #840D6F;
   }
 }
@@ -1261,7 +1261,7 @@ section .caja__Servicios .picture__forense::after {
 }
 
 @media only screen and (min-width: 1200px) {
-  section .caja__Servicios .picture__forense .picture__forense:hover {
+  section .caja__Servicios .picture__forense:hover {
     border: 2px solid #840D6F;
   }
 }
@@ -1298,7 +1298,7 @@ section .caja__Servicios .picture__formacion::after {
 }
 
 @media only screen and (min-width: 1200px) {
-  section .caja__Servicios .picture__formacion:hover {
+  section .caja__Servicios:hover {
     border: 2px solid #840D6F;
   }
 }
