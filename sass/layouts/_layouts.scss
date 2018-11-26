@@ -17,7 +17,8 @@
 // -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
 
 .clinica, .forense, .formacion{
-    @include margin-centrar;
+    @include margin-centrar(1366px,0px);
+    width: 90%;
 }
 /*
 .footer{
