@@ -1,0 +1,493 @@
+//  =================================================================================
+//  =================================================================================
+
+//   ooooo            o   ooooo  oooo ooooooo  ooooo  oooo ooooooooooo  oooooooo8
+//    888            888    888  88 o888   888o 888    88  88  888  88 888
+//    888           8  88     888   888     888 888    88      888      888oooooo
+//    888      o   8oooo88    888   888o   o888 888    88      888             888
+//   o888ooooo88 o88o  o888o o888o    88ooo88    888oo88      o888o    o88oooo888
+
+//  =================================================================================
+//  =================================================================================
+
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+
+// 	MARGEN DE SERVICIOS
+
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+
+.clinica, .forense, .formacion{
+    @include margin-centrar(1366px,0px);
+    width: 90%;
+}
+/*
+.footer{
+    margin-top: 25px;
+}
+*/
+
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+
+// 	SERVICIOS - CLINICA
+
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+
+.clinica, .forense, .formacion{
+    // -+-+-+-+-+--+-+-	Separaciones margin	 -+-+-+-+-+-+-+-+-
+    &__titulo{
+        margin: 15px 0 55px 0;
+    }
+    
+    @each $subtit in $servicios{
+
+        &__caja__#{$subtit}{
+            @include flex-box(flex-start, center, column);
+        }
+        
+        &__subtit__#{$subtit}{
+            margin: 25px;
+        }
+// -+-+-+-+-+--+-+-	ESTILO Y TAMAÑO DE SUBAPARTADOS ESCRITORIO	 -+-+-+-+-+-+-+-+-
+
+        @media screen and (min-width: $breakpoints-sm){
+            &__caja__#{$subtit}{
+
+                background-color: $lila-apartados;
+                padding: 20px;
+                border-radius: 5px;
+            }
+
+            &__conjunto{
+                display: grid;
+                grid-template-columns: repeat(2, 50%);
+                
+                grid-gap: 10px;
+
+                @include margin-centrar(100%, 0);
+            }
+
+        }
+    
+    // &__conjunto{
+    //     grid-template-rows: repeat(3, 400px);
+    // }
+
+    }
+}
+/*
+.formacion__caja__asesoramiento{
+    grid-column: 1/3;
+    // width: 50%;
+}*/
+// -+-+-+-+-+--+-+-	CENTRAR CAJA ASESORAM.	 -+-+-+-+-+-+-+-+-
+
+@media screen and (min-width: $breakpoints-sm){
+    .formacion{
+        &__caja__asesoramiento{
+            width: 45%;
+        }
+        &__centrarcaja{
+            display: flex;
+            justify-content: center;
+            margin: 5% 0;
+        }
+    }
+}
+
+
+.clinica__parrafo__duelo, .forense__parrafo__criminal,
+.formacion__parrafo__formacion,
+.formacion__parrafo__investigacion{
+    margin-bottom: 25px;
+}
+
+
+// -+-+-+-+-+--+-+-	BOTON	 -+-+-+-+-+-+-+-+-
+.inputlabel{
+    align-self: flex-end;
+    margin: 25px 0;
+}
+
+
+
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+
+// 	C O N T A C T O
+
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+
+
+// MAPA
+
+.contacto__mapa{
+    width: 100vw;
+    height: 270px;
+
+    @media screen and (min-width: $breakpoints-sm){
+        height: 70vh;
+        margin: 25px 0px;
+    }
+}
+
+// Titulo INFORMACION   
+.contacto__titulo{
+    margin: 30px 0;
+}
+
+
+
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- 
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- 
+
+// 	F O O T E R 
+
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- 
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- 
+
+.footer{
+    background-color: $gris;
+
+    @media screen and (max-width: $breakpoints-sm){
+        width: 100%;
+        height: 650px;
+    }
+
+
+// -+-+-+-+-+--+-+-	Añado margenes	 -+-+-+-+-+-+-+-+-
+    & ul{
+        padding: 20px 0;
+        
+        @media screen and (max-width: $breakpoints-sm){
+            @include margin-centrar;
+            @include flex-box(space-evenly, flex-start, column);
+            height: 610px;
+        }
+
+        @media screen and (min-width: $breakpoints-sm){
+            @include margin-centrar;
+        }
+    }
+
+
+// -+-+-+-+-+--+-+-	Posicionar elementos footer	 -+-+-+-+-+-+-+-+-
+
+// .footer__info__telf__texto
+// -+-+-+-+-+--+-+-	MOVIL	 -+-+-+-+-+-+-+-+-
+
+    @media screen and (max-width: $breakpoints-sm){
+        
+        &__info__redes, &__col{
+            width: 80%;
+
+            margin: 0 auto;
+            @include flex-box(space-between,center,row);   
+        }
+        
+        &__copyright{
+                align-self: center;
+            }
+    }
+    & li{
+        display: flex;
+    }
+
+    &__info__mail, &__info__telf{
+        margin-bottom: 25px;
+    }
+
+    &__final{
+        width: 100%;
+        @include flex-box(space-between,center,row);
+    }
+
+// -+-+-+-+-+--+-+-	Marco para colUIB	 -+-+-+-+-+-+-+-+-
+    &__pic2__uib{
+        border: 1px solid $gris-oscuro;
+    }
+
+}
+
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+
+// 	MAPA
+
+// -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+
+.clinica, .forense, .formacion{
+    &__conjunto{
+        margin-bottom: 50px;
+    }
+
+    &__mapa{
+        margin: 0;
+    }
+}
+
+/*
+.o88b.  .d88b.  d8b   db d888888b d88888b d8b   db d888888b d8888b.  .d88b.
+d8P  Y8 .8P  Y8. 888o  88 `~~88~~' 88'     888o  88   `88'   88  `8D .8P  Y8.
+8P      88    88 88V8o 88    88    88ooooo 88V8o 88    88    88   88 88    88
+8b      88    88 88 V8o88    88    88~~~~~ 88 V8o88    88    88   88 88    88
+Y8b  d8 `8b  d8' 88  V888    88    88.     88  V888   .88.   88  .8D `8b  d8'
+`Y88P'  `Y88P'  VP   V8P    YP    Y88888P VP   V8P Y888888P Y8888D'  `Y88P'
+-->*/
+
+section{
+    display: block;
+    // h3 Quiénes somos
+    .quienes{
+      text-align: center;
+      font-family: Brixton_Bold;
+      margin-top: 27px;
+      margin-bottom: 15px;
+    }
+    .quienes_text{
+      display: block;
+      margin: 0 auto;
+      width: 300px;
+      height: 120px;
+      text-align: justify;
+      font-size: 16px;
+      margin-bottom: 60px;
+      
+      @media only screen and (min-width: $breakpoints-sm)  {
+        font-style: 25px;
+        line-height: 20px;  
+      }
+    }
+    // caja para juntar filosofia y valores en desktop
+    .caja__filosofia__valores{
+      // flex para juntar las cajas
+      @media only screen and (min-width: $breakpoints-sm)  {
+         @include flex-box ($jc:space-around, $ai: center, $fd: row);
+        background-color: #F2ECEC;
+        height: 675px;
+        }
+        // caja para juntar filosofia y valores en desktop
+      .caja__filosofia__escritorio{
+        
+        .h2__filosofia{
+          display: block;
+          margin-bottom: 27px;
+          font-size: 35px;
+          letter-spacing: 3;
+
+        }
+        // img para caja de filosofia
+        .picture__filosofia{
+          display: block;
+          @include flex-box ($jc:center, $ai: center, $fd: row);
+          position: relative;
+          margin-bottom: 20px;
+          margin-right: 10px;
+          z-index: 0;
+          @media only screen and (min-width: $breakpoints-sm)  {
+              margin-top: 70px;
+              display: block;
+          }
+          // para cambiar color de fondo
+          &::before{
+            // para anular en desktop
+            @media only screen and (min-width: $breakpoints-sm)  {
+            display: none;
+            }
+            background-color: rgba(0, 0, 0, .53);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: 10;
+            content: "";
+
+          }
+          
+          &::after{
+            // para anual en desktop
+            @media only screen and (min-width: $breakpoints-sm)  {
+              display:none;
+              }
+            // para poner texto dentro de caja Filosofia
+            position: absolute;
+            z-index: 20;
+            top: 5%;
+            color: $blanco;
+            width: 330px;
+            height: 75px;
+            content: "Nuestra filosofía de trabajo se fundamenta en 
+            ofrecer, desde la Psicología científica, un servicio 
+            personalizado, inmediatez y espíritu resolutivo  
+            "
+            ;
+            
+
+          }
+        }
+        // Texto de filosofia solo para desktop
+        .text__filosofia__desktop{
+          display: none;
+          @media only screen and (min-width: $breakpoints-sm)  {
+            display: block;
+            width: 610px;
+            font-size: 20px;
+            margin-bottom: 10%;
+          }
+        }
+      }
+      // 
+      .caja__valores__escritorio{
+        flex-basis: 45%;
+        .h3__valores{
+          margin-bottom: 75px;
+          letter-spacing: 3;
+          // para mover icons i texto en desktop
+          @media only screen and (min-width: $breakpoints-sm)  {
+            margin-bottom: 27px;
+          }
+        }
+      }
+    }
+    .caja__Servicios{
+      display: block;
+      margin-bottom: 50px;
+
+      a{
+        border: 2px solid $lila;
+      }
+      .caja__Servicios__h3{
+        margin: 50px 0 50px 0;
+      }
+      // img con flex para mantener foto a la izquerda
+      .picture__clinica{
+        @include flex-box ($jc:flex-start, $ai: center, $fd: row);
+        position: relative;
+        z-index: 0;
+        // Para separar img
+        @media only screen and (min-width: $breakpoints-sm)  {
+          margin-bottom: 2%;
+        }
+        
+        //cambia color de fondo para movil
+          &::before{
+            background-color: rgba(0, 0, 0, .53);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: 10;
+            content: "";
+            // Para posicionar texto fuera y a la izquierda de img DESKTOP
+            @media only screen and (min-width: $breakpoints-sm)  {
+              position: absolute;
+              z-index: 20;
+              top: 40%;
+              right: 10%;
+              color: $negro;
+              width: 260px;
+              height: 75px;
+              font-size: 35px;
+              letter-spacing: 2px;
+              word-spacing: 2px;
+              background-color: $blanco;
+              font-family: "Brixton_Bold";
+              content: "PSICOLOGÍA DE LA SALUD"
+            }
+    
+          }
+        //   Para posicionar texto dentro de img SMARTFON
+          &::after{
+            position: absolute;
+            z-index: 20;
+            top: 45%;
+            left: 20px;
+            color: $blanco;
+            width: 140px;
+            height: 75px;
+            font-size: 20px;
+            letter-spacing: 2px;
+            word-spacing: 2px;
+            content: "PSICOLOGÍA DE LA SALUD"
+            ;
+            // Anulamos en DESKTOP
+            @media only screen and (min-width: $breakpoints-sm)  {
+              display: none; 
+            }
+            
+            }
+            &:hover{
+                @media only screen and (min-width: $breakpoints-sm)  {
+                    border: 2px solid $lila;
+                  }  
+        }
+
+      }
+    //   Segunda img de servicios
+    .picture__forense{
+         @include flex-box ($jc:flex-end, $ai: center, $fd: row);
+        position: relative;
+        z-index: 0;
+        // espacio entre img
+        @media only screen and (min-width: $breakpoints-sm)  {
+          margin-bottom: 2%;
+        }
+        //cambia color de fondo para movil
+            &::before{
+            // copiar codigo de otro hermano
+            @extend .picture__clinica::before;
+            // texto fuera de img para desktop
+            @media only screen and (min-width: $breakpoints-sm)  {
+              top: 40%;
+              left: 10%;
+              content: "PSICOLOGÍA JURIDICA Y FORENSE"
+            }
+    
+          }
+          // texto dentro de img para movil
+            &::after{
+             // copiar codigo de otro hermano
+            @extend .picture__clinica::after;
+            top: 45%;
+            left: 35%;
+            width: 220px;
+            height: 50px;
+            text-align: right;
+            content: "PSICOLOGÍA JURIDICA Y FORENSE"
+            ;
+            }
+        &:hover{
+            @media only screen and (min-width: $breakpoints-sm)  {
+                border: 2px solid $lila;
+              }  
+        }
+
+      }
+      //   Tercera img de servicios
+        .picture__formacion{
+        @include flex-box ($jc:flex-start, $ai: center, $fd: row);
+        position: relative;
+        z-index: 0;
+            // Color de fondo en vercion movil
+        &::before{
+            // copiar codigo de otro hermano
+            @extend .picture__clinica::before;
+            // texto fuera de img para desktop
+            @media only screen and (min-width: $breakpoints-sm)  {
+                width: 300px;
+                content: "INVESTIGACIÓN, FORMACIÓN, ASESORAMIENTO A PROFESIONALES"
+            }
+    
+          }
+          // texto dentro de img para movil
+        &::after{
+            @extend .picture__clinica::after;
+            top: 25%;
+            width: 180px;
+            content: "INVESTIGACIÓN, FORMACIÓN, ASESORAMIENTO A PROFESIONALES"
+            ;
+            }
+        
+        }
+        &:hover{
+            @media only screen and (min-width: $breakpoints-sm)  {
+                border: 2px solid $lila;
+              }  
+        }
+    }
+  }
