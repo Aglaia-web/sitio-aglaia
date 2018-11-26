@@ -348,6 +348,11 @@ section{
     .caja__Servicios{
       display: block;
       margin-bottom: 50px;
+<<<<<<< HEAD
+=======
+
+      
+>>>>>>> 6b3ffd68f4fccce4b19246cb1a05e411294399dd
       .caja__Servicios__h3{
         margin: 50px 0 50px 0;
       }
@@ -478,12 +483,18 @@ section{
             content: "INVESTIGACIÓN, FORMACIÓN, ASESORAMIENTO A PROFESIONALES"
             ;
             }
+<<<<<<< HEAD
+=======
+        
+        
+>>>>>>> 6b3ffd68f4fccce4b19246cb1a05e411294399dd
         &:hover{
             @media only screen and (min-width: $breakpoints-sm)  {
                 border: 2px solid $lila;
               }
         }
           
+        }
         }
     }
   }
