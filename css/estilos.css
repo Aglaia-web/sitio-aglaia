@@ -228,7 +228,7 @@ H5, H6 {
   display: inline-block;
   width: 40px;
   height: 40px;
-  background-image: url("../icons/svg/telefono.svg");
+  background-image: url("../iconos/svg/telefono.svg");
   -webkit-transform: translateY(5px);
   -ms-transform: translateY(5px);
   transform: translateY(5px);
@@ -240,7 +240,7 @@ H5, H6 {
   display: inline-block;
   width: 40px;
   height: 40px;
-  background-image: url("../icons/svg/movil.svg");
+  background-image: url("../iconos/svg/movil.svg");
   -webkit-transform: translateY(5px);
   -ms-transform: translateY(5px);
   transform: translateY(5px);
@@ -252,7 +252,7 @@ H5, H6 {
   display: inline-block;
   width: 40px;
   height: 40px;
-  background-image: url("../icons/svg/correo.svg");
+  background-image: url("../iconos/svg/correo.svg");
   -webkit-transform: translateY(5px);
   -ms-transform: translateY(5px);
   transform: translateY(5px);
@@ -264,7 +264,7 @@ H5, H6 {
   display: inline-block;
   width: 40px;
   height: 40px;
-  background-image: url("../icons/svg/ubicacion.svg");
+  background-image: url("../iconos/svg/ubicacion.svg");
   -webkit-transform: translateY(5px);
   -ms-transform: translateY(5px);
   transform: translateY(5px);
@@ -1453,7 +1453,7 @@ Y888888P YP  YP  YP  Y888P  VP   V8P `8888Y'
 .clinica__svg__adultos, .forense__svg__adultos, .formacion__svg__adultos {
   width: 150px;
   height: 125px;
-  background-image: url("../icons/svg/servicios/adultos.svg");
+  background-image: url("../iconos/svg/servicios/adultos.svg");
   background-size: content;
   background-position: center;
   background-repeat: no-repeat;
@@ -1473,7 +1473,7 @@ Y888888P YP  YP  YP  Y888P  VP   V8P `8888Y'
 .clinica__svg__agresividad, .forense__svg__agresividad, .formacion__svg__agresividad {
   width: 150px;
   height: 125px;
-  background-image: url("../icons/svg/servicios/agresividad.svg");
+  background-image: url("../iconos/svg/servicios/agresividad.svg");
   background-size: content;
   background-position: center;
   background-repeat: no-repeat;
@@ -1493,7 +1493,7 @@ Y888888P YP  YP  YP  Y888P  VP   V8P `8888Y'
 .clinica__svg__sexualidad, .forense__svg__sexualidad, .formacion__svg__sexualidad {
   width: 150px;
   height: 125px;
-  background-image: url("../icons/svg/servicios/sexualidad.svg");
+  background-image: url("../iconos/svg/servicios/sexualidad.svg");
   background-size: content;
   background-position: center;
   background-repeat: no-repeat;
@@ -1513,7 +1513,7 @@ Y888888P YP  YP  YP  Y888P  VP   V8P `8888Y'
 .clinica__svg__juvenil, .forense__svg__juvenil, .formacion__svg__juvenil {
   width: 150px;
   height: 125px;
-  background-image: url("../icons/svg/servicios/juvenil.svg");
+  background-image: url("../iconos/svg/servicios/juvenil.svg");
   background-size: content;
   background-position: center;
   background-repeat: no-repeat;
@@ -1533,7 +1533,7 @@ Y888888P YP  YP  YP  Y888P  VP   V8P `8888Y'
 .clinica__svg__duelo, .forense__svg__duelo, .formacion__svg__duelo {
   width: 150px;
   height: 125px;
-  background-image: url("../icons/svg/servicios/duelo.svg");
+  background-image: url("../iconos/svg/servicios/duelo.svg");
   background-size: content;
   background-position: center;
   background-repeat: no-repeat;
@@ -1553,7 +1553,7 @@ Y888888P YP  YP  YP  Y888P  VP   V8P `8888Y'
 .clinica__svg__rendimiento, .forense__svg__rendimiento, .formacion__svg__rendimiento {
   width: 150px;
   height: 125px;
-  background-image: url("../icons/svg/servicios/rendimiento.svg");
+  background-image: url("../iconos/svg/servicios/rendimiento.svg");
   background-size: content;
   background-position: center;
   background-repeat: no-repeat;
@@ -1573,7 +1573,7 @@ Y888888P YP  YP  YP  Y888P  VP   V8P `8888Y'
 .clinica__svg__peritajes, .forense__svg__peritajes, .formacion__svg__peritajes {
   width: 150px;
   height: 125px;
-  background-image: url("../icons/svg/servicios/peritajes.svg");
+  background-image: url("../iconos/svg/servicios/peritajes.svg");
   background-size: content;
   background-position: center;
   background-repeat: no-repeat;
@@ -1593,7 +1593,7 @@ Y888888P YP  YP  YP  Y888P  VP   V8P `8888Y'
 .clinica__svg__criminal, .forense__svg__criminal, .formacion__svg__criminal {
   width: 150px;
   height: 125px;
-  background-image: url("../icons/svg/servicios/criminal.svg");
+  background-image: url("../iconos/svg/servicios/criminal.svg");
   background-size: content;
   background-position: center;
   background-repeat: no-repeat;
@@ -1613,7 +1613,7 @@ Y888888P YP  YP  YP  Y888P  VP   V8P `8888Y'
 .clinica__svg__mediacion, .forense__svg__mediacion, .formacion__svg__mediacion {
   width: 150px;
   height: 125px;
-  background-image: url("../icons/svg/servicios/mediacion.svg");
+  background-image: url("../iconos/svg/servicios/mediacion.svg");
   background-size: content;
   background-position: center;
   background-repeat: no-repeat;
@@ -1633,7 +1633,7 @@ Y888888P YP  YP  YP  Y888P  VP   V8P `8888Y'
 .clinica__svg__asesoramiento, .forense__svg__asesoramiento, .formacion__svg__asesoramiento {
   width: 150px;
   height: 125px;
-  background-image: url("../icons/svg/servicios/asesoramiento.svg");
+  background-image: url("../iconos/svg/servicios/asesoramiento.svg");
   background-size: content;
   background-position: center;
   background-repeat: no-repeat;
@@ -1653,7 +1653,7 @@ Y888888P YP  YP  YP  Y888P  VP   V8P `8888Y'
 .clinica__svg__formacion, .forense__svg__formacion, .formacion__svg__formacion {
   width: 150px;
   height: 125px;
-  background-image: url("../icons/svg/servicios/formacion.svg");
+  background-image: url("../iconos/svg/servicios/formacion.svg");
   background-size: content;
   background-position: center;
   background-repeat: no-repeat;
@@ -1673,7 +1673,7 @@ Y888888P YP  YP  YP  Y888P  VP   V8P `8888Y'
 .clinica__svg__investigacion, .forense__svg__investigacion, .formacion__svg__investigacion {
   width: 150px;
   height: 125px;
-  background-image: url("../icons/svg/servicios/investigacion.svg");
+  background-image: url("../iconos/svg/servicios/investigacion.svg");
   background-size: content;
   background-position: center;
   background-repeat: no-repeat;
