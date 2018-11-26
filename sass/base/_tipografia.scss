@@ -107,7 +107,7 @@ H5, H6{
             display: inline-block;
             width: 40px;
             height: 40px;
-            background-image: url('../icons/svg/#{$svg}.svg');
+            background-image: url('../iconos/svg/#{$svg}.svg');
             @extend %bckg_image;
 
             transform: translateY(5px);
