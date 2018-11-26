@@ -19,11 +19,11 @@
 .clinica, .forense, .formacion{
     @include margin-centrar;
 }
-
+/*
 .footer{
     margin-top: 25px;
 }
-
+*/
 
 // -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
 
@@ -124,6 +124,7 @@
 
     @media screen and (min-width: $breakpoints-sm){
         height: 70vh;
+        margin: 25px 0px;
     }
 }
 
