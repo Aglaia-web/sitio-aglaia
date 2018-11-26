@@ -347,6 +347,10 @@ section{
     .caja__Servicios{
       display: block;
       margin-bottom: 50px;
+
+      a{
+        border: 2px solid $lila;
+      }
       .caja__Servicios__h3{
         margin: 50px 0 50px 0;
       }
@@ -414,7 +418,7 @@ section{
 
       }
     //   Segunda img de servicios
-      .picture__forense{
+    .picture__forense{
          @include flex-box ($jc:flex-end, $ai: center, $fd: row);
         position: relative;
         z-index: 0;
@@ -423,7 +427,7 @@ section{
           margin-bottom: 2%;
         }
         //cambia color de fondo para movil
-          &::before{
+            &::before{
             // copiar codigo de otro hermano
             @extend .picture__clinica::before;
             // texto fuera de img para desktop
@@ -435,7 +439,7 @@ section{
     
           }
           // texto dentro de img para movil
-          &::after{
+            &::after{
              // copiar codigo de otro hermano
             @extend .picture__clinica::after;
             top: 45%;
@@ -446,7 +450,7 @@ section{
             content: "PSICOLOGÍA JURIDICA Y FORENSE"
             ;
             }
-        .picture__forense:hover{
+            .picture__forense:hover{
             @media only screen and (min-width: $breakpoints-sm)  {
                 border: 2px solid $lila;
               }  
