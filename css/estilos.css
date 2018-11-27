@@ -752,6 +752,8 @@ section {
       @media only screen and (min-width: 1200px) {
         section .caja__filosofia__valores .caja__filosofia__escritorio .picture__filosofia::after {
           display: none; } }
+    section .caja__filosofia__valores .caja__filosofia__escritorio .picture__filosofia img {
+      width: 100%; }
   section .caja__filosofia__valores .caja__filosofia__escritorio .text__filosofia__desktop {
     display: none; }
     @media only screen and (min-width: 1200px) {
@@ -1750,7 +1752,7 @@ header .gamburger {
     justify-self: center;
     align-self: center;
     text-align: center;
-    padding: 10px 15px;
+    padding: 10px;
     border-radius: 50%; }
     @media only screen and (min-width: 1200px) {
       header .gamburger .icon_burger {

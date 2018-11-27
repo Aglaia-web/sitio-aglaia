@@ -47,228 +47,228 @@
 		"oAP": "/fonts/Brixton_Light.woff",
 		"oF": 0
 		},
-	"/icons/logo_favicon.ico": {
+	"/iconos/logo_favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/icons/logo_favicon.ico",
+		"oAP": "/iconos/logo_favicon.ico",
 		"oF": 0
 		},
-	"/icons/svg/correo.svg": {
+	"/iconos/svg/correo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/icons/svg/correo.svg",
+		"oAP": "/iconos/svg/correo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/icons/svg/facebook.svg": {
+	"/iconos/svg/facebook.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/icons/svg/facebook.svg",
+		"oAP": "/iconos/svg/facebook.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/icons/svg/fiabilidad.svg": {
+	"/iconos/svg/fiabilidad.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/icons/svg/fiabilidad.svg",
+		"oAP": "/iconos/svg/fiabilidad.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/icons/svg/formacion.svg": {
+	"/iconos/svg/formacion.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/icons/svg/formacion.svg",
+		"oAP": "/iconos/svg/formacion.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/icons/svg/instagram.svg": {
+	"/iconos/svg/instagram.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/icons/svg/instagram.svg",
+		"oAP": "/iconos/svg/instagram.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/icons/svg/libros.svg": {
+	"/iconos/svg/libros.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/icons/svg/libros.svg",
+		"oAP": "/iconos/svg/libros.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/icons/svg/movil.svg": {
+	"/iconos/svg/movil.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/icons/svg/movil.svg",
+		"oAP": "/iconos/svg/movil.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/icons/svg/servicios/adultos.svg": {
+	"/iconos/svg/servicios/adultos.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/icons/svg/servicios/adultos.svg",
+		"oAP": "/iconos/svg/servicios/adultos.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/icons/svg/servicios/agresividad.svg": {
+	"/iconos/svg/servicios/agresividad.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/icons/svg/servicios/agresividad.svg",
+		"oAP": "/iconos/svg/servicios/agresividad.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/icons/svg/servicios/asesoramiento.svg": {
+	"/iconos/svg/servicios/asesoramiento.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/icons/svg/servicios/asesoramiento.svg",
+		"oAP": "/iconos/svg/servicios/asesoramiento.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/icons/svg/servicios/conducta.svg": {
+	"/iconos/svg/servicios/conducta.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/icons/svg/servicios/conducta.svg",
+		"oAP": "/iconos/svg/servicios/conducta.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/icons/svg/servicios/duelo.svg": {
+	"/iconos/svg/servicios/duelo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/icons/svg/servicios/duelo.svg",
+		"oAP": "/iconos/svg/servicios/duelo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/icons/svg/servicios/formacion.svg": {
+	"/iconos/svg/servicios/formacion.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/icons/svg/servicios/formacion.svg",
+		"oAP": "/iconos/svg/servicios/formacion.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/icons/svg/servicios/investigacion.svg": {
+	"/iconos/svg/servicios/investigacion.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/icons/svg/servicios/investigacion.svg",
+		"oAP": "/iconos/svg/servicios/investigacion.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/icons/svg/servicios/juvenil.svg": {
+	"/iconos/svg/servicios/juvenil.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/icons/svg/servicios/juvenil.svg",
+		"oAP": "/iconos/svg/servicios/juvenil.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/icons/svg/servicios/mediacion.svg": {
+	"/iconos/svg/servicios/mediacion.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/icons/svg/servicios/mediacion.svg",
+		"oAP": "/iconos/svg/servicios/mediacion.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/icons/svg/servicios/peritajes.svg": {
+	"/iconos/svg/servicios/peritajes.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/icons/svg/servicios/peritajes.svg",
+		"oAP": "/iconos/svg/servicios/peritajes.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/icons/svg/servicios/rendimiento.svg": {
+	"/iconos/svg/servicios/rendimiento.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/icons/svg/servicios/rendimiento.svg",
+		"oAP": "/iconos/svg/servicios/rendimiento.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/icons/svg/servicios/sexualidad.svg": {
+	"/iconos/svg/servicios/sexualidad.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/icons/svg/servicios/sexualidad.svg",
+		"oAP": "/iconos/svg/servicios/sexualidad.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/icons/svg/telefono.svg": {
+	"/iconos/svg/telefono.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/icons/svg/telefono.svg",
+		"oAP": "/iconos/svg/telefono.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/icons/svg/twitter.svg": {
+	"/iconos/svg/twitter.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/icons/svg/twitter.svg",
+		"oAP": "/iconos/svg/twitter.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/icons/svg/ubicacion.svg": {
+	"/iconos/svg/ubicacion.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/icons/svg/ubicacion.svg",
+		"oAP": "/iconos/svg/ubicacion.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
