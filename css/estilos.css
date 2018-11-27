@@ -783,7 +783,7 @@ section {
       @media only screen and (min-width: 1200px) {
         section .caja__Servicios .picture__clinica {
           margin-bottom: 2%; } }
-      section .caja__Servicios .picture__clinica::before, section .caja__Servicios .picture__forense::before, section .caja__Servicios .picture__forense .picture__formacion::before {
+      section .caja__Servicios .picture__clinica::before, section .caja__Servicios .picture__forense::before, section .caja__Servicios .picture__formacion::before {
         background-color: rgba(0, 0, 0, 0.53);
         width: 100%;
         height: 100%;
@@ -791,7 +791,7 @@ section {
         z-index: 10;
         content: ""; }
         @media only screen and (min-width: 1200px) {
-          section .caja__Servicios .picture__clinica::before, section .caja__Servicios .picture__forense::before, section .caja__Servicios .picture__forense .picture__formacion::before {
+          section .caja__Servicios .picture__clinica::before, section .caja__Servicios .picture__forense::before, section .caja__Servicios .picture__formacion::before {
             position: absolute;
             z-index: 20;
             top: 40%;
@@ -805,7 +805,7 @@ section {
             background-color: #ffffff;
             font-family: "Brixton_Bold";
             content: "PSICOLOGÍA DE LA SALUD"; } }
-      section .caja__Servicios .picture__clinica::after, section .caja__Servicios .picture__forense::after, section .caja__Servicios .picture__forense .picture__formacion::after {
+      section .caja__Servicios .picture__clinica::after, section .caja__Servicios .picture__forense::after, section .caja__Servicios .picture__formacion::after {
         position: absolute;
         z-index: 20;
         top: 45%;
@@ -818,18 +818,22 @@ section {
         word-spacing: 2px;
         content: "PSICOLOGÍA DE LA SALUD"; }
         @media only screen and (min-width: 1200px) {
-          section .caja__Servicios .picture__clinica::after, section .caja__Servicios .picture__forense::after, section .caja__Servicios .picture__forense .picture__formacion::after {
+          section .caja__Servicios .picture__clinica::after, section .caja__Servicios .picture__forense::after, section .caja__Servicios .picture__formacion::after {
             display: none; } }
       @media only screen and (min-width: 1200px) {
         section .caja__Servicios .picture__clinica:hover {
           border: 2px solid #840D6F; } }
+      @media only screen and (max-width: 1200px) {
+        section .caja__Servicios .picture__clinica img {
+          width: 100%; } }
     section .caja__Servicios .picture__forense {
       display: flex;
       flex-direction: row;
       justify-content: flex-end;
       align-items: center;
       position: relative;
-      z-index: 0; }
+      z-index: 0;
+      width: 100%; }
       @media only screen and (min-width: 1200px) {
         section .caja__Servicios .picture__forense {
           margin-bottom: 2%; } }
@@ -848,24 +852,30 @@ section {
       @media only screen and (min-width: 1200px) {
         section .caja__Servicios .picture__forense:hover {
           border: 2px solid #840D6F; } }
-      section .caja__Servicios .picture__forense .picture__formacion {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
-        position: relative;
-        z-index: 0; }
-        @media only screen and (min-width: 1200px) {
-          section .caja__Servicios .picture__forense .picture__formacion::before {
-            width: 300px;
-            content: "INVESTIGACIÓN, FORMACIÓN, ASESORAMIENTO A PROFESIONALES"; } }
-        section .caja__Servicios .picture__forense .picture__formacion::after {
-          top: 25%;
-          width: 180px;
-          content: "INVESTIGACIÓN, FORMACIÓN, ASESORAMIENTO A PROFESIONALES"; }
-        @media only screen and (min-width: 1200px) {
-          section .caja__Servicios .picture__forense .picture__formacion:hover {
-            border: 2px solid #840D6F; } }
+      @media only screen and (max-width: 1200px) {
+        section .caja__Servicios .picture__forense img {
+          width: 100%; } }
+    section .caja__Servicios .picture__formacion {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      position: relative;
+      z-index: 0; }
+      @media only screen and (min-width: 1200px) {
+        section .caja__Servicios .picture__formacion::before {
+          width: 300px;
+          content: "INVESTIGACIÓN, FORMACIÓN, ASESORAMIENTO A PROFESIONALES"; } }
+      section .caja__Servicios .picture__formacion::after {
+        top: 25%;
+        width: 180px;
+        content: "INVESTIGACIÓN, FORMACIÓN, ASESORAMIENTO A PROFESIONALES"; }
+      @media only screen and (min-width: 1200px) {
+        section .caja__Servicios .picture__formacion:hover {
+          border: 2px solid #840D6F; } }
+      @media only screen and (max-width: 1200px) {
+        section .caja__Servicios .picture__formacion img {
+          width: 100%; } }
 
 /*
 //
