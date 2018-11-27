@@ -455,7 +455,7 @@ section{
               }  
         }
 
-      
+      }
       //   Tercera img de servicios
         .picture__formacion{
         @include flex-box ($jc:flex-start, $ai: center, $fd: row);
@@ -491,4 +491,4 @@ section{
         }
         }
     }
-  }
+  

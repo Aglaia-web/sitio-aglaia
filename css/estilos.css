@@ -1033,173 +1033,10 @@ section .quienes_text {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-<<<<<<< HEAD
     background-color: #F2ECEC;
     height: 675px;
   }
 }
-=======
-    position: relative;
-    margin-bottom: 20px;
-    margin-right: 10px;
-    z-index: 0; }
-    @media only screen and (min-width: 1200px) {
-      section .caja__filosofia__valores .caja__filosofia__escritorio .picture__filosofia {
-        margin-top: 70px;
-        display: block; } }
-    section .caja__filosofia__valores .caja__filosofia__escritorio .picture__filosofia::before {
-      background-color: rgba(0, 0, 0, 0.53);
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      z-index: 10;
-      content: ""; }
-      @media only screen and (min-width: 1200px) {
-        section .caja__filosofia__valores .caja__filosofia__escritorio .picture__filosofia::before {
-          display: none; } }
-    section .caja__filosofia__valores .caja__filosofia__escritorio .picture__filosofia::after {
-      position: absolute;
-      z-index: 20;
-      top: 5%;
-      color: #ffffff;
-      width: 330px;
-      height: 75px;
-      content: "Nuestra filosofía de trabajo se fundamenta en  ofrecer, desde la Psicología científica, un servicio  personalizado, inmediatez y espíritu resolutivo   "; }
-      @media only screen and (min-width: 1200px) {
-        section .caja__filosofia__valores .caja__filosofia__escritorio .picture__filosofia::after {
-          display: none; } }
-  section .caja__filosofia__valores .caja__filosofia__escritorio .text__filosofia__desktop {
-    display: none; }
-    @media only screen and (min-width: 1200px) {
-      section .caja__filosofia__valores .caja__filosofia__escritorio .text__filosofia__desktop {
-        display: block;
-        width: 610px;
-        font-size: 20px;
-        margin-bottom: 10%; } }
-  section .caja__filosofia__valores .caja__valores__escritorio {
-    flex-basis: 45%; }
-    section .caja__filosofia__valores .caja__valores__escritorio .h3__valores {
-      margin-bottom: 75px;
-      letter-spacing: 3; }
-      @media only screen and (min-width: 1200px) {
-        section .caja__filosofia__valores .caja__valores__escritorio .h3__valores {
-          margin-bottom: 27px; } }
-  section .caja__Servicios {
-    display: block;
-    margin-bottom: 50px; }
-    section .caja__Servicios .caja__Servicios__h3 {
-      margin: 50px 0 50px 0; }
-    section .caja__Servicios .picture__clinica {
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-start;
-      align-items: center;
-      position: relative;
-      z-index: 0; }
-      @media only screen and (min-width: 1200px) {
-        section .caja__Servicios .picture__clinica {
-          margin-bottom: 2%; } }
-      section .caja__Servicios .picture__clinica::before, section .caja__Servicios .picture__forense::before, section .caja__Servicios .picture__forense .picture__formacion::before {
-        background-color: rgba(0, 0, 0, 0.53);
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        z-index: 10;
-        content: ""; }
-        @media only screen and (min-width: 1200px) {
-          section .caja__Servicios .picture__clinica::before, section .caja__Servicios .picture__forense::before, section .caja__Servicios .picture__forense .picture__formacion::before {
-            position: absolute;
-            z-index: 20;
-            top: 40%;
-            right: 10%;
-            color: #000000;
-            width: 260px;
-            height: 75px;
-            font-size: 35px;
-            letter-spacing: 2px;
-            word-spacing: 2px;
-            background-color: #ffffff;
-            font-family: "Brixton_Bold";
-            content: "PSICOLOGÍA DE LA SALUD"; } }
-      section .caja__Servicios .picture__clinica::after, section .caja__Servicios .picture__forense::after, section .caja__Servicios .picture__forense .picture__formacion::after {
-        position: absolute;
-        z-index: 20;
-        top: 45%;
-        left: 20px;
-        color: #ffffff;
-        width: 140px;
-        height: 75px;
-        font-size: 20px;
-        letter-spacing: 2px;
-        word-spacing: 2px;
-        content: "PSICOLOGÍA DE LA SALUD"; }
-        @media only screen and (min-width: 1200px) {
-          section .caja__Servicios .picture__clinica::after, section .caja__Servicios .picture__forense::after, section .caja__Servicios .picture__forense .picture__formacion::after {
-            display: none; } }
-      @media only screen and (min-width: 1200px) {
-        section .caja__Servicios .picture__clinica:hover {
-          border: 2px solid #840D6F; } }
-    section .caja__Servicios .picture__forense {
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-end;
-      align-items: center;
-      position: relative;
-      z-index: 0; }
-      @media only screen and (min-width: 1200px) {
-        section .caja__Servicios .picture__forense {
-          margin-bottom: 2%; } }
-      @media only screen and (min-width: 1200px) {
-        section .caja__Servicios .picture__forense::before {
-          top: 40%;
-          left: 10%;
-          content: "PSICOLOGÍA JURIDICA Y FORENSE"; } }
-      section .caja__Servicios .picture__forense::after {
-        top: 45%;
-        left: 35%;
-        width: 220px;
-        height: 50px;
-        text-align: right;
-        content: "PSICOLOGÍA JURIDICA Y FORENSE"; }
-      @media only screen and (min-width: 1200px) {
-        section .caja__Servicios .picture__forense:hover {
-          border: 2px solid #840D6F; } }
-      section .caja__Servicios .picture__forense .picture__formacion {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
-        position: relative;
-        z-index: 0; }
-        @media only screen and (min-width: 1200px) {
-          section .caja__Servicios .picture__forense .picture__formacion::before {
-            width: 300px;
-            content: "INVESTIGACIÓN, FORMACIÓN, ASESORAMIENTO A PROFESIONALES"; } }
-        section .caja__Servicios .picture__forense .picture__formacion::after {
-          top: 25%;
-          width: 180px;
-          content: "INVESTIGACIÓN, FORMACIÓN, ASESORAMIENTO A PROFESIONALES"; }
-        @media only screen and (min-width: 1200px) {
-          section .caja__Servicios .picture__forense .picture__formacion:hover {
-            border: 2px solid #840D6F; } }
-
-/*
-//
-//
-//
-//
-//
-//
-//
-*/
-/*
- d888b  d8888b. d888888b d8888b. .d8888.
-88' Y8b 88  `8D   `88'   88  `8D 88'  YP
-88      88oobY'    88    88   88 `8bo.
-88  ooo 88`8b      88    88   88   `Y8b.
-88. ~8~ 88 `88.   .88.   88  .8D db   8D
- Y888P  88   YD Y888888P Y8888D' `8888Y'
->>>>>>> parent of 91e2d3d... poner width100% para img de movil
 
 section .caja__filosofia__valores .caja__filosofia__escritorio .h2__filosofia {
   display: block;
@@ -1382,12 +1219,6 @@ section .caja__Servicios .picture__clinica::after, section .caja__Servicios .pic
   }
 }
 
-@media only screen and (max-width: 1200px) {
-  section .caja__Servicios .picture__clinica img {
-    width: 100%;
-  }
-}
-
 section .caja__Servicios .picture__forense {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1404,7 +1235,6 @@ section .caja__Servicios .picture__forense {
   align-items: center;
   position: relative;
   z-index: 0;
-  width: 100%;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -1433,12 +1263,6 @@ section .caja__Servicios .picture__forense::after {
 @media only screen and (min-width: 1200px) {
   section .caja__Servicios .picture__forense:hover {
     border: 2px solid #840D6F;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
-  section .caja__Servicios .picture__forense img {
-    width: 100%;
   }
 }
 
@@ -1476,12 +1300,6 @@ section .caja__Servicios .picture__formacion::after {
 @media only screen and (min-width: 1200px) {
   section .caja__Servicios .picture__formacion:hover {
     border: 2px solid #840D6F;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
-  section .caja__Servicios .picture__formacion img {
-    width: 100%;
   }
 }
 
@@ -2674,7 +2492,7 @@ header .gamburger input {
 header .gamburger .icon_burger {
   display: block;
   cursor: pointer;
-  font-size: 26px;
+  font-size: 36px;
   color: #840D6F;
   position: fixed;
   right: 27px;
