@@ -229,8 +229,7 @@ H5, H6 {
 .footer__info__telf__texto, .footer__info__mvl__texto {
   font-family: Brixton_Bold;
   font-size: 2.5em;
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 .footer__info__ubi__texto__direccion, .footer__info__mail {
   color: #ffffff;
@@ -1815,7 +1814,7 @@ header .gamburger {
         @media only screen and (min-width: 1200px) {
           header .gamburger .meniu .caja__desplegable:hover .menu__services__desplegable li {
             height: 70px;
-            width: 330px; } }
+            width: 300px; } }
     header .gamburger .meniu .caja__desplegable .desplegable {
       letter-spacing: 1px;
       font-size: 20px;
