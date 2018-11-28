@@ -274,6 +274,7 @@ H5, H6 {
 .footer__info__telf__texto, .footer__info__mvl__texto {
   font-family: Brixton_Bold;
   font-size: 2.5em;
+  color: #ffffff;
 }
 
 .footer__info__ubi__texto__direccion, .footer__info__mail {
