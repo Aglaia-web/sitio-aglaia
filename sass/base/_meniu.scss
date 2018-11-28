@@ -29,7 +29,7 @@ header{
         .icon_burger{
                 display: block;
                 cursor: pointer;
-                font-size: 26px;
+                font-size: 36px;
                 color: #840D6F;
                 position: fixed;
                 right: 27px;
@@ -39,7 +39,11 @@ header{
                 justify-self: center;
                 align-self: center;
                 text-align: center;
+<<<<<<< HEAD
                 padding: 10px;
+=======
+                padding: 15px;
+>>>>>>> 995d37d1ef39c595e80c7bc8d8e076c0f733c886
                 border-radius: 50%;
                 
                 @media only screen and (min-width: $breakpoints-sm)  {
