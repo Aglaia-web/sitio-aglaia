@@ -273,7 +273,7 @@ header .gamburger .meniu .caja__desplegable:hover .menu__services__desplegable l
   font-family: Brixton_Bold; }
   @media only screen and (min-width: 1200px) {
     header .gamburger .meniu .caja__desplegable:hover .menu__services__desplegable li a {
-      font-size: 25px; } }
+      font-size: 20px; } }
   header .gamburger .meniu .caja__desplegable:hover .menu__services__desplegable li a:visited {
     color: #840D6F; }
   header .gamburger .meniu .caja__desplegable:hover .menu__services__desplegable li a:hover {
