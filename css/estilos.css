@@ -854,6 +854,10 @@ section {
         height: 50px;
         text-align: right;
         content: "PSICOLOGÍA JURIDICA Y FORENSE"; }
+        @media only screen and (min-width: 700px) {
+          section .caja__Servicios .picture__forense::after {
+            left: 2%;
+            text-align: c; } }
       @media only screen and (min-width: 1200px) {
         section .caja__Servicios .picture__forense:hover {
           border: 2px solid #840D6F; } }

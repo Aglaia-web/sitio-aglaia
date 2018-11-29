@@ -459,6 +459,10 @@ section{
             text-align: right;
             content: "PSICOLOGÍA JURIDICA Y FORENSE"
             ;
+            @media only screen and (min-width: 700px)  {
+                left: 2%;
+                text-align: center;
+              }  
             }
         &:hover{
             @media only screen and (min-width: $breakpoints-sm)  {
