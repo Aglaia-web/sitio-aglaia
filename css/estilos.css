@@ -775,6 +775,11 @@ section {
   section .caja__Servicios {
     display: block;
     margin-bottom: 50px; }
+    @media only screen and (max-width: 1200px) {
+      section .caja__Servicios picture {
+        width: 100%; }
+        section .caja__Servicios picture img {
+          width: 100%; } }
     section .caja__Servicios .caja__Servicios__h3 {
       margin: 50px 0 50px 0; }
     section .caja__Servicios .picture__clinica {
