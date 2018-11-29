@@ -22,7 +22,7 @@ header{
         }
 
         // ocultamos checkbox
-        input{
+        .input__meniu{
                 display: none;
                 }
         // Icon de meniu 
@@ -88,8 +88,21 @@ header{
             }
             
             .caja__desplegable{
-                // acemos submeniu despegable
-                &:hover .menu__services__desplegable{
+                #submeniu:checked ~ .icon__f{
+                    display: block;
+                }
+                #submeniu:checked ~ .caja__submeniu__movil{
+                    display: block;
+                }
+
+                .input__submeniu{
+                    display: none;
+                }
+
+                .caja__submeniu__movil{
+                display: none;
+
+                .menu__services__desplegable{
                     display: block;
                     position: absolute;
                     top:68px;
@@ -116,15 +129,15 @@ header{
                         background-color: $blanco;
                         @media only screen and (min-width: $breakpoints-sm){
                             height: 70px;
-                            width: 300px; 
+                            width: 330px; 
                         }
                         a{
                             @extend %transformAsubmeniu;
                         }
                     }
-                
 
                 }
+            }
                 .desplegable{
                 letter-spacing: 1px;
                 font-size: 20px;
@@ -154,14 +167,15 @@ header{
                         }
                 }
                 
-                &:hover .icon__f{
-                    display: block;
-                }
                 .desplegable{
                    padding-bottom: 30px; 
                 }
                 .menu__services__desplegable{
-                        display: none;   
+                        display: none;
+                        @media only screen and (min-width: $breakpoints-sm)  {
+                            display: none;   
+                            }
+
                 }
             }    
         }

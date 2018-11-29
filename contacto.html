@@ -77,48 +77,50 @@
         
             -->
             <header>
-                <!-- Caja para todo contenido -->
-                <div class="gamburger">
-                    <!-- "input i label" para abrir i cerar Meniu -->
-                    <input type="checkbox" id="activ">
-                    <label class="icon_burger" for="activ">&#9776</label>
-                    <!-- Caja de meniu principal -->
-                    <nav class="meniu">           
-                        <div class="caja__desplegable">
-                            <a class="desplegable" >Servicios</a>
-                            <!-- Caja meniu desplegable de servicios -->
-                            <ul class="menu__services__desplegable">
-                            <li class="salud"><a href="servicios_clinica.html">Psicología de la Salud</a></li>   
-                            <li class="legal"><a href="servicios_forense.html">Psicología Legal y Forense</a></li>
-                            <li class="formacion"><a href="servicios_formacion.html">Investigación,      Formación, 
-                                    Asesoramiento,
-                                    Profesional</a></li>
-                            </ul>
-                            <i class="icon__f fas fa-caret-up"></i>
-                        </div>
-                        <a href="#">Contacto</a>
-                        <a class="blog" href="#">Blog</a>
-                    </nav>
-                    <!-- icono para cerrar meniu principal -->
-                     <a class="acloseMeniu" href=""><i class="fas fa-times closeMeniu"></i></a>
+                    <!-- Caja para todo contenido -->
+                    <div class="gamburger">
                         
-                
-                        <!-- LOGO -->
-                    <picture>
-                    <!-- Por defecto, baja resolución de imagen para Smartphone -->
-                    <source srcset="img/smartphone/@1x/logo.png 1x,img/smartphone/@2x/logo@2x.png 2x" media="(min-width:0px) and (max-width:576px)">
-                        
-              
-                        
-                    <!-- Alta resolución para Escritorio -->
-                    <source srcset="img/tablet/@1x/logo.png 1x, img/tablet/@2x/logo@2x.png 2x" media="(min-width:992px) and (max-width:1920px)">
-    
-                        <!-- Imagen de respaldo en caso que no se admita el elemento picture -->
-                     <a href="index.html"><img src="img/smartphone/logo.png" alt='Aglaia'></a>
-                        
-                    </picture>
-               </div>
-            </header>
+                        <!-- "input i label" para abrir i cerar Meniu -->
+                        <input class="input__meniu" type="checkbox" id="activ">
+                        <label class="icon_burger" for="activ">&#9776</label>
+                        <!-- Caja de meniu principal -->
+                        <nav class="meniu">           
+                            <div class="caja__desplegable">
+                                <input class="input__submeniu" type="checkbox" id="submeniu">
+                                <label class="desplegable" for="submeniu">Servicios</label>
+                                <span class="caja__submeniu__movil">
+                                <!-- Caja meniu desplegable de servicios -->
+                                    <ul class="menu__services__desplegable">
+                                        <li class="salud"><a href="servicios_clinica.html">Psicología de la Salud</a></li>   
+                                        <li class="legal"><a href="servicios_forense.html">Psicología Legal y Forense</a></li>
+                                        <li class="formaciones"><a href="servicios_formacion.html">
+                                    Investigación,Formación, Asesoramiento a Profesionales </a></li>
+                                    </ul>
+                                </span>
+                                <i class="icon__f fas fa-caret-up"></i>
+                                </div>
+                            <a href="contacto.html">Contacto</a>
+                            <a class="blog" href="#">Blog</a>
+                        </nav>
+                        <!-- icono para cerrar meniu principal -->
+                         <a class="acloseMeniu" href=""><i class="fas fa-times closeMeniu"></i></a>        
+                    <!-- LOGO -->
+                        <picture>
+                            <!-- Por defecto, baja resolución de imagen para Smartphone -->
+                            <source srcset="img/smartphone/@1x/logo.png 1x,img/smartphone/@2x/logo@2x.png 2x" media="(min-width:0px) and (max-width:576px)">
+                                
+                      
+                                
+                            <!-- Alta resolución para Escritorio -->
+                            <source srcset="img/tablet/@1x/logo.png 1x, img/tablet/@2x/logo@2x.png 2x" media="(min-width:992px) and (max-width:1920px)">
+            
+                                <!-- Imagen de respaldo en caso que no se admita el elemento picture -->
+                             <a href="index.html"><img src="img/smartphone/logo.png" alt='Aglaia'></a>
+                                
+                        </picture>
+                    
+                   </div>
+                </header>
             
         
         
