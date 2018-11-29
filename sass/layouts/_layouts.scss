@@ -352,8 +352,14 @@ section{
     .caja__Servicios{
       display: block;
       margin-bottom: 50px;
-
-      
+    @media only screen and (max-width: $breakpoints-sm)  {
+      picture{
+          width: 100%;
+          img{
+            width: 100%;   
+          }
+      }
+    }
       .caja__Servicios__h3{
         margin: 50px 0 50px 0;
       }
@@ -438,6 +444,7 @@ section{
               top: 40%;
               left: 10%;
               content: "PSICOLOGÍA JURIDICA Y FORENSE"
+            
             }
     
           }
@@ -452,6 +459,10 @@ section{
             text-align: right;
             content: "PSICOLOGÍA JURIDICA Y FORENSE"
             ;
+            @media only screen and (min-width: 700px)  {
+                left: 2%;
+                text-align: center;
+              }  
             }
         &:hover{
             @media only screen and (min-width: $breakpoints-sm)  {

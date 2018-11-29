@@ -81,21 +81,24 @@
         <div class="gamburger">
             
             <!-- "input i label" para abrir i cerar Meniu -->
-            <input type="checkbox" id="activ">
+            <input class="input__meniu" type="checkbox" id="activ">
             <label class="icon_burger" for="activ">&#9776</label>
             <!-- Caja de meniu principal -->
             <nav class="meniu">           
                 <div class="caja__desplegable">
-                    <span class="desplegable">Servicios
+                    <input class="input__submeniu" type="checkbox" id="submeniu">
+                    <label class="desplegable" for="submeniu">Servicios</label>
+                    <span class="caja__submeniu__movil">
                     <!-- Caja meniu desplegable de servicios -->
-                    <ul class="menu__services__desplegable">
-                    <li class="salud"><a href="servicios_clinica.html">Psicología de la Salud</a></li>   
-                    <li class="legal"><a href="servicios_forense.html">Psicología Legal y Forense</a></li>
-                    <li class="formaciones"><a href="servicios_formacion.html">
+                        <ul class="menu__services__desplegable">
+                            <li class="salud"><a href="servicios_clinica.html">Psicología de la Salud</a></li>   
+                            <li class="legal"><a href="servicios_forense.html">Psicología Legal y Forense</a></li>
+                            <li class="formaciones"><a href="servicios_formacion.html">
                         Investigación,Formación, Asesoramiento a Profesionales </a></li>
-                    </ul></span>
+                        </ul>
+                    </span>
                     <i class="icon__f fas fa-caret-up"></i>
-                </div>
+                    </div>
                 <a href="contacto.html">Contacto</a>
                 <a class="blog" href="#">Blog</a>
             </nav>

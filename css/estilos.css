@@ -322,7 +322,7 @@ header .gamburger .meniu a:hover {
   color: #ffffff;
 }
 
-header .gamburger .meniu .caja__desplegable:hover .menu__services__desplegable li a {
+header .gamburger .meniu .caja__desplegable .caja__submeniu__movil .menu__services__desplegable li a {
   text-decoration: none;
   color: #840D6F;
   font-size: 1rem;
@@ -330,16 +330,16 @@ header .gamburger .meniu .caja__desplegable:hover .menu__services__desplegable l
 }
 
 @media only screen and (min-width: 1200px) {
-  header .gamburger .meniu .caja__desplegable:hover .menu__services__desplegable li a {
+  header .gamburger .meniu .caja__desplegable .caja__submeniu__movil .menu__services__desplegable li a {
     font-size: 20px;
   }
 }
 
-header .gamburger .meniu .caja__desplegable:hover .menu__services__desplegable li a:visited {
+header .gamburger .meniu .caja__desplegable .caja__submeniu__movil .menu__services__desplegable li a:visited {
   color: #840D6F;
 }
 
-header .gamburger .meniu .caja__desplegable:hover .menu__services__desplegable li a:hover {
+header .gamburger .meniu .caja__desplegable .caja__submeniu__movil .menu__services__desplegable li a:hover {
   color: #840D6F;
 }
 
@@ -1144,6 +1144,15 @@ section .caja__Servicios {
   margin-bottom: 50px;
 }
 
+@media only screen and (max-width: 1200px) {
+  section .caja__Servicios picture {
+    width: 100%;
+  }
+  section .caja__Servicios picture img {
+    width: 100%;
+  }
+}
+
 section .caja__Servicios .caja__Servicios__h3 {
   margin: 50px 0 50px 0;
 }
@@ -1264,6 +1273,13 @@ section .caja__Servicios .picture__forense::after {
   height: 50px;
   text-align: right;
   content: "PSICOLOGÍA JURIDICA Y FORENSE";
+}
+
+@media only screen and (min-width: 700px) {
+  section .caja__Servicios .picture__forense::after {
+    left: 2%;
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -2499,7 +2515,7 @@ header .gamburger #activ:checked ~ .gamburger {
   }
 }
 
-header .gamburger input {
+header .gamburger .input__meniu {
   display: none;
 }
 
@@ -2594,7 +2610,23 @@ header .gamburger .meniu a {
   }
 }
 
-header .gamburger .meniu .caja__desplegable:hover .menu__services__desplegable {
+header .gamburger .meniu .caja__desplegable #submeniu:checked ~ .icon__f {
+  display: block;
+}
+
+header .gamburger .meniu .caja__desplegable #submeniu:checked ~ .caja__submeniu__movil {
+  display: block;
+}
+
+header .gamburger .meniu .caja__desplegable .input__submeniu {
+  display: none;
+}
+
+header .gamburger .meniu .caja__desplegable .caja__submeniu__movil {
+  display: none;
+}
+
+header .gamburger .meniu .caja__desplegable .caja__submeniu__movil .menu__services__desplegable {
   display: block;
   position: absolute;
   top: 68px;
@@ -2603,7 +2635,7 @@ header .gamburger .meniu .caja__desplegable:hover .menu__services__desplegable {
 }
 
 @media only screen and (min-width: 1200px) {
-  header .gamburger .meniu .caja__desplegable:hover .menu__services__desplegable {
+  header .gamburger .meniu .caja__desplegable .caja__submeniu__movil .menu__services__desplegable {
     display: block;
     width: 305px;
     position: absolute;
@@ -2612,7 +2644,7 @@ header .gamburger .meniu .caja__desplegable:hover .menu__services__desplegable {
   }
 }
 
-header .gamburger .meniu .caja__desplegable:hover .menu__services__desplegable li {
+header .gamburger .meniu .caja__desplegable .caja__submeniu__movil .menu__services__desplegable li {
   width: 284px;
   height: 50px;
   border: 1px solid #707070;
@@ -2636,9 +2668,9 @@ header .gamburger .meniu .caja__desplegable:hover .menu__services__desplegable l
 }
 
 @media only screen and (min-width: 1200px) {
-  header .gamburger .meniu .caja__desplegable:hover .menu__services__desplegable li {
+  header .gamburger .meniu .caja__desplegable .caja__submeniu__movil .menu__services__desplegable li {
     height: 70px;
-    width: 300px;
+    width: 330px;
   }
 }
 
@@ -2676,16 +2708,18 @@ header .gamburger .meniu .caja__desplegable .icon__f {
   }
 }
 
-header .gamburger .meniu .caja__desplegable:hover .icon__f {
-  display: block;
-}
-
 header .gamburger .meniu .caja__desplegable .desplegable {
   padding-bottom: 30px;
 }
 
 header .gamburger .meniu .caja__desplegable .menu__services__desplegable {
   display: none;
+}
+
+@media only screen and (min-width: 1200px) {
+  header .gamburger .meniu .caja__desplegable .menu__services__desplegable {
+    display: none;
+  }
 }
 
 header .gamburger #activ:checked ~ .meniu {

@@ -22,7 +22,7 @@ header{
         }
 
         // ocultamos checkbox
-        input{
+        .input__meniu{
                 display: none;
                 }
         // Icon de meniu 
@@ -86,16 +86,30 @@ header{
                 font-size: 25px;
                 }
             }
-            
+            // para ver icon de font con menu desplegable
             .caja__desplegable{
-                // acemos submeniu despegable
-                &:hover .menu__services__desplegable{
+                #submeniu:checked ~ .icon__f{
+                    display: block;
+                }
+            // para desplegar 
+                #submeniu:checked ~ .caja__submeniu__movil{
+                    display: block;
+                }
+                // paran esconder input
+                .input__submeniu{
+                    display: none;
+                }
+                // para esconder menu entero
+                .caja__submeniu__movil{
+                display: none;
+                // propredades de caja
+                .menu__services__desplegable{
                     display: block;
                     position: absolute;
                     top:68px;
                     left: 0;
                     z-index: 10;
-
+                    // propredades de caja desktop
                     @media only screen and (min-width: $breakpoints-sm){
                        display: block;
                        width: 305px;
@@ -116,15 +130,16 @@ header{
                         background-color: $blanco;
                         @media only screen and (min-width: $breakpoints-sm){
                             height: 70px;
-                            width: 300px; 
+                            width: 330px; 
                         }
                         a{
                             @extend %transformAsubmeniu;
                         }
                     }
-                
 
                 }
+            }   
+                // propredades de span(servicios)
                 .desplegable{
                 letter-spacing: 1px;
                 font-size: 20px;
@@ -154,14 +169,15 @@ header{
                         }
                 }
                 
-                &:hover .icon__f{
-                    display: block;
-                }
                 .desplegable{
                    padding-bottom: 30px; 
                 }
                 .menu__services__desplegable{
-                        display: none;   
+                        display: none;
+                        @media only screen and (min-width: $breakpoints-sm)  {
+                            display: none;   
+                            }
+
                 }
             }    
         }
