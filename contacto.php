@@ -1,3 +1,28 @@
+<?php
+
+$enviado = -1; // Controla si se envia o no
+
+if (isset($_POST['Nombre'])) { // Verifica si viene desde el formulario o se carga la pagina por primera vez
+
+$to = 'enriquevaquer93@gmail.com'; // Se envia al webmaster la primer copia
+
+$mensaje = 'El mensaje lo envia ' . $_POST['Nombre'] . ' con telefono ' . $_POST['Telefono'] . ' desde su email ' . $_POST['Email'] . " \r \r" . $_POST['Mensaje'];
+
+mail($to, $_POST['Mensaje desde la web Aglaia Psicología'], $mensaje); // envio al webmaster
+
+$to = $_POST['Email']; // SE envia al usuario la segunda copia
+
+$mensaje = "Su mensaje ha sido recibido correctamente, en la brevedad de lo posible nos pondremos en contacto con usted. \r \r Gracias por contactar con nosotros \r \r"  . $_POST['Mensaje'];
+
+
+mail($to, $_POST['Respuesta Aglaia Psicología'], $mensaje); // Envio al usuario
+
+$enviado = 1; // Marca que se envio OK
+
+}
+
+?>
+
 <!--=======================================================================
     =======================================================================
 
@@ -138,23 +163,42 @@
 
             <h2 class="contacto__titulo">Información</h2>
 
+            <?php
+
+            if ($enviado == 1) { // Se envio ??
+
+            ?>
+
+                 El mensaje fue enviado con exito.
+
+            <?php
+
+            } else { // No es el envio es la primera vez y pide los datos
+
+            ?>
+
             <form action="" class="contacto__form" name = "FormContactar">
 
                 <input type="text" class="contacto__form__input1"
-                placeholder="Nombre y Apellidos" name = "Nombre">
+                placeholder="* Nombre y Apellidos" name = "Nombre" required>
 
                 <input type="email" class="contacto__form__input2"
-                placeholder="Email" name = "Email">
+                placeholder="* Email" name = "Email" required>
 
                 <input type="text" class="contacto__form__input3"
                 placeholder="Teléfono" name = "Telefono">
 
                 <textarea name="text"  class="contacto__form__input4"
-                >Mensaje</textarea name = "Mensaje">
+                >* Mensaje</textarea name = "Mensaje" required>
 
                 <button class="contacto__form__boton" type="submit">Enviar</button>
             </form>
             
+        <?php
+
+        }
+        
+        ?>
 
             <iframe class="contacto__mapa"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.3344148932656!2d2.6490415148266027!3d39.574612914346694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12979250d64f23d1%3A0x120a43ffa231e064!2sCarrer+de+Can+Ma%C3%A7anet%2C+1%2C+1C%2C+07003+Palma%2C+Illes+Balears!5e0!3m2!1ses!2ses!4v1542485060806" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>

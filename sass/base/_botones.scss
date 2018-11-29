@@ -75,3 +75,13 @@
     background-color: $lila;
     color: $blanco;
 }
+
+@media screen and (max-width: $breakpoints-sm){
+    .contacto__form__boton:hover{
+
+        border: $lila;
+        background-color: $blanco;
+        color: $lila;
+    }
+}
+
