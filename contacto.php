@@ -124,7 +124,7 @@ $enviado = 1; // Marca que se envio OK
                                 </span>
                                 <i class="icon__f fas fa-caret-up"></i>
                                 </div>
-                            <a href="contacto.html">Contacto</a>
+                            <a href="contacto.php">Contacto</a>
                             <a class="blog" href="#">Blog</a>
                         </nav>
                         <!-- icono para cerrar meniu principal -->
